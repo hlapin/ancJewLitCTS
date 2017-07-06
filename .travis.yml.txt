@@ -21,7 +21,7 @@ deploy:
   api_key: $GITPERM
   skip_cleanup: true
   on:
-    repo: ancJewLitCTS
+    repo: hlapin/ancJewLitCTS
     branch: master
 
 env:
