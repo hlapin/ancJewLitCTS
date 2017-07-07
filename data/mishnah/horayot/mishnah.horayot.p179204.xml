@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Text of Tractate Horayot from the Vilna 1913 Edition of the Mishnah for CTS</title>
+            <editor>
+               <persName>Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <resp>file conversion</resp>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </respStmt>
+            <respStmt>
+               <resp>transcription</resp>
+               <orgName corresp="ref.xml#sefaria">Sefaria</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>encoding</resp>
+               <orgName corresp="ref.xml#sefaria">Sefaria</orgName>
+            </respStmt>
+            <sponsor n="primary">Joseph and Rebecca Meyerhoff Center for Jewish Studies</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Digital Mishnah Project</publisher>
+            <pubPlace>The Maryland Institute for Technology in the Humanities</pubPlace>
+            <address>
+               <addrLine>0301 Hornbake Library</addrLine>
+               <addrLine>University of Maryland</addrLine>
+               <addrLine>College Park, MD</addrLine>
+            </address>
+            <idno type="local">P179204</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and the Joseph and Rebecca Meyerhoff Center for
+                  Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
+                     Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <date>2012-01-03</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <p>Vilna Edition. Text generously provided by <ref target="http://www.sefaria.org">Sefaria</ref> under a <ref target="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+                     Attribution-ShareAlike 3.0 Unported License (CC BY-SA)</ref>.</p>
+               <p>Edited and converted by TEI/XML by Hayim Lapin</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="Vilna">
+               <monogr>
+                  <title>Text of Tractate Horayot from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <title>Text of Tractate Horayot from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <imprint n="1">
+                     <pubPlace>Vilna</pubPlace>
+                     <publisher>Romm</publisher>
+                     <date>1913-1923</date>
+                  </imprint>
+               </monogr>
+               <note type="nli-ref">http://aleph.nli.org.il:80/F/?func=direct&amp;doc_number=000179204&amp;local_base=MBI01</note>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="word"
+                         matchPattern="(\w+).(\w+).(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3']/tei:w[@n='$4'])">
+               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
+                  = mishnah and level 4 = word</p>
+            </cRefPattern>
+            <cRefPattern n="mishnah"
+                         matchPattern="(\w+).(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3'])">
+               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
+                  = mishnah</p>
+            </cRefPattern>
+            <cRefPattern n="chapter"
+                         matchPattern="(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2'])">
+               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
+                  = mishnah</p>
+            </cRefPattern>
+            <cRefPattern n="tractate"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1'])">
+               <p>This pointer pattern extracts level 1 = tractate</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body xml:lang="heb">
+         <div1 type="order" corresp="eRabbinica#P179204.4.10">
+            <div2 type="tractate">
+                    <head>מסכת הוריות</head>
+                    <div3 n="1" type="chapter">
+                        <head>פרק א</head>
+                        <ab n="1" type="mishnah">
+                     <label>א</label>
+                     <w n="1" type="word">הורו</w>
+                     <w n="2" type="word">בית</w>
+                     <w n="3" type="word">דין</w>
+                     <w n="4" type="word">לעבור</w>
+                     <w n="5" type="word">על</w>
+                     <w n="6" type="word">אחת</w>
+                     <w n="7" type="word">מכל</w>
+                     <w n="8" type="word">מצות</w>
+                     <w n="9" type="word">האמורות</w>
+                     <w n="10" type="word">בתורה</w>
+                     <w n="11" type="word">והלך</w>
+                     <w n="12" type="word">היחיד</w>
+                     <w n="13" type="word">ועשה</w>
+                     <w n="14" type="word">שוגג</w>
+                     <w n="15" type="word">על</w>
+                     <w n="16" type="word">פיהם</w>
+                     <w n="17" type="word">בין</w>
+                     <w n="18" type="word">שעשו</w>
+                     <w n="19" type="word">ועשה</w>
+                     <w n="20" type="word">עמהן</w>
+                     <w n="21" type="word">בין</w>
+                     <w n="22" type="word">שעשו</w>
+                     <w n="23" type="word">ועשה</w>
+                     <w n="24" type="word">אחריהן</w>
+                     <w n="25" type="word">בין</w>
+                     <w n="26" type="word">שלא</w>
+                     <w n="27" type="word">עשו</w>
+                     <w n="28" type="word">ועשה</w>
+                     <w n="29" type="word">פטור</w>
+                     <w n="30" type="word">מפני</w>
+                     <w n="31" type="word">שתלה</w>
+                     <w n="32" type="word">בבית</w>
+                     <w n="33" type="word">דין</w>
+                     <w n="34" type="word">הורו</w>
+                     <w n="35" type="word">בית</w>
+                     <w n="36" type="word">דין</w>
+                     <w n="37" type="word">וידע</w>
+                     <w n="38" type="word">אחד</w>
+                     <w n="39" type="word">מהן</w>
+                     <w n="40" type="word">שטעו</w>
+                     <w n="41" type="word">או</w>
+                     <w n="42" type="word">תלמיד</w>
+                     <w n="43" type="word">והוא</w>
+                     <w n="44" type="word">ראוי</w>
+                     <w n="45" type="word">להוראה</w>
+                     <w n="46" type="word">והלך</w>
+                     <w n="47" type="word">ועשה</w>
+                     <w n="48" type="word">על</w>
+                     <w n="49" type="word">פיהן</w>
+                     <w n="50" type="word">בין</w>
+                     <w n="51" type="word">שעשו</w>
+                     <w n="52" type="word">ועשה</w>
+                     <w n="53" type="word">עמהן</w>
+                     <w n="54" type="word">בין</w>
+                     <w n="55" type="word">שעשו</w>
+                     <w n="56" type="word">ועשה</w>
+                     <w n="57" type="word">אחריהן</w>
+                     <w n="58" type="word">בין</w>
+                     <w n="59" type="word">שלא</w>
+                     <w n="60" type="word">עשו</w>
+                     <w n="61" type="word">ועשה</w>
+                     <w n="62" type="word">הרי</w>
+                     <w n="63" type="word">זה</w>
+                     <w n="64" type="word">חייב</w>
+                     <w n="65" type="word">מפני</w>
+                     <w n="66" type="word">שלא</w>
+                     <w n="67" type="word">תלה</w>
+                     <w n="68" type="word">בבית</w>
+                     <w n="69" type="word">דין</w>
+                     <w n="70" type="word">זה</w>
+                     <w n="71" type="word">הכלל</w>
+                     <w n="72" type="word">התולה</w>
+                     <w n="73" type="word">בעצמו</w>
+                     <w n="74" type="word">חייב</w>
+                     <w n="75" type="word">והתולה</w>
+                     <w n="76" type="word">בבית</w>
+                     <w n="77" type="word">דין</w>
+                     <w n="78" type="word">פטור</w>
+                  </ab>
+                        <ab n="2" type="mishnah">
+                     <label>ב</label>
+                     <w n="1" type="word">הורו</w>
+                     <w n="2" type="word">בית</w>
+                     <w n="3" type="word">דין</w>
+                     <w n="4" type="word">וידעו</w>
+                     <w n="5" type="word">שטעו</w>
+                     <w n="6" type="word">וחזרו</w>
+                     <w n="7" type="word">בהן</w>
+                     <w n="8" type="word">בין</w>
+                     <w n="9" type="word">שהביאו</w>
+                     <w n="10" type="word">כפרתן</w>
+                     <w n="11" type="word">ובין</w>
+                     <w n="12" type="word">שלא</w>
+                     <w n="13" type="word">הביאו</w>
+                     <w n="14" type="word">כפרתן</w>
+                     <w n="15" type="word">והלך</w>
+                     <w n="16" type="word">ועשה</w>
+                     <w n="17" type="word">על</w>
+                     <w n="18" type="word">פיהן</w>
+                     <w n="19" type="word">רבי</w>
+                     <w n="20" type="word">שמעון</w>
+                     <w n="21" type="word">פוטר</w>
+                     <w n="22" type="word">ורבי</w>
+                     <w n="23" type="word">אליעזר</w>
+                     <w n="24" type="word">אומר</w>
+                     <w n="25" type="word">ספק</w>
+                     <w n="26" type="word">איזהו</w>
+                     <w n="27" type="word">ספק</w>
+                     <w n="28" type="word">ישב</w>
+                     <w n="29" type="word">לו</w>
+                     <w n="30" type="word">בתוך</w>
+                     <w n="31" type="word">ביתו</w>
+                     <w n="32" type="word">חייב</w>
+                     <w n="33" type="word">הלך</w>
+                     <w n="34" type="word">לו</w>
+                     <w n="35" type="word">למדינת</w>
+                     <w n="36" type="word">הים</w>
+                     <w n="37" type="word">פטור</w>
+                     <w n="38" type="word">אמר</w>
+                     <w n="39" type="word">רבי</w>
+                     <w n="40" type="word">עקיבא</w>
+                     <w n="41" type="word">מודה</w>
+                     <w n="42" type="word">אני</w>
+                     <w n="43" type="word">בזה</w>
+                     <w n="44" type="word">שהוא</w>
+                     <w n="45" type="word">קרוב</w>
+                     <w n="46" type="word">לפטור</w>
+                     <w n="47" type="word">מן</w>
+                     <w n="48" type="word">החובה</w>
+                     <w n="49" type="word">אמר</w>
+                     <w n="50" type="word">לו</w>
+                     <w n="51" type="word">בן</w>
+                     <w n="52" type="word">עזאי</w>
+                     <w n="53" type="word">מה</w>
+                     <w n="54" type="word">שנה</w>
+                     <w n="55" type="word">זה</w>
+                     <w n="56" type="word">מן</w>
+                     <w n="57" type="word">היושב</w>
+                     <w n="58" type="word">בביתו</w>
+                     <w n="59" type="word">שהיושב</w>
+                     <w n="60" type="word">בביתו</w>
+                     <w n="61" type="word">אפשר</w>
+                     <w n="62" type="word">היה</w>
+                     <w n="63" type="word">לו</w>
+                     <w n="64" type="word">שישמע</w>
+                     <w n="65" type="word">וזה</w>
+                     <w n="66" type="word">לא</w>
+                     <w n="67" type="word">היה</w>
+                     <w n="68" type="word">אפשר</w>
+                     <w n="69" type="word">לו</w>
+                     <w n="70" type="word">שישמע</w>
+                  </ab>
+                        <ab n="3" type="mishnah">
+                     <label>ג</label>
+                     <w n="1" type="word">הורו</w>
+                     <w n="2" type="word">בית</w>
+                     <w n="3" type="word">דין</w>
+                     <w n="4" type="word">לעקור</w>
+                     <w n="5" type="word">את</w>
+                     <w n="6" type="word">כל</w>
+                     <w n="7" type="word">הגוף</w>
+                     <w n="8" type="word">אמרו</w>
+                     <w n="9" type="word">אין</w>
+                     <w n="10" type="word">נדה</w>
+                     <w n="11" type="word">בתורה</w>
+                     <w n="12" type="word">אין</w>
+                     <w n="13" type="word">שבת</w>
+                     <w n="14" type="word">בתורה</w>
+                     <w n="15" type="word">אין</w>
+                     <w n="16" type="word">עבודה</w>
+                     <w n="17" type="word">זרה</w>
+                     <w n="18" type="word">בתורה</w>
+                     <w n="19" type="word">הרי</w>
+                     <w n="20" type="word">אלו</w>
+                     <w n="21" type="word">פטורין</w>
+                     <w n="22" type="word">הורו</w>
+                     <w n="23" type="word">לבטל</w>
+                     <w n="24" type="word">מקצת</w>
+                     <w n="25" type="word">ולקיים</w>
+                     <w n="26" type="word">מקצת</w>
+                     <w n="27" type="word">הרי</w>
+                     <w n="28" type="word">אלו</w>
+                     <w n="29" type="word">חייבין</w>
+                     <w n="30" type="word">כיצד</w>
+                     <w n="31" type="word">אמרו</w>
+                     <w n="32" type="word">יש</w>
+                     <w n="33" type="word">נדה</w>
+                     <w n="34" type="word">בתורה</w>
+                     <w n="35" type="word">אבל</w>
+                     <w n="36" type="word">הבא</w>
+                     <w n="37" type="word">על</w>
+                     <w n="38" type="word">שומרת</w>
+                     <w n="39" type="word">יום</w>
+                     <w n="40" type="word">כנגד</w>
+                     <w n="41" type="word">יום</w>
+                     <w n="42" type="word">פטור</w>
+                     <w n="43" type="word">יש</w>
+                     <w n="44" type="word">שבת</w>
+                     <w n="45" type="word">בתורה</w>
+                     <w n="46" type="word">אבל</w>
+                     <w n="47" type="word">המוציא</w>
+                     <w n="48" type="word">מרשות</w>
+                     <w n="49" type="word">היחיד</w>
+                     <w n="50" type="word">לרשות</w>
+                     <w n="51" type="word">הרבים</w>
+                     <w n="52" type="word">פטור</w>
+                     <w n="53" type="word">יש</w>
+                     <w n="54" type="word">עבודה</w>
+                     <w n="55" type="word">זרה</w>
+                     <w n="56" type="word">בתורה</w>
+                     <w n="57" type="word">אבל</w>
+                     <w n="58" type="word">המשתחוה</w>
+                     <w n="59" type="word">פטור</w>
+                     <w n="60" type="word">הרי</w>
+                     <w n="61" type="word">אלו</w>
+                     <w n="62" type="word">חייבין</w>
+                     <w n="63" type="word">שנאמר</w>
+                     <ref xmlns:xi="http://www.w3.org/2001/XInclude">ויקרא ד'</ref>
+                     <w n="64" type="word">ונעלם</w>
+                     <w n="65" type="word">דבר</w>
+                     <w n="66" type="word">דבר</w>
+                     <w n="67" type="word">ולא</w>
+                     <w n="68" type="word">כל</w>
+                     <w n="69" type="word">הגוף</w>
+                  </ab>
+                        <ab n="4" type="mishnah">
+                     <label>ד</label>
+                     <w n="1" type="word">הורו</w>
+                     <w n="2" type="word">בית</w>
+                     <w n="3" type="word">דין</w>
+                     <w n="4" type="word">וידע</w>
+                     <w n="5" type="word">אחד</w>
+                     <w n="6" type="word">מהן</w>
+                     <w n="7" type="word">שטעו</w>
+                     <w n="8" type="word">ואמר</w>
+                     <w n="9" type="word">להן</w>
+                     <w n="10" type="word">טועין</w>
+                     <w n="11" type="word">אתם</w>
+                     <w n="12" type="word">או</w>
+                     <w n="13" type="word">שלא</w>
+                     <w n="14" type="word">היה</w>
+                     <w n="15" type="word">מופלא</w>
+                     <w n="16" type="word">של</w>
+                     <w n="17" type="word">בית</w>
+                     <w n="18" type="word">דין</w>
+                     <w n="19" type="word">שם</w>
+                     <w n="20" type="word">או</w>
+                     <w n="21" type="word">שהיה</w>
+                     <w n="22" type="word">אחד</w>
+                     <w n="23" type="word">מהן</w>
+                     <w n="24" type="word">גר</w>
+                     <w n="25" type="word">או</w>
+                     <w n="26" type="word">ממזר</w>
+                     <w n="27" type="word">או</w>
+                     <w n="28" type="word">נתין</w>
+                     <w n="29" type="word">או</w>
+                     <w n="30" type="word">זקן</w>
+                     <w n="31" type="word">שלא</w>
+                     <w n="32" type="word">ראה</w>
+                     <w n="33" type="word">לו</w>
+                     <w n="34" type="word">בנים</w>
+                     <w n="35" type="word">הרי</w>
+                     <w n="36" type="word">אלו</w>
+                     <w n="37" type="word">פטורין</w>
+                     <w n="38" type="word">שנאמר</w>
+                     <w n="39" type="word">כאן</w>
+                     <w n="40" type="word">עדה</w>
+                     <w n="41" type="word">ונאמר</w>
+                     <w n="42" type="word">להלן</w>
+                     <w n="43" type="word">עדה</w>
+                     <w n="44" type="word">מה</w>
+                     <w n="45" type="word">עדה</w>
+                     <w n="46" type="word">האמור</w>
+                     <w n="47" type="word">להלן</w>
+                     <w n="48" type="word">עד</w>
+                     <w n="49" type="word">שיהיו</w>
+                     <w n="50" type="word">כולם</w>
+                     <w n="51" type="word">ראויין</w>
+                     <w n="52" type="word">להוראה</w>
+                     <w n="53" type="word">אף</w>
+                     <w n="54" type="word">עדה</w>
+                     <w n="55" type="word">האמורה</w>
+                     <w n="56" type="word">כאן</w>
+                     <w n="57" type="word">עד</w>
+                     <w n="58" type="word">שיהיו</w>
+                     <w n="59" type="word">כולם</w>
+                     <w n="60" type="word">ראויים</w>
+                     <w n="61" type="word">להוראה</w>
+                     <w n="62" type="word">הורו</w>
+                     <w n="63" type="word">בית</w>
+                     <w n="64" type="word">דין</w>
+                     <w n="65" type="word">שוגגים</w>
+                     <w n="66" type="word">ועשו</w>
+                     <w n="67" type="word">כל</w>
+                     <w n="68" type="word">הקהל</w>
+                     <w n="69" type="word">שוגגין</w>
+                     <w n="70" type="word">מביאין</w>
+                     <w n="71" type="word">פר</w>
+                     <w n="72" type="word">מזידין</w>
+                     <w n="73" type="word">ועשו</w>
+                     <w n="74" type="word">שוגגין</w>
+                     <w n="75" type="word">מביאין</w>
+                     <w n="76" type="word">כשבה</w>
+                     <w n="77" type="word">ושעירה</w>
+                     <w n="78" type="word">שוגגין</w>
+                     <w n="79" type="word">ועשו</w>
+                     <w n="80" type="word">מזידין</w>
+                     <w n="81" type="word">הרי</w>
+                     <w n="82" type="word">אלו</w>
+                     <w n="83" type="word">פטורין</w>
+                  </ab>
+                        <ab n="5" type="mishnah">
+                     <label>ה</label>
+                     <w n="1" type="word">הורו</w>
+                     <w n="2" type="word">בית</w>
+                     <w n="3" type="word">דין</w>
+                     <w n="4" type="word">ועשו</w>
+                     <w n="5" type="word">כל</w>
+                     <w n="6" type="word">הקהל</w>
+                     <w n="7" type="word">או</w>
+                     <w n="8" type="word">רובן</w>
+                     <w n="9" type="word">על</w>
+                     <w n="10" type="word">פיהם</w>
+                     <w n="11" type="word">מביאין</w>
+                     <w n="12" type="word">פר</w>
+                     <w n="13" type="word">ובעבודה</w>
+                     <w n="14" type="word">זרה</w>
+                     <w n="15" type="word">מביאין</w>
+                     <w n="16" type="word">פר</w>
+                     <w n="17" type="word">ושעיר</w>
+                     <w n="18" type="word">דברי</w>
+                     <w n="19" type="word">רבי</w>
+                     <w n="20" type="word">מאיר</w>
+                     <w n="21" type="word">רבי</w>
+                     <w n="22" type="word">יהודה</w>
+                     <w n="23" type="word">אומר</w>
+                     <w n="24" type="word">שנים</w>
+                     <w n="25" type="word">עשר</w>
+                     <w n="26" type="word">שבטים</w>
+                     <w n="27" type="word">מביאין</w>
+                     <w n="28" type="word">שנים</w>
+                     <w n="29" type="word">עשר</w>
+                     <w n="30" type="word">פרים</w>
+                     <w n="31" type="word">ובעבודה</w>
+                     <w n="32" type="word">זרה</w>
+                     <w n="33" type="word">מביאין</w>
+                     <w n="34" type="word">שנים</w>
+                     <w n="35" type="word">עשר</w>
+                     <w n="36" type="word">פרים</w>
+                     <w n="37" type="word">ושנים</w>
+                     <w n="38" type="word">עשר</w>
+                     <w n="39" type="word">שעירים</w>
+                     <w n="40" type="word">רבי</w>
+                     <w n="41" type="word">שמעון</w>
+                     <w n="42" type="word">אומר</w>
+                     <w n="43" type="word">שלשה</w>
+                     <w n="44" type="word">עשר</w>
+                     <w n="45" type="word">פרים</w>
+                     <w n="46" type="word">ובעבודה</w>
+                     <w n="47" type="word">זרה</w>
+                     <w n="48" type="word">שלשה</w>
+                     <w n="49" type="word">עשר</w>
+                     <w n="50" type="word">פרים</w>
+                     <w n="51" type="word">ושלשה</w>
+                     <w n="52" type="word">עשר</w>
+                     <w n="53" type="word">שעירים</w>
+                     <w n="54" type="word">פר</w>
+                     <w n="55" type="word">ושעיר</w>
+                     <w n="56" type="word">לכל</w>
+                     <w n="57" type="word">שבט</w>
+                     <w n="58" type="word">ושבט</w>
+                     <w n="59" type="word">פר</w>
+                     <w n="60" type="word">ושעיר</w>
+                     <w n="61" type="word">לבית</w>
+                     <w n="62" type="word">דין</w>
+                     <w n="63" type="word">הורו</w>
+                     <w n="64" type="word">בית</w>
+                     <w n="65" type="word">דין</w>
+                     <w n="66" type="word">ועשו</w>
+                     <w n="67" type="word">שבעה</w>
+                     <w n="68" type="word">שבטים</w>
+                     <w n="69" type="word">או</w>
+                     <w n="70" type="word">רובן</w>
+                     <w n="71" type="word">על</w>
+                     <w n="72" type="word">פיהם</w>
+                     <w n="73" type="word">מביאים</w>
+                     <w n="74" type="word">פר</w>
+                     <w n="75" type="word">ובעבודה</w>
+                     <w n="76" type="word">זרה</w>
+                     <w n="77" type="word">מביאין</w>
+                     <w n="78" type="word">פר</w>
+                     <w n="79" type="word">ושעיר</w>
+                     <w n="80" type="word">דברי</w>
+                     <w n="81" type="word">רבי</w>
+                     <w n="82" type="word">מאיר</w>
+                     <w n="83" type="word">רבי</w>
+                     <w n="84" type="word">יהודה</w>
+                     <w n="85" type="word">אומר</w>
+                     <w n="86" type="word">שבעה</w>
+                     <w n="87" type="word">שבטים</w>
+                     <w n="88" type="word">שחטאו</w>
+                     <w n="89" type="word">מביאים</w>
+                     <w n="90" type="word">שבעה</w>
+                     <w n="91" type="word">פרים</w>
+                     <w n="92" type="word">ושאר</w>
+                     <w n="93" type="word">שבטים</w>
+                     <w n="94" type="word">שלא</w>
+                     <w n="95" type="word">חטאו</w>
+                     <w n="96" type="word">מביאין</w>
+                     <w n="97" type="word">על</w>
+                     <w n="98" type="word">ידיהן</w>
+                     <w n="99" type="word">פר</w>
+                     <w n="100" type="word">שאף</w>
+                     <w n="101" type="word">אלו</w>
+                     <w n="102" type="word">שלא</w>
+                     <w n="103" type="word">חטאו</w>
+                     <w n="104" type="word">מביאין</w>
+                     <w n="105" type="word">על</w>
+                     <w n="106" type="word">ידי</w>
+                     <w n="107" type="word">החוטאים</w>
+                     <w n="108" type="word">רבי</w>
+                     <w n="109" type="word">שמעון</w>
+                     <w n="110" type="word">אומר</w>
+                     <w n="111" type="word">שמנה</w>
+                     <w n="112" type="word">פרים</w>
+                     <w n="113" type="word">ובעבודה</w>
+                     <w n="114" type="word">זרה</w>
+                     <w n="115" type="word">שמנה</w>
+                     <w n="116" type="word">פרים</w>
+                     <w n="117" type="word">ושמנה</w>
+                     <w n="118" type="word">שעירים</w>
+                     <w n="119" type="word">פר</w>
+                     <w n="120" type="word">ושעיר</w>
+                     <w n="121" type="word">לכל</w>
+                     <w n="122" type="word">שבט</w>
+                     <w n="123" type="word">ושבט</w>
+                     <w n="124" type="word">ופר</w>
+                     <w n="125" type="word">ושעיר</w>
+                     <w n="126" type="word">לבית</w>
+                     <w n="127" type="word">דין</w>
+                     <w n="128" type="word">הורו</w>
+                     <w n="129" type="word">בית</w>
+                     <w n="130" type="word">דין</w>
+                     <w n="131" type="word">של</w>
+                     <w n="132" type="word">אחד</w>
+                     <w n="133" type="word">מן</w>
+                     <w n="134" type="word">השבטים</w>
+                     <w n="135" type="word">ועשה</w>
+                     <w n="136" type="word">אותו</w>
+                     <w n="137" type="word">השבט</w>
+                     <w n="138" type="word">על</w>
+                     <w n="139" type="word">פיהם</w>
+                     <w n="140" type="word">אותו</w>
+                     <w n="141" type="word">השבט</w>
+                     <w n="142" type="word">הוא</w>
+                     <w n="143" type="word">חייב</w>
+                     <w n="144" type="word">ושאר</w>
+                     <w n="145" type="word">כל</w>
+                     <w n="146" type="word">השבטים</w>
+                     <w n="147" type="word">פטורים</w>
+                     <w n="148" type="word">דברי</w>
+                     <w n="149" type="word">רבי</w>
+                     <w n="150" type="word">יהודה</w>
+                     <w n="151" type="word">וחכמים</w>
+                     <w n="152" type="word">אומרים</w>
+                     <w n="153" type="word">אין</w>
+                     <w n="154" type="word">חייבים</w>
+                     <w n="155" type="word">אלא</w>
+                     <w n="156" type="word">על</w>
+                     <w n="157" type="word">הוריית</w>
+                     <w n="158" type="word">בית</w>
+                     <w n="159" type="word">דין</w>
+                     <w n="160" type="word">הגדול</w>
+                     <w n="161" type="word">בלבד</w>
+                     <w n="162" type="word">שנאמר</w>
+                     <ref xmlns:xi="http://www.w3.org/2001/XInclude">ויקרא ד'</ref>
+                     <w n="163" type="word">ואם</w>
+                     <w n="164" type="word">כל</w>
+                     <w n="165" type="word">עדת</w>
+                     <w n="166" type="word">ישראל</w>
+                     <w n="167" type="word">ישגו</w>
+                     <w n="168" type="word">ולא</w>
+                     <w n="169" type="word">עדת</w>
+                     <w n="170" type="word">אותו</w>
+                     <w n="171" type="word">השבט</w>
+                  </ab>
+
+
+                    </div3>
+                    <div3 n="2" type="chapter">
+                        <head>פרק ב</head>
+                        <ab n="1" type="mishnah">
+                     <label>א</label>
+                     <w n="1" type="word">הורה</w>
+                     <w n="2" type="word">כהן</w>
+                     <w n="3" type="word">משיח</w>
+                     <w n="4" type="word">לעצמו</w>
+                     <w n="5" type="word">שוגג</w>
+                     <w n="6" type="word">ועשה</w>
+                     <w n="7" type="word">שוגג</w>
+                     <w n="8" type="word">מביא</w>
+                     <w n="9" type="word">פר</w>
+                     <w n="10" type="word">שוגג</w>
+                     <w n="11" type="word">ועשה</w>
+                     <w n="12" type="word">מזיד</w>
+                     <w n="13" type="word">מזיד</w>
+                     <w n="14" type="word">ועשה</w>
+                     <w n="15" type="word">שוגג</w>
+                     <w n="16" type="word">פטור</w>
+                     <w n="17" type="word">שהוראת</w>
+                     <w n="18" type="word">כהן</w>
+                     <w n="19" type="word">משיח</w>
+                     <w n="20" type="word">לעצמו</w>
+                     <w n="21" type="word">כהוראת</w>
+                     <w n="22" type="word">בית</w>
+                     <w n="23" type="word">דין</w>
+                     <w n="24" type="word">לצבור</w>
+                  </ab>
+                        <ab n="2" type="mishnah">
+                     <label>ב</label>
+                     <w n="1" type="word">הורה</w>
+                     <w n="2" type="word">בפני</w>
+                     <w n="3" type="word">עצמו</w>
+                     <w n="4" type="word">ועשה</w>
+                     <w n="5" type="word">בפני</w>
+                     <w n="6" type="word">עצמו</w>
+                     <w n="7" type="word">מתכפר</w>
+                     <w n="8" type="word">לו</w>
+                     <w n="9" type="word">בפני</w>
+                     <w n="10" type="word">עצמו</w>
+                     <w n="11" type="word">הורה</w>
+                     <w n="12" type="word">עם</w>
+                     <w n="13" type="word">הצבור</w>
+                     <w n="14" type="word">ועשה</w>
+                     <w n="15" type="word">עם</w>
+                     <w n="16" type="word">הצבור</w>
+                     <w n="17" type="word">מתכפר</w>
+                     <w n="18" type="word">לו</w>
+                     <w n="19" type="word">עם</w>
+                     <w n="20" type="word">הצבור</w>
+                     <w n="21" type="word">שאין</w>
+                     <w n="22" type="word">בית</w>
+                     <w n="23" type="word">דין</w>
+                     <w n="24" type="word">חייבים</w>
+                     <w n="25" type="word">עד</w>
+                     <w n="26" type="word">שיורו</w>
+                     <w n="27" type="word">לבטל</w>
+                     <w n="28" type="word">מקצת</w>
+                     <w n="29" type="word">ולקיים</w>
+                     <w n="30" type="word">מקצת</w>
+                     <w n="31" type="word">וכן</w>
+                     <w n="32" type="word">המשיח</w>
+                     <w n="33" type="word">ולא</w>
+                     <w n="34" type="word">בעבודה</w>
+                     <w n="35" type="word">זרה</w>
+                     <w n="36" type="word">עד</w>
+                     <w n="37" type="word">שיורו</w>
+                     <w n="38" type="word">לבטל</w>
+                     <w n="39" type="word">מקצת</w>
+                     <w n="40" type="word">ולקיים</w>
+                     <w n="41" type="word">מקצת</w>
+                  </ab>
+                        <ab n="3" type="mishnah">
+                     <label>ג</label>
+                     <w n="1" type="word">אין</w>
+                     <w n="2" type="word">חייבין</w>
+                     <w n="3" type="word">אלא</w>
+                     <w n="4" type="word">על</w>
+                     <w n="5" type="word">העלם</w>
+                     <w n="6" type="word">דבר</w>
+                     <w n="7" type="word">עם</w>
+                     <w n="8" type="word">שגגת</w>
+                     <w n="9" type="word">המעשה</w>
+                     <w n="10" type="word">וכן</w>
+                     <w n="11" type="word">המשיח</w>
+                     <w n="12" type="word">ולא</w>
+                     <w n="13" type="word">בעבודה</w>
+                     <w n="14" type="word">זרה</w>
+                     <w n="15" type="word">אין</w>
+                     <w n="16" type="word">חייבין</w>
+                     <w n="17" type="word">אלא</w>
+                     <w n="18" type="word">על</w>
+                     <w n="19" type="word">העלם</w>
+                     <w n="20" type="word">דבר</w>
+                     <w n="21" type="word">עם</w>
+                     <w n="22" type="word">שגגת</w>
+                     <w n="23" type="word">המעשה</w>
+                     <w n="24" type="word">אין</w>
+                     <w n="25" type="word">בית</w>
+                     <w n="26" type="word">דין</w>
+                     <w n="27" type="word">חייבין</w>
+                     <w n="28" type="word">עד</w>
+                     <w n="29" type="word">שיורו</w>
+                     <w n="30" type="word">בדבר</w>
+                     <w n="31" type="word">שזדונו</w>
+                     <w n="32" type="word">כרת</w>
+                     <w n="33" type="word">ושגגתו</w>
+                     <w n="34" type="word">חטאת</w>
+                     <w n="35" type="word">וכן</w>
+                     <w n="36" type="word">המשיח</w>
+                     <w n="37" type="word">ולא</w>
+                     <w n="38" type="word">בעבודה</w>
+                     <w n="39" type="word">זרה</w>
+                     <w n="40" type="word">עד</w>
+                     <w n="41" type="word">שיורו</w>
+                     <w n="42" type="word">על</w>
+                     <w n="43" type="word">דבר</w>
+                     <w n="44" type="word">שזדונו</w>
+                     <w n="45" type="word">כרת</w>
+                     <w n="46" type="word">ושגגתו</w>
+                     <w n="47" type="word">חטאת</w>
+                  </ab>
+                        <ab n="4" type="mishnah">
+                     <label>ד</label>
+                     <w n="1" type="word">אין</w>
+                     <w n="2" type="word">חייבין</w>
+                     <w n="3" type="word">על</w>
+                     <w n="4" type="word">עשה</w>
+                     <w n="5" type="word">ועל</w>
+                     <w n="6" type="word">לא</w>
+                     <w n="7" type="word">תעשה</w>
+                     <w n="8" type="word">שבמקדש</w>
+                     <w n="9" type="word">ואין</w>
+                     <w n="10" type="word">מביאין</w>
+                     <w n="11" type="word">אשם</w>
+                     <w n="12" type="word">תלוי</w>
+                     <w n="13" type="word">על</w>
+                     <w n="14" type="word">עשה</w>
+                     <w n="15" type="word">ועל</w>
+                     <w n="16" type="word">לא</w>
+                     <w n="17" type="word">תעשה</w>
+                     <w n="18" type="word">שבמקדש</w>
+                     <w n="19" type="word">אבל</w>
+                     <w n="20" type="word">חייבין</w>
+                     <w n="21" type="word">על</w>
+                     <w n="22" type="word">עשה</w>
+                     <w n="23" type="word">ועל</w>
+                     <w n="24" type="word">לא</w>
+                     <w n="25" type="word">תעשה</w>
+                     <w n="26" type="word">שבנדה</w>
+                     <w n="27" type="word">ומביאין</w>
+                     <w n="28" type="word">אשם</w>
+                     <w n="29" type="word">תלוי</w>
+                     <w n="30" type="word">על</w>
+                     <w n="31" type="word">עשה</w>
+                     <w n="32" type="word">ועל</w>
+                     <w n="33" type="word">לא</w>
+                     <w n="34" type="word">תעשה</w>
+                     <w n="35" type="word">שבנדה</w>
+                     <w n="36" type="word">איזו</w>
+                     <w n="37" type="word">היא</w>
+                     <w n="38" type="word">מצות</w>
+                     <w n="39" type="word">עשה</w>
+                     <w n="40" type="word">שבנדה</w>
+                     <w n="41" type="word">פרוש</w>
+                     <w n="42" type="word">מן</w>
+                     <w n="43" type="word">הנדה</w>
+                     <w n="44" type="word">ומצות</w>
+                     <w n="45" type="word">לא</w>
+                     <w n="46" type="word">תעשה</w>
+                     <w n="47" type="word">לא</w>
+                     <w n="48" type="word">תבא</w>
+                     <w n="49" type="word">אל</w>
+                     <w n="50" type="word">הנדה</w>
+                  </ab>
+                        <ab n="5" type="mishnah">
+                     <label>ה</label>
+                     <w n="1" type="word">אין</w>
+                     <w n="2" type="word">חייבין</w>
+                     <w n="3" type="word">על</w>
+                     <w n="4" type="word">שמיעת</w>
+                     <w n="5" type="word">הקול</w>
+                     <w n="6" type="word">ועל</w>
+                     <w n="7" type="word">בטוי</w>
+                     <w n="8" type="word">שפתים</w>
+                     <w n="9" type="word">ועל</w>
+                     <w n="10" type="word">טומאת</w>
+                     <w n="11" type="word">מקדש</w>
+                     <w n="12" type="word">וקדשיו</w>
+                     <w n="13" type="word">והנשיא</w>
+                     <w n="14" type="word">כיוצא</w>
+                     <w n="15" type="word">בהם</w>
+                     <w n="16" type="word">דברי</w>
+                     <w n="17" type="word">רבי</w>
+                     <w n="18" type="word">יוסי</w>
+                     <w n="19" type="word">הגלילי</w>
+                     <w n="20" type="word">רבי</w>
+                     <w n="21" type="word">עקיבא</w>
+                     <w n="22" type="word">אומר</w>
+                     <w n="23" type="word">הנשיא</w>
+                     <w n="24" type="word">חייב</w>
+                     <w n="25" type="word">בכולן</w>
+                     <w n="26" type="word">חוץ</w>
+                     <w n="27" type="word">משמיעת</w>
+                     <w n="28" type="word">הקול</w>
+                     <w n="29" type="word">שהמלך</w>
+                     <w n="30" type="word">לא</w>
+                     <w n="31" type="word">דן</w>
+                     <w n="32" type="word">ולא</w>
+                     <w n="33" type="word">דנין</w>
+                     <w n="34" type="word">אותו</w>
+                     <w n="35" type="word">לא</w>
+                     <w n="36" type="word">מעיד</w>
+                     <w n="37" type="word">ולא</w>
+                     <w n="38" type="word">מעידין</w>
+                     <w n="39" type="word">אותו</w>
+                  </ab>
+                        <ab n="6" type="mishnah">
+                     <label>ו</label>
+                     <w n="1" type="word">כל</w>
+                     <w n="2" type="word">המצות</w>
+                     <w n="3" type="word">שבתורה</w>
+                     <w n="4" type="word">שחייבין</w>
+                     <w n="5" type="word">על</w>
+                     <w n="6" type="word">זדונן</w>
+                     <w n="7" type="word">כרת</w>
+                     <w n="8" type="word">ועל</w>
+                     <w n="9" type="word">שגגתן</w>
+                     <w n="10" type="word">חטאת</w>
+                     <w n="11" type="word">היחיד</w>
+                     <w n="12" type="word">מביא</w>
+                     <w n="13" type="word">כשבה</w>
+                     <w n="14" type="word">ושעירה</w>
+                     <w n="15" type="word">והנשיא</w>
+                     <w n="16" type="word">שעיר</w>
+                     <w n="17" type="word">ומשיח</w>
+                     <w n="18" type="word">ובית</w>
+                     <w n="19" type="word">דין</w>
+                     <w n="20" type="word">מביאין</w>
+                     <w n="21" type="word">פר</w>
+                     <w n="22" type="word">ובעבודה</w>
+                     <w n="23" type="word">זרה</w>
+                     <w n="24" type="word">היחיד</w>
+                     <w n="25" type="word">והנשיא</w>
+                     <w n="26" type="word">והמשיח</w>
+                     <w n="27" type="word">מביאין</w>
+                     <w n="28" type="word">שעירה</w>
+                     <w n="29" type="word">ובית</w>
+                     <w n="30" type="word">דין</w>
+                     <w n="31" type="word">פר</w>
+                     <w n="32" type="word">ושעיר</w>
+                     <w n="33" type="word">פר</w>
+                     <w n="34" type="word">לעולה</w>
+                     <w n="35" type="word">ושעיר</w>
+                     <w n="36" type="word">לחטאת</w>
+                  </ab>
+                        <ab n="7" type="mishnah">
+                     <label>ז</label>
+                     <w n="1" type="word">אשם</w>
+                     <w n="2" type="word">תלוי</w>
+                     <w n="3" type="word">היחיד</w>
+                     <w n="4" type="word">והנשיא</w>
+                     <w n="5" type="word">חייבין</w>
+                     <w n="6" type="word">ומשיח</w>
+                     <w n="7" type="word">ובית</w>
+                     <w n="8" type="word">דין</w>
+                     <w n="9" type="word">פטורים</w>
+                     <w n="10" type="word">אשם</w>
+                     <w n="11" type="word">ודאי</w>
+                     <w n="12" type="word">היחיד</w>
+                     <w n="13" type="word">והנשיא</w>
+                     <w n="14" type="word">והמשיח</w>
+                     <w n="15" type="word">חייבין</w>
+                     <w n="16" type="word">ובית</w>
+                     <w n="17" type="word">דין</w>
+                     <w n="18" type="word">פטורין</w>
+                     <w n="19" type="word">על</w>
+                     <w n="20" type="word">שמיעת</w>
+                     <w n="21" type="word">הקול</w>
+                     <w n="22" type="word">ועל</w>
+                     <w n="23" type="word">בטוי</w>
+                     <w n="24" type="word">שפתים</w>
+                     <w n="25" type="word">ועל</w>
+                     <w n="26" type="word">טומאת</w>
+                     <w n="27" type="word">מקדש</w>
+                     <w n="28" type="word">וקדשיו</w>
+                     <w n="29" type="word">בית</w>
+                     <w n="30" type="word">הדין</w>
+                     <w n="31" type="word">פטורין</w>
+                     <w n="32" type="word">והיחיד</w>
+                     <w n="33" type="word">והנשיא</w>
+                     <w n="34" type="word">והמשיח</w>
+                     <w n="35" type="word">חייבין</w>
+                     <w n="36" type="word">אלא</w>
+                     <w n="37" type="word">שאין</w>
+                     <w n="38" type="word">כהן</w>
+                     <w n="39" type="word">גדול</w>
+                     <w n="40" type="word">חייב</w>
+                     <w n="41" type="word">על</w>
+                     <w n="42" type="word">טומאת</w>
+                     <w n="43" type="word">מקדש</w>
+                     <w n="44" type="word">וקדשיו</w>
+                     <w n="45" type="word">דברי</w>
+                     <w n="46" type="word">רבי</w>
+                     <w n="47" type="word">שמעון</w>
+                     <w n="48" type="word">ומה</w>
+                     <w n="49" type="word">הן</w>
+                     <w n="50" type="word">מביאין</w>
+                     <w n="51" type="word">קרבן</w>
+                     <w n="52" type="word">עולה</w>
+                     <w n="53" type="word">ויורד</w>
+                     <w n="54" type="word">רבי</w>
+                     <w n="55" type="word">אליעזר</w>
+                     <w n="56" type="word">אומר</w>
+                     <w n="57" type="word">הנשיא</w>
+                     <w n="58" type="word">מביא</w>
+                     <w n="59" type="word">שעיר</w>
+                  </ab>
+
+
+                    </div3>
+                    <div3 n="3" type="chapter">
+                        <head>פרק ג</head>
+                        <ab n="1" type="mishnah">
+                     <label>א</label>
+                     <w n="1" type="word">כהן</w>
+                     <w n="2" type="word">משיח</w>
+                     <w n="3" type="word">שחטא</w>
+                     <w n="4" type="word">ואחר</w>
+                     <w n="5" type="word">כך</w>
+                     <w n="6" type="word">עבר</w>
+                     <w n="7" type="word">ממשיחותו</w>
+                     <w n="8" type="word">וכן</w>
+                     <w n="9" type="word">נשיא</w>
+                     <w n="10" type="word">שחטא</w>
+                     <w n="11" type="word">ואחר</w>
+                     <w n="12" type="word">כך</w>
+                     <w n="13" type="word">עבר</w>
+                     <w n="14" type="word">מגדולתו</w>
+                     <w n="15" type="word">כהן</w>
+                     <w n="16" type="word">משיח</w>
+                     <w n="17" type="word">מביא</w>
+                     <w n="18" type="word">פר</w>
+                     <w n="19" type="word">והנשיא</w>
+                     <w n="20" type="word">מביא</w>
+                     <w n="21" type="word">שעיר</w>
+                  </ab>
+                        <ab n="2" type="mishnah">
+                     <label>ב</label>
+                     <w n="1" type="word">כהן</w>
+                     <w n="2" type="word">משיח</w>
+                     <w n="3" type="word">שעבר</w>
+                     <w n="4" type="word">ממשיחותו</w>
+                     <w n="5" type="word">ואחר</w>
+                     <w n="6" type="word">כך</w>
+                     <w n="7" type="word">חטא</w>
+                     <w n="8" type="word">וכן</w>
+                     <w n="9" type="word">הנשיא</w>
+                     <w n="10" type="word">שעבר</w>
+                     <w n="11" type="word">מגדולתו</w>
+                     <w n="12" type="word">ואחר</w>
+                     <w n="13" type="word">כך</w>
+                     <w n="14" type="word">חטא</w>
+                     <w n="15" type="word">כהן</w>
+                     <w n="16" type="word">משיח</w>
+                     <w n="17" type="word">מביא</w>
+                     <w n="18" type="word">פר</w>
+                     <w n="19" type="word">והנשיא</w>
+                     <w n="20" type="word">כהדיוט</w>
+                  </ab>
+                        <ab n="3" type="mishnah">
+                     <label>ג</label>
+                     <w n="1" type="word">חטאו</w>
+                     <w n="2" type="word">עד</w>
+                     <w n="3" type="word">שלא</w>
+                     <w n="4" type="word">נתמנו</w>
+                     <w n="5" type="word">ואחר</w>
+                     <w n="6" type="word">כך</w>
+                     <w n="7" type="word">נתמנו</w>
+                     <w n="8" type="word">הרי</w>
+                     <w n="9" type="word">אלו</w>
+                     <w n="10" type="word">כהדיוט</w>
+                     <w n="11" type="word">רבי</w>
+                     <w n="12" type="word">שמעון</w>
+                     <w n="13" type="word">אומר</w>
+                     <w n="14" type="word">אם</w>
+                     <w n="15" type="word">נודע</w>
+                     <w n="16" type="word">להם</w>
+                     <w n="17" type="word">עד</w>
+                     <w n="18" type="word">שלא</w>
+                     <w n="19" type="word">נתמנו</w>
+                     <w n="20" type="word">חייבין</w>
+                     <w n="21" type="word">ומשנתמנו</w>
+                     <w n="22" type="word">פטורין</w>
+                     <w n="23" type="word">ואיזהו</w>
+                     <w n="24" type="word">הנשיא</w>
+                     <w n="25" type="word">זה</w>
+                     <w n="26" type="word">המלך</w>
+                     <w n="27" type="word">שנאמר</w>
+                     <ref xmlns:xi="http://www.w3.org/2001/XInclude">ויקרא
+                                ד'</ref>
+                     <w n="28" type="word">ועשה</w>
+                     <w n="29" type="word">אחת</w>
+                     <w n="30" type="word">מכל</w>
+                     <w n="31" type="word">מצות</w>
+                     <w n="32" type="word">ה׳</w>
+                     <w n="33" type="word">אלהיו</w>
+                     <w n="34" type="word">נשיא</w>
+                     <w n="35" type="word">שאין</w>
+                     <w n="36" type="word">על</w>
+                     <w n="37" type="word">גביו</w>
+                     <w n="38" type="word">אלא</w>
+                     <w n="39" type="word">ה׳</w>
+                     <w n="40" type="word">אלהיו</w>
+                  </ab>
+                        <ab n="4" type="mishnah">
+                     <label>ד</label>
+                     <w n="1" type="word">ואיזהו</w>
+                     <w n="2" type="word">המשיח</w>
+                     <w n="3" type="word">המשוח</w>
+                     <w n="4" type="word">בשמן</w>
+                     <w n="5" type="word">המשחה</w>
+                     <w n="6" type="word">לא</w>
+                     <w n="7" type="word">המרובה</w>
+                     <w n="8" type="word">בבגדים</w>
+                     <w n="9" type="word">אין</w>
+                     <w n="10" type="word">בין</w>
+                     <w n="11" type="word">כהן</w>
+                     <w n="12" type="word">המשוח</w>
+                     <w n="13" type="word">בשמן</w>
+                     <w n="14" type="word">המשחה</w>
+                     <w n="15" type="word">למרובה</w>
+                     <w n="16" type="word">בגדים</w>
+                     <w n="17" type="word">אלא</w>
+                     <w n="18" type="word">פר</w>
+                     <w n="19" type="word">הבא</w>
+                     <w n="20" type="word">על</w>
+                     <w n="21" type="word">כל</w>
+                     <w n="22" type="word">המצות</w>
+                     <w n="23" type="word">ואין</w>
+                     <w n="24" type="word">בין</w>
+                     <w n="25" type="word">כהן</w>
+                     <w n="26" type="word">משמש</w>
+                     <w n="27" type="word">לכהן</w>
+                     <w n="28" type="word">שעבר</w>
+                     <w n="29" type="word">אלא</w>
+                     <w n="30" type="word">פר</w>
+                     <w n="31" type="word">יום</w>
+                     <w n="32" type="word">הכפורים</w>
+                     <w n="33" type="word">ועשירית</w>
+                     <w n="34" type="word">האיפה</w>
+                     <w n="35" type="word">זה</w>
+                     <w n="36" type="word">וזה</w>
+                     <w n="37" type="word">שוין</w>
+                     <w n="38" type="word">בעבודת</w>
+                     <w n="39" type="word">יום</w>
+                     <w n="40" type="word">הכפורים</w>
+                     <w n="41" type="word">ומצווין</w>
+                     <w n="42" type="word">על</w>
+                     <w n="43" type="word">הבתולה</w>
+                     <w n="44" type="word">ואסורין</w>
+                     <w n="45" type="word">על</w>
+                     <w n="46" type="word">האלמנה</w>
+                     <w n="47" type="word">ואינן</w>
+                     <w n="48" type="word">מטמאין</w>
+                     <w n="49" type="word">בקרוביהן</w>
+                     <w n="50" type="word">ולא</w>
+                     <w n="51" type="word">פורעין</w>
+                     <w n="52" type="word">ולא</w>
+                     <w n="53" type="word">פורמין</w>
+                     <w n="54" type="word">ומחזירין</w>
+                     <w n="55" type="word">את</w>
+                     <w n="56" type="word">הרוצח</w>
+                  </ab>
+                        <ab n="5" type="mishnah">
+                     <label>ה</label>
+                     <w n="1" type="word">כהן</w>
+                     <w n="2" type="word">גדול</w>
+                     <w n="3" type="word">פורם</w>
+                     <w n="4" type="word">מלמטה</w>
+                     <w n="5" type="word">וההדיוט</w>
+                     <w n="6" type="word">מלמעלה</w>
+                     <w n="7" type="word">כהן</w>
+                     <w n="8" type="word">גדול</w>
+                     <w n="9" type="word">מקריב</w>
+                     <w n="10" type="word">אונן</w>
+                     <w n="11" type="word">ולא</w>
+                     <w n="12" type="word">אוכל</w>
+                     <w n="13" type="word">וההדיוט</w>
+                     <w n="14" type="word">לא</w>
+                     <w n="15" type="word">מקריב</w>
+                     <w n="16" type="word">ולא</w>
+                     <w n="17" type="word">אוכל</w>
+                  </ab>
+                        <ab n="6" type="mishnah">
+                     <label>ו</label>
+                     <w n="1" type="word">כל</w>
+                     <w n="2" type="word">התדיר</w>
+                     <w n="3" type="word">מחבירו</w>
+                     <w n="4" type="word">קודם</w>
+                     <w n="5" type="word">את</w>
+                     <w n="6" type="word">חבירו</w>
+                     <w n="7" type="word">וכל</w>
+                     <w n="8" type="word">המקודש</w>
+                     <w n="9" type="word">מחבירו</w>
+                     <w n="10" type="word">קודם</w>
+                     <w n="11" type="word">את</w>
+                     <w n="12" type="word">חבירו</w>
+                     <w n="13" type="word">פר</w>
+                     <w n="14" type="word">המשיח</w>
+                     <w n="15" type="word">ופר</w>
+                     <w n="16" type="word">העדה</w>
+                     <w n="17" type="word">עומדים</w>
+                     <w n="18" type="word">פר</w>
+                     <w n="19" type="word">המשיח</w>
+                     <w n="20" type="word">קודם</w>
+                     <w n="21" type="word">לפר</w>
+                     <w n="22" type="word">העדה</w>
+                     <w n="23" type="word">בכל</w>
+                     <w n="24" type="word">מעשיו</w>
+                  </ab>
+                        <ab n="7" type="mishnah">
+                     <label>ז</label>
+                     <w n="1" type="word">האיש</w>
+                     <w n="2" type="word">קודם</w>
+                     <w n="3" type="word">לאשה</w>
+                     <w n="4" type="word">להחיות</w>
+                     <w n="5" type="word">ולהשיב</w>
+                     <w n="6" type="word">אבדה</w>
+                     <w n="7" type="word">והאשה</w>
+                     <w n="8" type="word">קודמת</w>
+                     <w n="9" type="word">לאיש</w>
+                     <w n="10" type="word">לכסות</w>
+                     <w n="11" type="word">ולהוציאה</w>
+                     <w n="12" type="word">מבית</w>
+                     <w n="13" type="word">השבי</w>
+                     <w n="14" type="word">בזמן</w>
+                     <w n="15" type="word">ששניהם</w>
+                     <w n="16" type="word">עומדים</w>
+                     <w n="17" type="word">לקלקלה</w>
+                     <w n="18" type="word">האיש</w>
+                     <w n="19" type="word">קודם</w>
+                     <w n="20" type="word">לאשה</w>
+                  </ab>
+                        <ab n="8" type="mishnah">
+                     <label>ח</label>
+                     <w n="1" type="word">כהן</w>
+                     <w n="2" type="word">קודם</w>
+                     <w n="3" type="word">ללוי</w>
+                     <w n="4" type="word">לוי</w>
+                     <w n="5" type="word">לישראל</w>
+                     <w n="6" type="word">ישראל</w>
+                     <w n="7" type="word">לממזר</w>
+                     <w n="8" type="word">וממזר</w>
+                     <w n="9" type="word">לנתין</w>
+                     <w n="10" type="word">ונתין</w>
+                     <w n="11" type="word">לגר</w>
+                     <w n="12" type="word">וגר</w>
+                     <w n="13" type="word">לעבד</w>
+                     <w n="14" type="word">משוחרר</w>
+                     <w n="15" type="word">אימתי</w>
+                     <w n="16" type="word">בזמן</w>
+                     <w n="17" type="word">שכולן</w>
+                     <w n="18" type="word">שוין</w>
+                     <w n="19" type="word">אבל</w>
+                     <w n="20" type="word">אם</w>
+                     <w n="21" type="word">היה</w>
+                     <w n="22" type="word">ממזר</w>
+                     <w n="23" type="word">תלמיד</w>
+                     <w n="24" type="word">חכם</w>
+                     <w n="25" type="word">וכהן</w>
+                     <w n="26" type="word">גדול</w>
+                     <w n="27" type="word">עם</w>
+                     <w n="28" type="word">הארץ</w>
+                     <w n="29" type="word">ממזר</w>
+                     <w n="30" type="word">תלמיד</w>
+                     <w n="31" type="word">חכם</w>
+                     <w n="32" type="word">קודם</w>
+                     <w n="33" type="word">לכהן</w>
+                     <w n="34" type="word">גדול</w>
+                     <w n="35" type="word">עם</w>
+                     <w n="36" type="word">הארץ</w>
+                  </ab>
+
+                    </div3>
+                    <trailer xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ref.4.10.T">
+                  <w n="1" type="word">נשלמה</w>
+                  <w n="2" type="word">מסכת</w>
+                  <w n="3" type="word">הוריות</w>
+               </trailer>
+                </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>
