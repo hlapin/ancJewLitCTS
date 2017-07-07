@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.yebamot.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.3.1">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.3">
+            <div2 type="tractate" corresp="eRabbinica#P179204.3.1" n="1">
 
                     <head>מסכת יבמות</head>
 

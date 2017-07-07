@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.bava_metsia.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.4.2">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.4">
+            <div2 type="tractate" corresp="eRabbinica#P179204.4.2" n="2">
                <div3 n="1" type="chapter">
                   <head>פרק א</head>
 

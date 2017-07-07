@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.hagigah.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.2.12">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.2">
+            <div2 type="tractate" corresp="eRabbinica#P179204.2.12" n="12">
                     <head>מסכת חגיגה</head>
 
 

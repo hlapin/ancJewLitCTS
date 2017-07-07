@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.meilah.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.5.8">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.5">
+            <div2 type="tractate" corresp="eRabbinica#P179204.5.8" n="8">
                     <head>מסכת מעילה</head>
                     <div3 n="1" type="chapter">
                         <head>פרק א</head>

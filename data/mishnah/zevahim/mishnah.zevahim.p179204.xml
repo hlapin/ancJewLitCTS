@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.zevahim.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.5.1">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.5">
+            <div2 type="tractate" corresp="eRabbinica#P179204.5.1" n="1">
                     <head>מסכת זבחים</head>
                     <div3 n="1" type="chapter">
                         <head>פרק א</head>

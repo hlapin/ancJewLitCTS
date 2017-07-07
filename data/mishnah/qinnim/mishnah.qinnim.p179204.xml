@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.qinnim.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.5.11">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.5">
+            <div2 type="tractate" corresp="eRabbinica#P179204.5.11" n="11">
                     <head>מסכת קינים</head>
                     <div3 n="1" type="chapter">
                         <head>פרק א</head>

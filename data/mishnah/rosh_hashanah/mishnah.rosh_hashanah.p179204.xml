@@ -91,8 +91,8 @@
    </teiHeader>
    <text>
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.rosh_hashanah.174209">
-         <div1 type="order" corresp="eRabbinica#P179204.2.8">
-            <div2 type="tractate">
+         <div1 type="order" corresp="eRabbinica#P179204.2">
+            <div2 type="tractate" corresp="eRabbinica#P179204.2.8" n="8">
                     <head>מסכת ראש השנה</head>
 
                     <div3 n="1" type="chapter">
