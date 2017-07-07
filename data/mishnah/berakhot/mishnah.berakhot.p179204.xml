@@ -65,32 +65,32 @@
          <refsDecl n="CTS">
             <cRefPattern n="word"
                          matchPattern="(\w+).(\w+).(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3']/tei:w[@n='$4'])">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3']/tei:w[@n='$4'])">
                <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
                   = mishnah and level 4 = word</p>
             </cRefPattern>
             <cRefPattern n="mishnah"
                          matchPattern="(\w+).(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3'])">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3'])">
                <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
                   = mishnah</p>
             </cRefPattern>
             <cRefPattern n="chapter"
                          matchPattern="(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1']/tei:div3[@n='$2'])">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2'])">
                <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
                   = mishnah</p>
             </cRefPattern>
             <cRefPattern n="tractate"
                          matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div2[@n='$1'])">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1'])">
                <p>This pointer pattern extracts level 1 = tractate</p>
             </cRefPattern>
          </refsDecl>
       </encodingDesc>
    </teiHeader>
    <text>
-      <body xml:lang="heb">
+      <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.berakhot.174209">
          <div1 type="order" corresp="eRabbinica#P179204.1.1">
             <div2 type="tractate">
                <head>מסכת ברכות</head>
