@@ -4,8 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah for
-               CTS</title>
+            <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah for CTS</title>
             <editor>
                <persName>Hayim Lapin</persName>
             </editor>
@@ -34,8 +33,7 @@
             <idno type="local">P179204</idno>
             <availability status="restricted">
                <p>This work is copyright Hayim lapin and the Joseph and Rebecca Meyerhoff Center for
-                  Jewish Studies and licensed under a <ref
-                     target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
+                  Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
                      Attribution International 4.0 License</ref>.</p>
             </availability>
             <pubPlace>College Park, MD USA</pubPlace>
@@ -43,9 +41,7 @@
          </publicationStmt>
          <notesStmt>
             <note>
-               <p>Vilna Edition. Text generously provided by <ref target="http://www.sefaria.org"
-                     >Sefaria</ref> under a <ref
-                     target="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+               <p>Vilna Edition. Text generously provided by <ref target="http://www.sefaria.org">Sefaria</ref> under a <ref target="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
                      Attribution-ShareAlike 3.0 Unported License (CC BY-SA)</ref>.</p>
                <p>Edited and converted by TEI/XML by Hayim Lapin</p>
             </note>
@@ -53,41 +49,34 @@
          <sourceDesc>
             <biblStruct xml:id="Vilna">
                <monogr>
-                  <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah
-                     for CTS</title>
-                  <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah
-                     for CTS</title>
+                  <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <title>Text of Tractate Avodah _Zarah from the Vilna 1913 Edition of the Mishnah for CTS</title>
                   <imprint n="1">
                      <pubPlace>Vilna</pubPlace>
                      <publisher>Romm</publisher>
                      <date>1913-1923</date>
                   </imprint>
                </monogr>
-               <note type="nli-ref"
-                  >http://aleph.nli.org.il:80/F/?func=direct&amp;doc_number=000179204&amp;local_base=MBI01</note>
+               <note type="nli-ref">http://aleph.nli.org.il:80/F/?func=direct&amp;doc_number=000179204&amp;local_base=MBI01</note>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="word" matchPattern="(\w+).(\w+).(\w+).(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3']/tei:w[@n='$4'])">
-               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
-                  = mishnah and level 4 = word</p>
+            <cRefPattern n="word"
+                         matchPattern="(\w+).(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2/tei:div3[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+               <p>This pointer pattern extracts level 1 = chapter and level 2 = mishnah and level 3 = word</p>
             </cRefPattern>
-            <cRefPattern n="mishnah" matchPattern="(\w+).(\w+).(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2']/tei:ab[@n='$3'])">
-               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
-                  = mishnah</p>
+            <cRefPattern n="mishnah"
+                         matchPattern="(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2/tei:div3[@n='$1']/tei:ab[@n='$2'])">
+               <p>This pointer pattern extracts level 1 = chapter and level 2 = mishnah</p>
             </cRefPattern>
-            <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1']/tei:div3[@n='$2'])">
-               <p>This pointer pattern extracts level 1 = tractate and level 2 = chapter and level 3
-                  = mishnah</p>
-            </cRefPattern>
-            <cRefPattern n="tractate" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2[@n='$1'])">
-               <p>This pointer pattern extracts level 1 = tractate</p>
+            <cRefPattern n="word"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div1/tei:div2/tei:div3[@n='$1'])">
+               <p>This pointer pattern extracts level 1 = chapter</p>
             </cRefPattern>
          </refsDecl>
       </encodingDesc>
@@ -96,10 +85,10 @@
       <body xml:lang="heb" n="urn:cts:ancJewLit:mishnah.avodah_zarah.174209">
          <div1 type="order" corresp="eRabbinica#P179204.4">
             <div2 type="tractate" corresp="eRabbinica#P179204.4.8" n="8">
-               <head>מסכת עבודה זרה</head>
-               <div3 n="1" type="chapter">
-                  <head>פרק א</head>
-                  <ab n="1" type="mishnah">
+                    <head>מסכת עבודה זרה</head>
+                    <div3 n="1" type="chapter">
+                        <head>פרק א</head>
+                        <ab n="1" type="mishnah">
                      <label>א</label>
                      <w n="1" type="word">לפני</w>
                      <w n="2" type="word">אידיהן</w>
@@ -144,7 +133,7 @@
                      <w n="41" type="word">לאחר</w>
                      <w n="42" type="word">זמן</w>
                   </ab>
-                  <ab n="2" type="mishnah">
+                        <ab n="2" type="mishnah">
                      <label>ב</label>
                      <w n="1" type="word">רבי</w>
                      <w n="2" type="word">ישמעאל</w>
@@ -165,7 +154,7 @@
                      <w n="17" type="word">אידיהן</w>
                      <w n="18" type="word">מותר</w>
                   </ab>
-                  <ab n="3" type="mishnah">
+                        <ab n="3" type="mishnah">
                      <label>ג</label>
                      <w n="1" type="word">ואלו</w>
                      <w n="2" type="word">אידיהן</w>
@@ -234,7 +223,7 @@
                      <w n="65" type="word">האיש</w>
                      <w n="66" type="word">בלבד</w>
                   </ab>
-                  <ab n="4" type="mishnah">
+                        <ab n="4" type="mishnah">
                      <label>ד</label>
                      <w n="1" type="word">עיר</w>
                      <w n="2" type="word">שיש</w>
@@ -292,7 +281,7 @@
                      <w n="54" type="word">מעוטרות</w>
                      <w n="55" type="word">מותרות</w>
                   </ab>
-                  <ab n="5" type="mishnah">
+                        <ab n="5" type="mishnah">
                      <label>ה</label>
                      <w n="1" type="word">אלו</w>
                      <w n="2" type="word">דברים</w>
@@ -352,7 +341,7 @@
                      <w n="56" type="word">כוכבים</w>
                      <w n="57" type="word">ומזלות</w>
                   </ab>
-                  <ab n="6" type="mishnah">
+                        <ab n="6" type="mishnah">
                      <label>ו</label>
                      <w n="1" type="word">מקום</w>
                      <w n="2" type="word">שנהגו</w>
@@ -389,7 +378,7 @@
                      <w n="33" type="word">מתיר</w>
                      <w n="34" type="word">בסוס</w>
                   </ab>
-                  <ab n="7" type="mishnah">
+                        <ab n="7" type="mishnah">
                      <label>ז</label>
                      <w n="1" type="word">אין</w>
                      <w n="2" type="word">מוכרין</w>
@@ -424,7 +413,7 @@
                      <w n="31" type="word">אסור</w>
                      <w n="32" type="word">לבנות</w>
                   </ab>
-                  <ab n="8" type="mishnah">
+                        <ab n="8" type="mishnah">
                      <label>ח</label>
                      <w n="1" type="word">ואין</w>
                      <w n="2" type="word">עושים</w>
@@ -506,7 +495,7 @@
                      <w n="78" type="word">אלו</w>
                      <w n="79" type="word">ואלו</w>
                   </ab>
-                  <ab n="9" type="mishnah">
+                        <ab n="9" type="mishnah">
                      <label>ט</label>
                      <w n="1" type="word">אף</w>
                      <w n="2" type="word">במקום</w>
@@ -544,10 +533,10 @@
                   </ab>
 
 
-               </div3>
-               <div3 n="2" type="chapter">
-                  <head>פרק ב</head>
-                  <ab n="1" type="mishnah">
+                    </div3>
+                    <div3 n="2" type="chapter">
+                        <head>פרק ב</head>
+                        <ab n="1" type="mishnah">
                      <label>א</label>
                      <w n="1" type="word">אין</w>
                      <w n="2" type="word">מעמידין</w>
@@ -613,7 +602,7 @@
                      <w n="62" type="word">ישראלית</w>
                      <w n="63" type="word">ברשותה</w>
                   </ab>
-                  <ab n="2" type="mishnah">
+                        <ab n="2" type="mishnah">
                      <label>ב</label>
                      <w n="1" type="word">מתרפאין</w>
                      <w n="2" type="word">מהן</w>
@@ -641,7 +630,7 @@
                      <w n="24" type="word">בינו</w>
                      <w n="25" type="word">לבינו</w>
                   </ab>
-                  <ab n="3" type="mishnah">
+                        <ab n="3" type="mishnah">
                      <label>ג</label>
                      <w n="1" type="word">אלו</w>
                      <w n="2" type="word">דברים</w>
@@ -701,7 +690,7 @@
                      <w n="56" type="word">והבאין</w>
                      <w n="57" type="word">מותרין</w>
                   </ab>
-                  <ab n="4" type="mishnah">
+                        <ab n="4" type="mishnah">
                      <label>ד</label>
                      <w n="1" type="word">נודות</w>
                      <w n="2" type="word">העובדי</w>
@@ -767,7 +756,7 @@
                      <w n="62" type="word">איסור</w>
                      <w n="63" type="word">הנאה</w>
                   </ab>
-                  <ab n="5" type="mishnah">
+                        <ab n="5" type="mishnah">
                      <label>ה</label>
                      <w n="1" type="word">אמר</w>
                      <w n="2" type="word">רבי</w>
@@ -876,7 +865,7 @@
                      <w n="104" type="word">שמניך</w>
                      <w n="105" type="word">טובים</w>
                   </ab>
-                  <ab n="6" type="mishnah">
+                        <ab n="6" type="mishnah">
                      <label>ו</label>
                      <w n="1" type="word">אלו</w>
                      <w n="2" type="word">דברים</w>
@@ -935,7 +924,7 @@
                      <w n="55" type="word">איסור</w>
                      <w n="56" type="word">הנאה</w>
                   </ab>
-                  <ab n="7" type="mishnah">
+                        <ab n="7" type="mishnah">
                      <label>ז</label>
                      <w n="1" type="word">אלו</w>
                      <w n="2" type="word">מותרין</w>
@@ -996,10 +985,10 @@
                   </ab>
 
 
-               </div3>
-               <div3 n="3" type="chapter">
-                  <head>פרק ג</head>
-                  <ab n="1" type="mishnah">
+                    </div3>
+                    <div3 n="3" type="chapter">
+                        <head>פרק ג</head>
+                        <ab n="1" type="mishnah">
                      <label>א</label>
                      <w n="1" type="word">כל</w>
                      <w n="2" type="word">הצלמים</w>
@@ -1037,7 +1026,7 @@
                      <w n="34" type="word">כל</w>
                      <w n="35" type="word">דבר</w>
                   </ab>
-                  <ab n="2" type="mishnah">
+                        <ab n="2" type="mishnah">
                      <label>ב</label>
                      <w n="1" type="word">המוצא</w>
                      <w n="2" type="word">שברי</w>
@@ -1059,7 +1048,7 @@
                      <w n="18" type="word">בהן</w>
                      <w n="19" type="word">נעבד</w>
                   </ab>
-                  <ab n="3" type="mishnah">
+                        <ab n="3" type="mishnah">
                      <label>ג</label>
                      <w n="1" type="word">המוצא</w>
                      <w n="2" type="word">כלים</w>
@@ -1108,7 +1097,7 @@
                      <w n="44" type="word">מן</w>
                      <w n="45" type="word">החרם</w>
                   </ab>
-                  <ab n="4" type="mishnah">
+                        <ab n="4" type="mishnah">
                      <label>ד</label>
                      <w n="1" type="word">שאל</w>
                      <w n="2" type="word">פרוקלוס</w>
@@ -1212,7 +1201,7 @@
                      <w n="100" type="word">אלוה</w>
                      <w n="101" type="word">מותר</w>
                   </ab>
-                  <ab n="5" type="mishnah">
+                        <ab n="5" type="mishnah">
                      <label>ה</label>
                      <w n="1" type="word">הגוים</w>
                      <w n="2" type="word">העובדים</w>
@@ -1290,7 +1279,7 @@
                      <w n="72" type="word">עבודה</w>
                      <w n="73" type="word">זרה</w>
                   </ab>
-                  <ab n="6" type="mishnah">
+                        <ab n="6" type="mishnah">
                      <label>ו</label>
                      <w n="1" type="word">מי</w>
                      <w n="2" type="word">שהיה</w>
@@ -1349,7 +1338,7 @@
                      <w n="53" type="word">מטמאה</w>
                      <w n="54" type="word">במשא</w>
                   </ab>
-                  <ab n="7" type="mishnah">
+                        <ab n="7" type="mishnah">
                      <label>ז</label>
                      <w n="1" type="word">שלשה</w>
                      <w n="2" type="word">בתים</w>
@@ -1480,7 +1469,7 @@
                      <w n="127" type="word">את</w>
                      <w n="128" type="word">האילן</w>
                   </ab>
-                  <ab n="8" type="mishnah">
+                        <ab n="8" type="mishnah">
                      <label>ח</label>
                      <w n="1" type="word">לא</w>
                      <w n="2" type="word">ישב</w>
@@ -1533,7 +1522,7 @@
                      <w n="49" type="word">להן</w>
                      <w n="50" type="word">לזבל</w>
                   </ab>
-                  <ab n="9" type="mishnah">
+                        <ab n="9" type="mishnah">
                      <label>ט</label>
                      <w n="1" type="word">נטל</w>
                      <w n="2" type="word">ממנה</w>
@@ -1607,7 +1596,7 @@
                      <w n="70" type="word">לעבודה</w>
                      <w n="71" type="word">זרה</w>
                   </ab>
-                  <ab n="10" type="mishnah">
+                        <ab n="10" type="mishnah">
                      <label>י</label>
                      <w n="1" type="word">כיצד</w>
                      <w n="2" type="word">מבטלה</w>
@@ -1632,10 +1621,10 @@
                   </ab>
 
 
-               </div3>
-               <div3 n="4" type="chapter">
-                  <head>פרק ד</head>
-                  <ab n="1" type="mishnah">
+                    </div3>
+                    <div3 n="4" type="chapter">
+                        <head>פרק ד</head>
+                        <ab n="1" type="mishnah">
                      <label>א</label>
                      <w n="1" type="word">רבי</w>
                      <w n="2" type="word">ישמעאל</w>
@@ -1660,7 +1649,7 @@
                      <w n="21" type="word">עמו</w>
                      <w n="22" type="word">מותרות</w>
                   </ab>
-                  <ab n="2" type="mishnah">
+                        <ab n="2" type="mishnah">
                      <label>ב</label>
                      <w n="1" type="word">מצא</w>
                      <w n="2" type="word">בראשו</w>
@@ -1689,7 +1678,7 @@
                      <w n="25" type="word">המזבח</w>
                      <w n="26" type="word">אסור</w>
                   </ab>
-                  <ab n="3" type="mishnah">
+                        <ab n="3" type="mishnah">
                      <label>ג</label>
                      <w n="1" type="word">עבודה</w>
                      <w n="2" type="word">זרה</w>
@@ -1718,7 +1707,7 @@
                      <w n="25" type="word">שלא</w>
                      <w n="26" type="word">בטובה</w>
                   </ab>
-                  <ab n="4" type="mishnah">
+                        <ab n="4" type="mishnah">
                      <label>ד</label>
                      <w n="1" type="word">עבודה</w>
                      <w n="2" type="word">זרה</w>
@@ -1758,7 +1747,7 @@
                      <w n="36" type="word">והיא</w>
                      <w n="37" type="word">אסורה</w>
                   </ab>
-                  <ab n="5" type="mishnah">
+                        <ab n="5" type="mishnah">
                      <label>ה</label>
                      <w n="1" type="word">כיצד</w>
                      <w n="2" type="word">מבטלה</w>
@@ -1800,7 +1789,7 @@
                      <w n="38" type="word">לא</w>
                      <w n="39" type="word">ביטל</w>
                   </ab>
-                  <ab n="6" type="mishnah">
+                        <ab n="6" type="mishnah">
                      <label>ו</label>
                      <w n="1" type="word">עבודה</w>
                      <w n="2" type="word">זרה</w>
@@ -1825,7 +1814,7 @@
                      <w n="21" type="word">שהמלכים</w>
                      <w n="22" type="word">עוברים</w>
                   </ab>
-                  <ab n="7" type="mishnah">
+                        <ab n="7" type="mishnah">
                      <label>ז</label>
                      <w n="1" type="word">שאלו</w>
                      <w n="2" type="word">את</w>
@@ -1895,7 +1884,7 @@
                      <w n="66" type="word">לא</w>
                      <w n="67" type="word">בטלו</w>
                   </ab>
-                  <ab n="8" type="mishnah">
+                        <ab n="8" type="mishnah">
                      <label>ח</label>
                      <w n="1" type="word">לוקחין</w>
                      <w n="2" type="word">גת</w>
@@ -1927,7 +1916,7 @@
                      <w n="28" type="word">והשאר</w>
                      <w n="29" type="word">מותר</w>
                   </ab>
-                  <ab n="9" type="mishnah">
+                        <ab n="9" type="mishnah">
                      <label>ט</label>
                      <w n="1" type="word">דורכין</w>
                      <w n="2" type="word">עם</w>
@@ -1971,7 +1960,7 @@
                      <w n="40" type="word">פת</w>
                      <w n="41" type="word">לפלטר</w>
                   </ab>
-                  <ab n="10" type="mishnah">
+                        <ab n="10" type="mishnah">
                      <label>י</label>
                      <w n="1" type="word">עובד</w>
                      <w n="2" type="word">כוכבים</w>
@@ -2028,7 +2017,7 @@
                      <w n="53" type="word">מעשה</w>
                      <w n="54" type="word">והכשירו</w>
                   </ab>
-                  <ab n="11" type="mishnah">
+                        <ab n="11" type="mishnah">
                      <label>יא</label>
                      <w n="1" type="word">המטהר</w>
                      <w n="2" type="word">יינו</w>
@@ -2085,7 +2074,7 @@
                      <w n="53" type="word">אחת</w>
                      <w n="54" type="word">היא</w>
                   </ab>
-                  <ab n="12" type="mishnah">
+                        <ab n="12" type="mishnah">
                      <label>יב</label>
                      <w n="1" type="word">המטהר</w>
                      <w n="2" type="word">יינו</w>
@@ -2124,10 +2113,10 @@
                   </ab>
 
 
-               </div3>
-               <div3 n="5" type="chapter">
-                  <head>פרק ה</head>
-                  <ab n="1" type="mishnah">
+                    </div3>
+                    <div3 n="5" type="chapter">
+                        <head>פרק ה</head>
+                        <ab n="1" type="mishnah">
                      <label>א</label>
                      <w n="1" type="word">השוכר</w>
                      <w n="2" type="word">את</w>
@@ -2181,7 +2170,7 @@
                      <w n="50" type="word">שכרה</w>
                      <w n="51" type="word">מותר</w>
                   </ab>
-                  <ab n="2" type="mishnah">
+                        <ab n="2" type="mishnah">
                      <label>ב</label>
                      <w n="1" type="word">יין</w>
                      <w n="2" type="word">נסך</w>
@@ -2248,7 +2237,7 @@
                      <w n="63" type="word">גבי</w>
                      <w n="64" type="word">גריסין</w>
                   </ab>
-                  <ab n="3" type="mishnah">
+                        <ab n="3" type="mishnah">
                      <label>ג</label>
                      <w n="1" type="word">עובד</w>
                      <w n="2" type="word">כוכבים</w>
@@ -2283,7 +2272,7 @@
                      <w n="31" type="word">ויגוף</w>
                      <w n="32" type="word">ותיגוב</w>
                   </ab>
-                  <ab n="4" type="mishnah">
+                        <ab n="4" type="mishnah">
                      <label>ד</label>
                      <w n="1" type="word">המניח</w>
                      <w n="2" type="word">יינו</w>
@@ -2343,7 +2332,7 @@
                      <w n="56" type="word">ויגוף</w>
                      <w n="57" type="word">ותיגוב</w>
                   </ab>
-                  <ab n="5" type="mishnah">
+                        <ab n="5" type="mishnah">
                      <label>ה</label>
                      <w n="1" type="word">היה</w>
                      <w n="2" type="word">אוכל</w>
@@ -2386,7 +2375,7 @@
                      <w n="39" type="word">ויגוף</w>
                      <w n="40" type="word">ותיגוב</w>
                   </ab>
-                  <ab n="6" type="mishnah">
+                        <ab n="6" type="mishnah">
                      <label>ו</label>
                      <w n="1" type="word">בלשת</w>
                      <w n="2" type="word">עובדי</w>
@@ -2410,7 +2399,7 @@
                      <w n="20" type="word">פנאי</w>
                      <w n="21" type="word">לנסך</w>
                   </ab>
-                  <ab n="7" type="mishnah">
+                        <ab n="7" type="mishnah">
                      <label>ז</label>
                      <w n="1" type="word">אומנין</w>
                      <w n="2" type="word">של</w>
@@ -2485,7 +2474,7 @@
                      <w n="71" type="word">לתוכו</w>
                      <w n="72" type="word">אסור</w>
                   </ab>
-                  <ab n="8" type="mishnah">
+                        <ab n="8" type="mishnah">
                      <label>ח</label>
                      <w n="1" type="word">יין</w>
                      <w n="2" type="word">נסך</w>
@@ -2515,7 +2504,7 @@
                      <w n="26" type="word">בנותן</w>
                      <w n="27" type="word">טעם</w>
                   </ab>
-                  <ab n="9" type="mishnah">
+                        <ab n="9" type="mishnah">
                      <label>ט</label>
                      <w n="1" type="word">אלו</w>
                      <w n="2" type="word">אסורין</w>
@@ -2552,7 +2541,7 @@
                      <w n="33" type="word">בכל</w>
                      <w n="34" type="word">שהן</w>
                   </ab>
-                  <ab n="10" type="mishnah">
+                        <ab n="10" type="mishnah">
                      <label>י</label>
                      <w n="1" type="word">יין</w>
                      <w n="2" type="word">נסך</w>
@@ -2575,7 +2564,7 @@
                      <w n="19" type="word">נסך</w>
                      <w n="20" type="word">שבו</w>
                   </ab>
-                  <ab n="11" type="mishnah">
+                        <ab n="11" type="mishnah">
                      <label>יא</label>
                      <w n="1" type="word">גת</w>
                      <w n="2" type="word">של</w>
@@ -2608,7 +2597,7 @@
                      <w n="29" type="word">זו</w>
                      <w n="30" type="word">אסורה</w>
                   </ab>
-                  <ab n="12" type="mishnah">
+                        <ab n="12" type="mishnah">
                      <label>יב</label>
                      <w n="1" type="word">הלוקח</w>
                      <w n="2" type="word">כלי</w>
@@ -2636,14 +2625,14 @@
                      <w n="24" type="word">טהורה</w>
                   </ab>
 
-               </div3>
-               <trailer xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ref.4.8.T">
+                    </div3>
+                    <trailer xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ref.4.8.T">
                   <w n="1" type="word">נשלמה</w>
                   <w n="2" type="word">מסכת</w>
                   <w n="3" type="word">עבודה</w>
                   <w n="4" type="word">זרה</w>
                </trailer>
-            </div2>
+                </div2>
          </div1>
       </body>
    </text>

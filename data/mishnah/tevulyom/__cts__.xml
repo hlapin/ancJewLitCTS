@@ -8,7 +8,7 @@
    <ti:title xml:lang="heb">משנה, מסכת טבול יום</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:mishnah.tevulyom"
                urn="urn:cts:ancJewLit:mishnah.tevulyom.p179204">
-      <ti:label xml:lang="eng">Mishnahת Tractate Tevul Yom, Vilna 1913 edition</ti:label>
+      <ti:label xml:lang="eng">Mishnah, Tractate Tevul Yom, Vilna 1913 edition</ti:label>
       <ti:label xml:lang="heb">משנה, מסכת טבול יום,דפוס וילנא, תרע"ג</ti:label>
       <ti:description xml:lang="eng">Text of the Mishnah based on the Vilna 1913
                   printing</ti:description>

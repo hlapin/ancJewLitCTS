@@ -8,7 +8,7 @@
    <ti:title xml:lang="heb">משנה, מסכת עוקצין</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:mishnah.uqtsim"
                urn="urn:cts:ancJewLit:mishnah.uqtsim.p179204">
-      <ti:label xml:lang="eng">Mishnahת Tractate Uqtsim, Vilna 1913 edition</ti:label>
+      <ti:label xml:lang="eng">Mishnah, Tractate Uqtsim, Vilna 1913 edition</ti:label>
       <ti:label xml:lang="heb">משנה, מסכת עוקצין,דפוס וילנא, תרע"ג</ti:label>
       <ti:description xml:lang="eng">Text of the Mishnah based on the Vilna 1913
                   printing</ti:description>

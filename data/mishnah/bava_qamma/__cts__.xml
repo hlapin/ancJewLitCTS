@@ -8,7 +8,7 @@
    <ti:title xml:lang="heb">משנה, מסכת </ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:mishnah.bava_qamma"
                urn="urn:cts:ancJewLit:mishnah.bava_qamma.p179204">
-      <ti:label xml:lang="eng">Mishnahת Tractate Bava _Qamma, Vilna 1913 edition</ti:label>
+      <ti:label xml:lang="eng">Mishnah, Tractate Bava _Qamma, Vilna 1913 edition</ti:label>
       <ti:label xml:lang="heb">משנה, מסכת ,דפוס וילנא, תרע"ג</ti:label>
       <ti:description xml:lang="eng">Text of the Mishnah based on the Vilna 1913
                   printing</ti:description>

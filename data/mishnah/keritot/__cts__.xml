@@ -8,7 +8,7 @@
    <ti:title xml:lang="heb">משנה, מסכת כריתות</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:mishnah.keritot"
                urn="urn:cts:ancJewLit:mishnah.keritot.p179204">
-      <ti:label xml:lang="eng">Mishnahת Tractate Keritot, Vilna 1913 edition</ti:label>
+      <ti:label xml:lang="eng">Mishnah, Tractate Keritot, Vilna 1913 edition</ti:label>
       <ti:label xml:lang="heb">משנה, מסכת כריתות,דפוס וילנא, תרע"ג</ti:label>
       <ti:description xml:lang="eng">Text of the Mishnah based on the Vilna 1913
                   printing</ti:description>
