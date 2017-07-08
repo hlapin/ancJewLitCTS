@@ -18,7 +18,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: 2b370bfeba6028c0a1c7e0fff66f8874b16f49ed
+  api_key: ctsToken
   skip_cleanup: true
   on:
     repo: hlapin/ancJewLitCTS
@@ -27,4 +27,4 @@ deploy:
 env:
   global:
     major_version: 0
-    minor_version: 0
+    minor_version: 1
