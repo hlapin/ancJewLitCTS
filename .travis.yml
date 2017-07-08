@@ -13,7 +13,7 @@ before_deploy:
 - export GIT_TAG=$major_version.$minor_version.$TRAVIS_BUILD_NUMBER
 - git add -A
 - git tag $GIT_TAG -a -m "$DATE" -m "PASSING FILES" -m "$results"
-- git push -q https://$GITPERM@github.com/YOUR_REPOSITORY_NAME --tags
+- git push -q https://$GITPERM@github.com/hlapin/ancJewLitCTS --tags
 - ls -R
 
 deploy:
