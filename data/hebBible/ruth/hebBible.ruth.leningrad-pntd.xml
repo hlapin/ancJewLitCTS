@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -84,10 +82,13 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.ruth.leningrad-pntd" xml:lang="heb">
-         <div type="book">
+      <body>
+         <div xml:lang="heb"
+              type="textpart"
+              subtype="book"
+              n="urn:cts:ancJewLit:hebBible.ruth.leningrad-pntd">
     
-            <div type="chapter" n="1">
+            <div type="textpart" subtype="chapter" n="1">
                <ab n="1">
                   <w n="1">וַ/יְהִ֗י</w>
                   <w n="2">בִּ/ימֵי֙</w>
@@ -482,7 +483,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="2">
+            <div type="textpart" subtype="chapter" n="2">
                <ab n="1">
                   <w n="1">וּֽ/לְ/נָעֳמִ֞י</w>
                   <w n="2">מידע</w>
@@ -933,7 +934,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="3">
+            <div type="textpart" subtype="chapter" n="3">
                <ab n="1">
                   <w n="1">וַ/תֹּ֥אמֶר</w>
                   <w n="2">לָ֖/הּ</w>
@@ -1253,7 +1254,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="4">
+            <div type="textpart" subtype="chapter" n="4">
                <ab n="1">
                   <w n="1">וּ/בֹ֨עַז</w>
                   <w n="2">עָלָ֣ה</w>

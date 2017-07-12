@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -84,10 +82,13 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.samuel_2.leningrad-pntd" xml:lang="heb">
-         <div type="book">
+      <body>
+         <div xml:lang="heb"
+              type="textpart"
+              subtype="book"
+              n="urn:cts:ancJewLit:hebBible.samuel_2.leningrad-pntd">
     
-            <div type="chapter" n="1">
+            <div type="textpart" subtype="chapter" n="1">
                <ab n="1">
                   <w n="1">וַ/יְהִ֗י</w>
                   <w n="2">אַֽחֲרֵי֙</w>
@@ -544,7 +545,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="2">
+            <div type="textpart" subtype="chapter" n="2">
                <ab n="1">
                   <w n="1">וַ/יְהִ֣י</w>
                   <w n="2">אַֽחֲרֵי־</w>
@@ -1164,7 +1165,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="3">
+            <div type="textpart" subtype="chapter" n="3">
                <ab n="1">
                   <w n="1">וַ/תְּהִ֤י</w>
                   <w n="2">הַ/מִּלְחָמָה֙</w>
@@ -1953,7 +1954,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="4">
+            <div type="textpart" subtype="chapter" n="4">
                <ab n="1">
                   <w n="1">וַ/יִּשְׁמַ֣ע</w>
                   <w n="2">בֶּן־</w>
@@ -2232,7 +2233,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="5">
+            <div type="textpart" subtype="chapter" n="5">
                <ab n="1">
                   <w n="1">וַ/יָּבֹ֜אוּ</w>
                   <w n="2">כָּל־</w>
@@ -2672,7 +2673,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="6">
+            <div type="textpart" subtype="chapter" n="6">
                <ab n="1">
                   <w n="1">וַ/יֹּ֨סֶף</w>
                   <w n="2">ע֥וֹד</w>
@@ -3122,7 +3123,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="7">
+            <div type="textpart" subtype="chapter" n="7">
                <ab n="1">
                   <w n="1">וַ/יְהִ֕י</w>
                   <w n="2">כִּי־</w>
@@ -3677,7 +3678,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="8">
+            <div type="textpart" subtype="chapter" n="8">
                <ab n="1">
                   <w n="1">וַֽ/יְהִי֙</w>
                   <w n="2">אַֽחֲרֵי־</w>
@@ -3998,7 +3999,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="9">
+            <div type="textpart" subtype="chapter" n="9">
                <ab n="1">
                   <w n="1">וַ/יֹּ֣אמֶר</w>
                   <w n="2">דָּוִ֔ד</w>
@@ -4263,7 +4264,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="10">
+            <div type="textpart" subtype="chapter" n="10">
                <ab n="1">
                   <w n="1">וַֽ/יְהִי֙</w>
                   <w n="2">אַֽחֲרֵי־</w>
@@ -4640,7 +4641,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="11">
+            <div type="textpart" subtype="chapter" n="11">
                <ab n="1">
                   <w n="1">וַ/יְהִי֩</w>
                   <w n="2">לִ/תְשׁוּבַ֨ת</w>
@@ -5172,7 +5173,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="12">
+            <div type="textpart" subtype="chapter" n="12">
                <ab n="1">
                   <w n="1">וַ/יִּשְׁלַ֧ח</w>
                   <w n="2">יְהוָ֛ה</w>
@@ -5805,7 +5806,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="13">
+            <div type="textpart" subtype="chapter" n="13">
                <ab n="1">
                   <w n="1">וַ/יְהִ֣י</w>
                   <w n="2">אַֽחֲרֵי־</w>
@@ -6582,7 +6583,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="14">
+            <div type="textpart" subtype="chapter" n="14">
                <ab n="1">
                   <w n="1">וַ/יֵּ֖דַע</w>
                   <w n="2">יוֹאָ֣ב</w>
@@ -7297,7 +7298,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="15">
+            <div type="textpart" subtype="chapter" n="15">
                <ab n="1">
                   <w n="1">וַֽ/יְהִי֙</w>
                   <w n="2">מֵ/אַ֣חֲרֵי</w>
@@ -8020,7 +8021,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="16">
+            <div type="textpart" subtype="chapter" n="16">
                <ab n="1">
                   <w n="1">וְ/דָוִ֗ד</w>
                   <w n="2">עָבַ֤ר</w>
@@ -8493,7 +8494,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="17">
+            <div type="textpart" subtype="chapter" n="17">
                <ab n="1">
                   <w n="1">וַ/יֹּ֥אמֶר</w>
                   <w n="2">אֲחִיתֹ֖פֶל</w>
@@ -9112,7 +9113,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="18">
+            <div type="textpart" subtype="chapter" n="18">
                <ab n="1">
                   <w n="1">וַ/יִּפְקֹ֣ד</w>
                   <w n="2">דָּוִ֔ד</w>
@@ -9814,7 +9815,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="19">
+            <div type="textpart" subtype="chapter" n="19">
                <ab n="1">
                   <w n="1">וַ/יִּרְגַּ֣ז</w>
                   <w n="2">הַ/מֶּ֗לֶךְ</w>
@@ -10784,7 +10785,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="20">
+            <div type="textpart" subtype="chapter" n="20">
                <ab n="1">
                   <w n="1">וְ/שָׁ֨ם</w>
                   <w n="2">נִקְרָ֜א</w>
@@ -11321,7 +11322,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="21">
+            <div type="textpart" subtype="chapter" n="21">
                <ab n="1">
                   <w n="1">וַ/יְהִ֣י</w>
                   <w n="2">רָעָב֩</w>
@@ -11828,7 +11829,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="22">
+            <div type="textpart" subtype="chapter" n="22">
                <ab n="1">
                   <w n="1">וַ/יְדַבֵּ֤ר</w>
                   <w n="2">דָּוִד֙</w>
@@ -12373,7 +12374,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="23">
+            <div type="textpart" subtype="chapter" n="23">
                <ab n="1">
                   <w n="1">וְ/אֵ֛לֶּה</w>
                   <w n="2">דִּבְרֵ֥י</w>
@@ -12975,7 +12976,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="24">
+            <div type="textpart" subtype="chapter" n="24">
                <ab n="1">
                   <w n="1">וַ/יֹּ֙סֶף֙</w>
                   <w n="2">אַף־</w>
