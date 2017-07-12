@@ -85,12 +85,11 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.song_of_songs.leningrad-cons"
-            xml:lang="heb">
+      <body>
          <div xml:lang="heb"
-              type="textpart"
+              type="edition"
               subtype="book"
-              n="urn:cts:ancJewLit:hebBible.song_of_songs.leningrad-pntd">
+              n="urn:cts:ancJewLit:hebBible.song_of_songs.leningrad-cons">
     
             <div type="textpart" subtype="chapter" n="1">
                <ab n="1">

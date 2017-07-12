@@ -85,11 +85,11 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.leviticus.leningrad-cons" xml:lang="heb">
+      <body>
          <div xml:lang="heb"
-              type="textpart"
+              type="edition"
               subtype="book"
-              n="urn:cts:ancJewLit:hebBible.leviticus.leningrad-pntd">
+              n="urn:cts:ancJewLit:hebBible.leviticus.leningrad-cons">
     
             <div type="textpart" subtype="chapter" n="1">
                <ab n="1">

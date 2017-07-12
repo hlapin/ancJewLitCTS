@@ -32,9 +32,9 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>This TEI-XML compliant text of Deuteronomy was produced for a trial Canonical
-               Text Service for classical Jewish texts. The notes that follow are those that accompany the
-               source document.</note>
+            <note>This TEI-XML compliant text of Deuteronomy was produced for a trial Canonical Text Service
+               for classical Jewish texts. The notes that follow are those that accompany the source
+               document.</note>
             <note>From the electronic version of the Leningrad Codex maintained by the J. Alan Groves Center
                for Advanced Biblical Research.</note>
             <note>This text began as an electronic transcription by Richard Whitaker (Princeton Seminary, New
@@ -65,19 +65,16 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="word"
-                         matchPattern="(\w+).(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+            <cRefPattern n="word" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
                <p>This pointer pattern extracts level1 = chapter and level2 = verse and level3 = word</p>
             </cRefPattern>
-            <cRefPattern n="verse"
-                         matchPattern="(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
+            <cRefPattern n="verse" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
                <p>This pointer pattern extracts level1 = chapter and level2 = verse</p>
             </cRefPattern>
-            <cRefPattern n="chapter"
-                         matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+            <cRefPattern n="chapter" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                <p>This pointer pattern extracts level1 = chapter</p>
             </cRefPattern>
          </refsDecl>
@@ -85,11 +82,9 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:lang="heb"
-              type="textpart"
-              subtype="book"
-              n="urn:cts:ancJewLit:hebBible.deuteronomy.leningrad-pntd">
-    
+         <div xml:lang="heb" type="edition" subtype="book"
+            n="urn:cts:ancJewLit:hebBible.deuteronomy.leningrad-pntd">
+
             <div type="textpart" subtype="chapter" n="1">
                <ab n="1">
                   <w n="1">אֵ֣לֶּה</w>
@@ -883,7 +878,7 @@
                   <w n="7">יְשַׁבְתֶּֽם</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="2">
                <ab n="1">
@@ -904,7 +899,6 @@
                   <w n="15">יָמִ֥ים</w>
                   <w n="16">רַבִּֽים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">וַ/יֹּ֥אמֶר</w>
@@ -1018,7 +1012,6 @@
                   <w n="10">מֵ/אֵילַ֖ת</w>
                   <w n="11">וּ/מֵ/עֶצְיֹ֣ן</w>
                   <w n="12">גָּ֑בֶר</w>
-        
                   <w n="13">וַ/נֵּ֙פֶן֙</w>
                   <w n="14">וַֽ/נַּעֲבֹ֔ר</w>
                   <w n="15">דֶּ֖רֶךְ</w>
@@ -1167,7 +1160,6 @@
                   <w n="8">מִ/קֶּ֥רֶב</w>
                   <w n="9">הָ/עָֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">וַ/יְדַבֵּ֥ר</w>
@@ -1410,7 +1402,6 @@
                   <w n="20">כַּ/יּ֥וֹם</w>
                   <w n="21">הַ/זֶּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="31">
                   <w n="1">וַ/יֹּ֤אמֶר</w>
@@ -1534,7 +1525,7 @@
                   <w n="18">אֱלֹהֵֽי/נוּ</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="3">
                <ab n="1">
@@ -1964,7 +1955,6 @@
                   <w n="7">הַ/נִּלְחָ֥ם</w>
                   <w n="8">לָ/כֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">וָ/אֶתְחַנַּ֖ן</w>
@@ -2085,9 +2075,8 @@
                   <w n="4">בֵּ֥ית</w>
                   <w n="5">פְּעֽוֹר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="4">
                <ab n="1">
@@ -2572,7 +2561,6 @@
                   <w n="7">אֵ֖ל</w>
                   <w n="8">קַנָּֽא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">כִּֽי־</w>
@@ -2900,7 +2888,6 @@
                   <w n="25">כָּל־</w>
                   <w n="26">הַ/יָּמִֽים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="41">
                   <w n="1">אָ֣ז</w>
@@ -3051,9 +3038,8 @@
                   <w n="10">אַשְׁדֹּ֥ת</w>
                   <w n="11">הַ/פִּסְגָּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="5">
                <ab n="1">
@@ -3142,7 +3128,6 @@
                   <w n="19">בָּ/הָ֖ר</w>
                   <w n="20">לֵ/אמֹֽר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">אָֽנֹכִי֙</w>
@@ -3218,7 +3203,6 @@
                   <w n="6">מצות/ו</w>
                   <w n="7">מִצְוֺתָֽ/י</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">לֹ֥א</w>
@@ -3239,7 +3223,6 @@
                   <w n="16">שְׁמ֖/וֹ</w>
                   <w n="17">לַ/שָּֽׁוְא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">שָׁמ֣֛וֹר</w>
@@ -3315,7 +3298,6 @@
                   <w n="22">י֥וֹם</w>
                   <w n="23">הַ/שַׁבָּֽת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">כַּבֵּ֤ד</w>
@@ -3341,25 +3323,21 @@
                   <w n="21">נֹתֵ֥ן</w>
                   <w n="22">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">לֹ֥֖א</w>
                   <w n="2">תִּֿרְצָֽח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">וְ/לֹ֖֣א</w>
                   <w n="2">תִּֿנְאָֽ֑ף</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">וְ/לֹ֖֣א</w>
                   <w n="2">תִּֿגְנֹֽ֔ב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">וְ/לֹֽא־</w>
@@ -3368,14 +3346,12 @@
                   <w n="4">עֵ֥ד</w>
                   <w n="5">שָֽׁוְא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">וְ/לֹ֥א</w>
                   <w n="2">תַחְמֹ֖ד</w>
                   <w n="3">אֵ֣שֶׁת</w>
                   <w n="4">רֵעֶ֑/ךָ</w>
-        
                   <w n="5">וְ/לֹ֨א</w>
                   <w n="6">תִתְאַוֶּ֜ה</w>
                   <w n="7">בֵּ֣ית</w>
@@ -3389,7 +3365,6 @@
                   <w n="15">אֲשֶׁ֥ר</w>
                   <w n="16">לְ/רֵעֶֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">אֶֽת־</w>
@@ -3638,7 +3613,7 @@
                   <w n="17">תִּֽירָשֽׁוּ/ן</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="6">
                <ab n="1">
@@ -3709,7 +3684,6 @@
                   <w n="19">חָלָ֖ב</w>
                   <w n="20">וּ/דְבָֽשׁ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">שְׁמַ֖ע</w>
@@ -3775,7 +3749,6 @@
                   <w n="4">בֵּיתֶ֖/ךָ</w>
                   <w n="5">וּ/בִ/שְׁעָרֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">וְ/הָיָ֞ה</w>
@@ -3879,7 +3852,6 @@
                   <w n="15">פְּנֵ֥י</w>
                   <w n="16">הָ/אֲדָמָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לֹ֣א</w>
@@ -3935,7 +3907,6 @@
                   <w n="7">דִּבֶּ֥ר</w>
                   <w n="8">יְהוָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">כִּֽי־</w>
@@ -4036,9 +4007,8 @@
                   <w n="14">כַּ/אֲשֶׁ֥ר</w>
                   <w n="15">צִוָּֽ/נוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="7">
                <ab n="1">
@@ -4158,7 +4128,6 @@
                   <w n="19">פְּנֵ֥י</w>
                   <w n="20">הָ/אֲדָמָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">לֹ֣א</w>
@@ -4251,7 +4220,6 @@
                   <w n="11">הַ/יּ֖וֹם</w>
                   <w n="12">לַ/עֲשׂוֹתָֽ/ם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">וְ/הָיָ֣ה ׀</w>
@@ -4357,7 +4325,6 @@
                   <w n="20">ה֖וּא</w>
                   <w n="21">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">כִּ֤י</w>
@@ -4534,9 +4501,8 @@
                   <w n="14">חֵ֥רֶם</w>
                   <w n="15">הֽוּא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="8">
                <ab n="1">
@@ -4853,7 +4819,6 @@
                   <w n="19">כַּ/יּ֥וֹם</w>
                   <w n="20">הַ/זֶּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">וְ/הָיָ֗ה</w>
@@ -4893,9 +4858,8 @@
                   <w n="12">יְהוָ֥ה</w>
                   <w n="13">אֱלֹהֵי/כֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="9">
                <ab n="1">
@@ -5482,9 +5446,8 @@
                   <w n="8">וּ/בִֽ/זְרֹעֲ/ךָ֖</w>
                   <w n="9">הַ/נְּטוּיָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="10">
                <ab n="1">
@@ -5699,7 +5662,6 @@
                   <w n="16">לָ/תֵ֥ת</w>
                   <w n="17">לָ/הֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">וְ/עַתָּה֙</w>
@@ -5878,7 +5840,7 @@
                   <w n="12">לָ/רֹֽב</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="11">
                <ab n="1">
@@ -6055,7 +6017,6 @@
                   <w n="15">חָלָ֖ב</w>
                   <w n="16">וּ/דְבָֽשׁ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כִּ֣י</w>
@@ -6116,7 +6077,6 @@
                   <w n="15">אַחֲרִ֥ית</w>
                   <w n="16">שָׁנָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">וְ/הָיָ֗ה</w>
@@ -6266,7 +6226,6 @@
                   <w n="16">עַל־</w>
                   <w n="17">הָ/אָֽרֶץ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כִּי֩</w>
@@ -6353,7 +6312,6 @@
                   <w n="18">דִּבֶּ֥ר</w>
                   <w n="19">לָ/כֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">רְאֵ֗ה</w>
@@ -6406,7 +6364,6 @@
                   <w n="22">לֹֽא־</w>
                   <w n="23">יְדַעְתֶּֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="29">
                   <w n="1">וְ/הָיָ֗ה</w>
@@ -6490,7 +6447,7 @@
                   <w n="12">הַ/יּֽוֹם</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="12">
                <ab n="1">
@@ -6863,7 +6820,6 @@
                   <w n="9">עַל־</w>
                   <w n="10">אַדְמָתֶֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">כִּֽי־</w>
@@ -7036,7 +6992,6 @@
                   <w n="22">יְהוָ֥ה</w>
                   <w n="23">אֱלֹהֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="29">
                   <w n="1">כִּֽי־</w>
@@ -7108,7 +7063,7 @@
                   <w n="22">לֵֽ/אלֹהֵי/הֶֽם</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="13">
                <ab n="1">
@@ -7129,7 +7084,6 @@
                   <w n="15">תִגְרַ֖ע</w>
                   <w n="16">מִמֶּֽ/נּוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">כִּֽי־</w>
@@ -7356,7 +7310,6 @@
                   <w n="10">הַ/זֶּ֖ה</w>
                   <w n="11">בְּ/קִרְבֶּֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">כִּֽי־</w>
@@ -7498,9 +7451,8 @@
                   <w n="17">יְהוָ֥ה</w>
                   <w n="18">אֱלֹהֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="14">
                <ab n="1">
@@ -7539,7 +7491,6 @@
                   <w n="18">פְּנֵ֥י</w>
                   <w n="19">הָ/אֲדָמָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">לֹ֥א</w>
@@ -7634,7 +7585,6 @@
                   <w n="16">לֹ֥א</w>
                   <w n="17">תִגָּֽעוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">אֶת־</w>
@@ -7664,7 +7614,6 @@
                   <w n="10">ה֖וּא</w>
                   <w n="11">לָ/כֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כָּל־</w>
@@ -7779,7 +7728,6 @@
                   <w n="22">בַּ/חֲלֵ֥ב</w>
                   <w n="23">אִמּֽ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">עַשֵּׂ֣ר</w>
@@ -7902,7 +7850,6 @@
                   <w n="10">וְ/נַחֲלָ֖ה</w>
                   <w n="11">עִמָּֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="28">
                   <w n="1">מִ/קְצֵ֣ה ׀</w>
@@ -7945,9 +7892,8 @@
                   <w n="23">אֲשֶׁ֥ר</w>
                   <w n="24">תַּעֲשֶֽׂה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="15">
                <ab n="1">
@@ -8057,7 +8003,6 @@
                   <w n="18">לֹ֥א</w>
                   <w n="19">יִמְשֹֽׁלוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">כִּֽי־</w>
@@ -8177,7 +8122,6 @@
                   <w n="18">וּ/לְ/אֶבְיֹנְ/ךָ֖</w>
                   <w n="19">בְּ/אַרְצֶֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">כִּֽי־</w>
@@ -8299,7 +8243,6 @@
                   <w n="19">אֲשֶׁ֥ר</w>
                   <w n="20">תַּעֲשֶֽׂה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כָּֽל־</w>
@@ -8375,9 +8318,8 @@
                   <w n="8">תִּשְׁפְּכֶ֖/נּוּ</w>
                   <w n="9">כַּ/מָּֽיִם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="16">
                <ab n="1">
@@ -8532,7 +8474,6 @@
                   <w n="11">תַעֲשֶׂ֖ה</w>
                   <w n="12">מְלָאכָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">שִׁבְעָ֥ה</w>
@@ -8605,7 +8546,6 @@
                   <w n="9">הַֽ/חֻקִּ֖ים</w>
                   <w n="10">הָ/אֵֽלֶּה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">חַ֧ג</w>
@@ -8698,7 +8638,6 @@
                   <w n="8">נָֽתַן־</w>
                   <w n="9">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">שֹׁפְטִ֣ים</w>
@@ -8755,7 +8694,6 @@
                   <w n="12">נֹתֵ֥ן</w>
                   <w n="13">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">לֹֽא־</w>
@@ -8772,7 +8710,6 @@
                   <w n="12">תַּעֲשֶׂה־</w>
                   <w n="13">לָּֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">וְ/לֹֽא־</w>
@@ -8784,9 +8721,8 @@
                   <w n="7">יְהוָ֥ה</w>
                   <w n="8">אֱלֹהֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="17">
                <ab n="1">
@@ -8809,7 +8745,6 @@
                   <w n="17">אֱלֹהֶ֖י/ךָ</w>
                   <w n="18">הֽוּא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">כִּֽי־</w>
@@ -8931,7 +8866,6 @@
                   <w n="12">הָ/רָ֖ע</w>
                   <w n="13">מִ/קִּרְבֶּֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">כִּ֣י</w>
@@ -9060,7 +8994,6 @@
                   <w n="6">יְזִיד֖וּ/ן</w>
                   <w n="7">עֽוֹד</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">כִּֽי־</w>
@@ -9219,9 +9152,8 @@
                   <w n="18">בְּ/קֶ֥רֶב</w>
                   <w n="19">יִשְׂרָאֵֽל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="18">
                <ab n="1">
@@ -9256,7 +9188,6 @@
                   <w n="11">דִּבֶּר־</w>
                   <w n="12">לֽ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">וְ/זֶ֡ה</w>
@@ -9308,7 +9239,6 @@
                   <w n="14">כָּל־</w>
                   <w n="15">הַ/יָּמִֽים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">וְ/כִֽי־</w>
@@ -9356,7 +9286,6 @@
                   <w n="6">עַל־</w>
                   <w n="7">הָ/אָבֽוֹת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">כִּ֤י</w>
@@ -9427,7 +9356,6 @@
                   <w n="4">יְהוָ֥ה</w>
                   <w n="5">אֱלֹהֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">כִּ֣י ׀</w>
@@ -9597,9 +9525,8 @@
                   <w n="21">תָג֖וּר</w>
                   <w n="22">מִמֶּֽ/נּוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="19">
                <ab n="1">
@@ -9748,7 +9675,6 @@
                   <w n="8">תַּבְדִּ֥יל</w>
                   <w n="9">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">וְ/אִם־</w>
@@ -9818,7 +9744,6 @@
                   <w n="14">עָלֶ֖י/ךָ</w>
                   <w n="15">דָּמִֽים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">וְ/כִֽי־</w>
@@ -9867,7 +9792,6 @@
                   <w n="9">וְ/ט֥וֹב</w>
                   <w n="10">לָֽ/ךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לֹ֤א</w>
@@ -9888,7 +9812,6 @@
                   <w n="16">לְ/ךָ֖</w>
                   <w n="17">לְ/רִשְׁתָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">לֹֽא־</w>
@@ -10000,9 +9923,8 @@
                   <w n="12">רֶ֥גֶל</w>
                   <w n="13">בְּ/רָֽגֶל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="20">
                <ab n="1">
@@ -10177,7 +10099,6 @@
                   <w n="10">בְּ/רֹ֥אשׁ</w>
                   <w n="11">הָ/עָֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כִּֽי־</w>
@@ -10323,7 +10244,6 @@
                   <w n="13">לַ/יהוָ֥ה</w>
                   <w n="14">אֱלֹהֵי/כֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כִּֽי־</w>
@@ -10382,9 +10302,8 @@
                   <w n="22">עַ֥ד</w>
                   <w n="23">רִדְתָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="21">
                <ab n="1">
@@ -10549,7 +10468,6 @@
                   <w n="9">בְּ/עֵינֵ֥י</w>
                   <w n="10">יְהוָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כִּֽי־</w>
@@ -10635,7 +10553,6 @@
                   <w n="16">אֲשֶׁ֥ר</w>
                   <w n="17">עִנִּיתָֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">כִּֽי־</w>
@@ -10704,7 +10621,6 @@
                   <w n="20">מִשְׁפַּ֥ט</w>
                   <w n="21">הַ/בְּכֹרָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">כִּֽי־</w>
@@ -10772,7 +10688,6 @@
                   <w n="12">יִשְׁמְע֥וּ</w>
                   <w n="13">וְ/יִרָֽאוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">וְ/כִֽי־</w>
@@ -10814,9 +10729,8 @@
                   <w n="23">לְ/ךָ֖</w>
                   <w n="24">נַחֲלָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="22">
                <ab n="1">
@@ -10878,7 +10792,6 @@
                   <w n="17">תוּכַ֖ל</w>
                   <w n="18">לְ/הִתְעַלֵּֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לֹא־</w>
@@ -10896,7 +10809,6 @@
                   <w n="13">תָּקִ֖ים</w>
                   <w n="14">עִמּֽ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">לֹא־</w>
@@ -10918,7 +10830,6 @@
                   <w n="17">עֹ֥שֵׂה</w>
                   <w n="18">אֵֽלֶּה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">כִּ֣י</w>
@@ -10964,7 +10875,6 @@
                   <w n="12">וְ/הַאֲרַכְתָּ֖</w>
                   <w n="13">יָמִֽים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">כִּ֤י</w>
@@ -10983,7 +10893,6 @@
                   <w n="14">הַ/נֹּפֵ֖ל</w>
                   <w n="15">מִמֶּֽ/נּוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">לֹא־</w>
@@ -10999,7 +10908,6 @@
                   <w n="11">וּ/תְבוּאַ֖ת</w>
                   <w n="12">הַ/כָּֽרֶם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">לֹֽא־</w>
@@ -11008,7 +10916,6 @@
                   <w n="4">וּ/בַ/חֲמֹ֖ר</w>
                   <w n="5">יַחְדָּֽו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">לֹ֤א</w>
@@ -11018,7 +10925,6 @@
                   <w n="5">וּ/פִשְׁתִּ֖ים</w>
                   <w n="6">יַחְדָּֽו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">גְּדִלִ֖ים</w>
@@ -11032,7 +10938,6 @@
                   <w n="9">תְּכַסֶּה־</w>
                   <w n="10">בָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">כִּֽי־</w>
@@ -11155,7 +11060,6 @@
                   <w n="21">כָּל־</w>
                   <w n="22">יָמָֽי/ו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">וְ/אִם־</w>
@@ -11195,7 +11099,6 @@
                   <w n="22">הָ/רָ֖ע</w>
                   <w n="23">מִ/קִּרְבֶּֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כִּֽי־</w>
@@ -11218,7 +11121,6 @@
                   <w n="18">הָ/רָ֖ע</w>
                   <w n="19">מִ/יִּשְׂרָאֵֽל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">כִּ֤י</w>
@@ -11269,7 +11171,6 @@
                   <w n="31">הָ/רָ֖ע</w>
                   <w n="32">מִ/קִּרְבֶּֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">וְֽ/אִם־</w>
@@ -11329,7 +11230,6 @@
                   <w n="9">מוֹשִׁ֖יעַ</w>
                   <w n="10">לָֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="28">
                   <w n="1">כִּֽי־</w>
@@ -11369,9 +11269,8 @@
                   <w n="19">כָּל־</w>
                   <w n="20">יָמָֽי/ו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="23">
                <ab n="1">
@@ -11386,7 +11285,6 @@
                   <w n="9">כְּנַ֥ף</w>
                   <w n="10">אָבִֽי/ו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">לֹֽא־</w>
@@ -11398,7 +11296,6 @@
                   <w n="7">בִּ/קְהַ֥ל</w>
                   <w n="8">יְהוָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">לֹא־</w>
@@ -11415,7 +11312,6 @@
                   <w n="12">בִּ/קְהַ֥ל</w>
                   <w n="13">יְהוָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לֹֽא־</w>
@@ -11491,7 +11387,6 @@
                   <w n="6">יָמֶ֖י/ךָ</w>
                   <w n="7">לְ/עוֹלָֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">לֹֽא־</w>
@@ -11500,7 +11395,6 @@
                   <w n="4">כִּ֥י</w>
                   <w n="5">אָחִ֖י/ךָ</w>
                   <w n="6">ה֑וּא</w>
-        
                   <w n="7">לֹא־</w>
                   <w n="8">תְתַעֵ֣ב</w>
                   <w n="9">מִצְרִ֔י</w>
@@ -11522,7 +11416,6 @@
                   <w n="9">בִּ/קְהַ֥ל</w>
                   <w n="10">יְהוָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כִּֽי־</w>
@@ -11622,7 +11515,6 @@
                   <w n="19">וְ/שָׁ֖ב</w>
                   <w n="20">מֵ/אַחֲרֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לֹא־</w>
@@ -11651,7 +11543,6 @@
                   <w n="11">לֹ֖א</w>
                   <w n="12">תּוֹנֶֽ/נּוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">לֹא־</w>
@@ -11722,7 +11613,6 @@
                   <w n="18">שָׁ֖מָּ/ה</w>
                   <w n="19">לְ/רִשְׁתָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כִּֽי־</w>
@@ -11768,7 +11658,6 @@
                   <w n="11">דִּבַּ֖רְתָּ</w>
                   <w n="12">בְּ/פִֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">כִּ֤י</w>
@@ -11784,7 +11673,6 @@
                   <w n="11">לֹ֥א</w>
                   <w n="12">תִתֵּֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">כִּ֤י</w>
@@ -11801,9 +11689,8 @@
                   <w n="12">קָמַ֥ת</w>
                   <w n="13">רֵעֶֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="24">
                <ab n="1">
@@ -11896,7 +11783,6 @@
                   <w n="28">לְ/ךָ֖</w>
                   <w n="29">נַחֲלָֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">כִּֽי־</w>
@@ -11923,7 +11809,6 @@
                   <w n="22">אֲשֶׁר־</w>
                   <w n="23">לָקָֽח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">לֹא־</w>
@@ -11935,7 +11820,6 @@
                   <w n="7">ה֥וּא</w>
                   <w n="8">חֹבֵֽל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">כִּי־</w>
@@ -11975,7 +11859,6 @@
                   <w n="15">תִּשְׁמְר֥וּ</w>
                   <w n="16">לַ/עֲשֽׂוֹת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">זָכ֕וֹר</w>
@@ -11989,7 +11872,6 @@
                   <w n="9">בְּ/צֵאתְ/כֶ֥ם</w>
                   <w n="10">מִ/מִּצְרָֽיִם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כִּֽי־</w>
@@ -12048,7 +11930,6 @@
                   <w n="15">יְהוָ֥ה</w>
                   <w n="16">אֱלֹהֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לֹא־</w>
@@ -12089,7 +11970,6 @@
                   <w n="22">בְ/ךָ֖</w>
                   <w n="23">חֵֽטְא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לֹֽא־</w>
@@ -12106,7 +11986,6 @@
                   <w n="12">בְּ/חֶטְא֖/וֹ</w>
                   <w n="13">יוּמָֽתוּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">לֹ֣א</w>
@@ -12139,7 +12018,6 @@
                   <w n="16">הַ/דָּבָ֖ר</w>
                   <w n="17">הַ/זֶּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כִּ֣י</w>
@@ -12177,7 +12055,6 @@
                   <w n="9">וְ/לָ/אַלְמָנָ֖ה</w>
                   <w n="10">יִהְיֶֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">כִּ֤י</w>
@@ -12208,9 +12085,8 @@
                   <w n="13">הַ/דָּבָ֖ר</w>
                   <w n="14">הַ/זֶּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="25">
                <ab n="1">
@@ -12262,7 +12138,6 @@
                   <w n="13">אָחִ֖י/ךָ</w>
                   <w n="14">לְ/עֵינֶֽי/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לֹא־</w>
@@ -12270,7 +12145,6 @@
                   <w n="3">שׁ֖וֹר</w>
                   <w n="4">בְּ/דִישֽׁ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">כִּֽי־</w>
@@ -12386,7 +12260,6 @@
                   <w n="5">חֲל֥וּץ</w>
                   <w n="6">הַ/נָּֽעַל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כִּֽי־</w>
@@ -12417,7 +12290,6 @@
                   <w n="5">תָח֖וֹס</w>
                   <w n="6">עֵינֶֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">לֹֽא־</w>
@@ -12429,7 +12301,6 @@
                   <w n="7">גְּדוֹלָ֖ה</w>
                   <w n="8">וּ/קְטַנָּֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לֹא־</w>
@@ -12477,7 +12348,6 @@
                   <w n="9">עֹ֥שֵׂה</w>
                   <w n="10">עָֽוֶל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">זָכ֕וֹר</w>
@@ -12534,9 +12404,8 @@
                   <w n="23">לֹ֖א</w>
                   <w n="24">תִּשְׁכָּֽח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="26">
                <ab n="1">
@@ -12743,7 +12612,6 @@
                   <w n="13">אֲשֶׁ֥ר</w>
                   <w n="14">בְּ/קִרְבֶּֽ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">כִּ֣י</w>
@@ -12840,7 +12708,6 @@
                   <w n="21">חָלָ֖ב</w>
                   <w n="22">וּ/דְבָֽשׁ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">הַ/יּ֣וֹם</w>
@@ -12916,9 +12783,8 @@
                   <w n="16">כַּ/אֲשֶׁ֥ר</w>
                   <w n="17">דִּבֵּֽר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="27">
                <ab n="1">
@@ -13067,7 +12933,6 @@
                   <w n="9">בַּאֵ֥ר</w>
                   <w n="10">הֵיטֵֽב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">וַ/יְדַבֵּ֤ר</w>
@@ -13104,7 +12969,6 @@
                   <w n="12">מְצַוְּ/ךָ֖</w>
                   <w n="13">הַ/יּֽוֹם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">וַ/יְצַ֤ו</w>
@@ -13162,7 +13026,6 @@
                   <w n="8">ק֥וֹל</w>
                   <w n="9">רָֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">אָר֣וּר</w>
@@ -13184,7 +13047,6 @@
                   <w n="17">וְ/אָמְר֖וּ</w>
                   <w n="18">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">אָר֕וּר</w>
@@ -13196,7 +13058,6 @@
                   <w n="7">הָ/עָ֖ם</w>
                   <w n="8">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">אָר֕וּר</w>
@@ -13208,7 +13069,6 @@
                   <w n="7">הָ/עָ֖ם</w>
                   <w n="8">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">אָר֕וּר</w>
@@ -13220,7 +13080,6 @@
                   <w n="7">הָ/עָ֖ם</w>
                   <w n="8">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">אָר֗וּר</w>
@@ -13234,7 +13093,6 @@
                   <w n="9">הָ/עָ֖ם</w>
                   <w n="10">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">אָר֗וּר</w>
@@ -13251,7 +13109,6 @@
                   <w n="12">הָ/עָ֖ם</w>
                   <w n="13">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">אָר֕וּר</w>
@@ -13264,7 +13121,6 @@
                   <w n="8">הָ/עָ֖ם</w>
                   <w n="9">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">אָר֗וּר</w>
@@ -13281,7 +13137,6 @@
                   <w n="12">הָ/עָ֖ם</w>
                   <w n="13">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">אָר֕וּר</w>
@@ -13293,7 +13148,6 @@
                   <w n="7">הָ/עָ֖ם</w>
                   <w n="8">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="24">
                   <w n="1">אָר֕וּר</w>
@@ -13305,7 +13159,6 @@
                   <w n="7">הָ/עָ֖ם</w>
                   <w n="8">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">אָרוּר֙</w>
@@ -13320,7 +13173,6 @@
                   <w n="10">הָ/עָ֖ם</w>
                   <w n="11">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">אָר֗וּר</w>
@@ -13338,9 +13190,8 @@
                   <w n="13">הָ/עָ֖ם</w>
                   <w n="14">אָמֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="28">
                <ab n="1">
@@ -13583,7 +13434,6 @@
                   <w n="15">אֲחֵרִ֖ים</w>
                   <w n="16">לְ/עָבְדָֽ/ם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">וְ/הָיָ֗ה</w>
@@ -14523,7 +14373,6 @@
                   <w n="18">וְ/אֵ֥ין</w>
                   <w n="19">קֹנֶֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="69">
                   <w n="1">אֵלֶּה֩</w>
@@ -14547,9 +14396,8 @@
                   <w n="19">אִתָּ֖/ם</w>
                   <w n="20">בְּ/חֹרֵֽב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="29">
                <ab n="1">
@@ -14683,7 +14531,6 @@
                   <w n="12">אֲשֶׁ֥ר</w>
                   <w n="13">תַּעֲשֽׂוּ/ן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">אַתֶּ֨ם</w>
@@ -15076,9 +14923,8 @@
                   <w n="13">הַ/תּוֹרָ֥ה</w>
                   <w n="14">הַ/זֹּֽאת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="30">
                <ab n="1">
@@ -15275,7 +15121,6 @@
                   <w n="20">וּ/בְ/כָל־</w>
                   <w n="21">נַפְשֶֽׁ/ךָ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כִּ֚י</w>
@@ -15339,7 +15184,6 @@
                   <w n="7">וּ/בִֽ/לְבָבְ/ךָ֖</w>
                   <w n="8">לַ/עֲשֹׂתֽ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">רְאֵ֨ה</w>
@@ -15468,9 +15312,8 @@
                   <w n="24">לָ/תֵ֥ת</w>
                   <w n="25">לָ/הֶֽם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="31">
                <ab n="1">
@@ -15579,7 +15422,6 @@
                   <w n="16">וְ/לֹ֥א</w>
                   <w n="17">יַעַזְבֶֽ/ךָּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">וַ/יִּקְרָ֨א</w>
@@ -15741,7 +15583,6 @@
                   <w n="23">שָׁ֖מָּ/ה</w>
                   <w n="24">לְ/רִשְׁתָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">וַ/יֹּ֨אמֶר</w>
@@ -15780,7 +15621,6 @@
                   <w n="10">פֶּ֥תַח</w>
                   <w n="11">הָ/אֹֽהֶל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">וַ/יֹּ֤אמֶר</w>
@@ -16118,9 +15958,8 @@
                   <w n="11">עַ֖ד</w>
                   <w n="12">תֻּמָּֽ/ם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="32">
                <ab n="1">
@@ -16714,7 +16553,6 @@
                   <w n="12">אַדְמָת֖/וֹ</w>
                   <w n="13">עַמּֽ/וֹ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="44">
                   <w n="1">וַ/יָּבֹ֣א</w>
@@ -16795,7 +16633,6 @@
                   <w n="21">שָׁ֖מָּ/ה</w>
                   <w n="22">לְ/רִשְׁתָּֽ/הּ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="48">
                   <w n="1">וַ/יְדַבֵּ֤ר</w>
@@ -16896,9 +16733,8 @@
                   <w n="14">לִ/בְנֵ֥י</w>
                   <w n="15">יִשְׂרָאֵֽל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="33">
                <ab n="1">
@@ -16982,7 +16818,6 @@
                   <w n="6">מְתָ֖י/ו</w>
                   <w n="7">מִסְפָּֽר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">וְ/זֹ֣את</w>
@@ -17002,7 +16837,6 @@
                   <w n="15">מִ/צָּרָ֖י/ו</w>
                   <w n="16">תִּהְיֶֽה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">וּ/לְ/לֵוִ֣י</w>
@@ -17070,7 +16904,6 @@
                   <w n="11">מִן־</w>
                   <w n="12">יְקוּמֽוּ/ן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">לְ/בִנְיָמִ֣ן</w>
@@ -17088,7 +16921,6 @@
                   <w n="13">כְּתֵיפָ֖י/ו</w>
                   <w n="14">שָׁכֵֽן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">וּ/לְ/יוֹסֵ֣ף</w>
@@ -17158,7 +16990,6 @@
                   <w n="18">אַלְפֵ֥י</w>
                   <w n="19">מְנַשֶּֽׁה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">וְ/לִ/זְבוּלֻ֣ן</w>
@@ -17186,7 +17017,6 @@
                   <w n="13">טְמ֥וּנֵי</w>
                   <w n="14">חֽוֹל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">וּ/לְ/גָ֣ד</w>
@@ -17221,7 +17051,6 @@
                   <w n="16">עִם־</w>
                   <w n="17">יִשְׂרָאֵֽל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">וּ/לְ/דָ֣ן</w>
@@ -17247,7 +17076,6 @@
                   <w n="10">וְ/דָר֖וֹם</w>
                   <w n="11">יְרָֽשָׁ/ה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="24">
                   <w n="1">וּ/לְ/אָשֵׁ֣ר</w>
@@ -17334,9 +17162,8 @@
                   <w n="18">בָּמוֹתֵ֥י/מוֹ</w>
                   <w n="19">תִדְרֹֽךְ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="34">
                <ab n="1">
@@ -17551,10 +17378,10 @@
                   <w n="12">יִשְׂרָאֵֽל</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
-    
-    
+
+
          </div>
       </body>
    </text>

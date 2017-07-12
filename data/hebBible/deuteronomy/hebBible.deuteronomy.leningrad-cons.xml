@@ -33,9 +33,9 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>This TEI-XML compliant text of Deuteronomy was produced for a trial Canonical
-               Text Service for classical Jewish texts. The notes that follow are those that accompany the
-               source document.</note>
+            <note>This TEI-XML compliant text of Deuteronomy was produced for a trial Canonical Text Service
+               for classical Jewish texts. The notes that follow are those that accompany the source
+               document.</note>
             <note>From the electronic version of the Leningrad Codex maintained by the J. Alan Groves Center
                for Advanced Biblical Research.</note>
             <note>This text began as an electronic transcription by Richard Whitaker (Princeton Seminary, New
@@ -66,32 +66,26 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="word"
-                         matchPattern="(\w+).(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+            <cRefPattern n="word" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
                <p>This pointer pattern extracts level1 = chapter and level2 = verse and level3 = word</p>
             </cRefPattern>
-            <cRefPattern n="verse"
-                         matchPattern="(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
+            <cRefPattern n="verse" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
                <p>This pointer pattern extracts level1 = chapter and level2 = verse</p>
             </cRefPattern>
-            <cRefPattern n="chapter"
-                         matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+            <cRefPattern n="chapter" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                <p>This pointer pattern extracts level1 = chapter</p>
             </cRefPattern>
          </refsDecl>
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.deuteronomy.leningrad-cons"
-            xml:lang="heb">
-         <div xml:lang="heb"
-              type="textpart"
-              subtype="book"
-              n="urn:cts:ancJewLit:hebBible.deuteronomy.leningrad-pntd">
-    
+      <body>
+         <div xml:lang="heb" type="edition" subtype="book"
+            n="urn:cts:ancJewLit:hebBible.deuteronomy.leningrad-cons">
+
             <div type="textpart" subtype="chapter" n="1">
                <ab n="1">
                   <w n="1">אלה</w>
@@ -885,7 +879,7 @@
                   <w n="7">ישבתם</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="2">
                <ab n="1">
@@ -906,7 +900,6 @@
                   <w n="15">ימים</w>
                   <w n="16">רבים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">ויאמר</w>
@@ -1020,7 +1013,6 @@
                   <w n="10">מאילת</w>
                   <w n="11">ומעצין</w>
                   <w n="12">גבר</w>
-        
                   <w n="13">ונפן</w>
                   <w n="14">ונעבר</w>
                   <w n="15">דרך</w>
@@ -1169,7 +1161,6 @@
                   <w n="8">מקרב</w>
                   <w n="9">העם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">וידבר</w>
@@ -1412,7 +1403,6 @@
                   <w n="20">כיום</w>
                   <w n="21">הזה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="31">
                   <w n="1">ויאמר</w>
@@ -1536,7 +1526,7 @@
                   <w n="18">אלהינו</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="3">
                <ab n="1">
@@ -1966,7 +1956,6 @@
                   <w n="7">הנלחם</w>
                   <w n="8">לכם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">ואתחנן</w>
@@ -2087,9 +2076,8 @@
                   <w n="4">בית</w>
                   <w n="5">פעור</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="4">
                <ab n="1">
@@ -2574,7 +2562,6 @@
                   <w n="7">אל</w>
                   <w n="8">קנא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">כי</w>
@@ -2902,7 +2889,6 @@
                   <w n="25">כל</w>
                   <w n="26">הימים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="41">
                   <w n="1">אז</w>
@@ -3053,9 +3039,8 @@
                   <w n="10">אשדת</w>
                   <w n="11">הפסגה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="5">
                <ab n="1">
@@ -3144,7 +3129,6 @@
                   <w n="19">בהר</w>
                   <w n="20">לאמר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">אנכי</w>
@@ -3220,7 +3204,6 @@
                   <w n="6">מצותו</w>
                   <w n="7">מצותי</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">לא</w>
@@ -3241,7 +3224,6 @@
                   <w n="16">שמו</w>
                   <w n="17">לשוא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">שמור</w>
@@ -3317,7 +3299,6 @@
                   <w n="22">יום</w>
                   <w n="23">השבת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">כבד</w>
@@ -3343,25 +3324,21 @@
                   <w n="21">נתן</w>
                   <w n="22">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">לא</w>
                   <w n="2">תרצח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">ולא</w>
                   <w n="2">תנאף</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">ולא</w>
                   <w n="2">תגנב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">ולא</w>
@@ -3370,14 +3347,12 @@
                   <w n="4">עד</w>
                   <w n="5">שוא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">ולא</w>
                   <w n="2">תחמד</w>
                   <w n="3">אשת</w>
                   <w n="4">רעך</w>
-        
                   <w n="5">ולא</w>
                   <w n="6">תתאוה</w>
                   <w n="7">בית</w>
@@ -3391,7 +3366,6 @@
                   <w n="15">אשר</w>
                   <w n="16">לרעך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">את</w>
@@ -3640,7 +3614,7 @@
                   <w n="17">תירשון</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="6">
                <ab n="1">
@@ -3711,7 +3685,6 @@
                   <w n="19">חלב</w>
                   <w n="20">ודבש</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">שמע</w>
@@ -3777,7 +3750,6 @@
                   <w n="4">ביתך</w>
                   <w n="5">ובשעריך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">והיה</w>
@@ -3881,7 +3853,6 @@
                   <w n="15">פני</w>
                   <w n="16">האדמה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לא</w>
@@ -3937,7 +3908,6 @@
                   <w n="7">דבר</w>
                   <w n="8">יהוה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">כי</w>
@@ -4038,9 +4008,8 @@
                   <w n="14">כאשר</w>
                   <w n="15">צונו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="7">
                <ab n="1">
@@ -4160,7 +4129,6 @@
                   <w n="19">פני</w>
                   <w n="20">האדמה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">לא</w>
@@ -4253,7 +4221,6 @@
                   <w n="11">היום</w>
                   <w n="12">לעשותם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">והיה</w>
@@ -4359,7 +4326,6 @@
                   <w n="20">הוא</w>
                   <w n="21">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">כי</w>
@@ -4536,9 +4502,8 @@
                   <w n="14">חרם</w>
                   <w n="15">הוא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="8">
                <ab n="1">
@@ -4855,7 +4820,6 @@
                   <w n="19">כיום</w>
                   <w n="20">הזה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">והיה</w>
@@ -4895,9 +4859,8 @@
                   <w n="12">יהוה</w>
                   <w n="13">אלהיכם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="9">
                <ab n="1">
@@ -5484,9 +5447,8 @@
                   <w n="8">ובזרעך</w>
                   <w n="9">הנטויה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="10">
                <ab n="1">
@@ -5701,7 +5663,6 @@
                   <w n="16">לתת</w>
                   <w n="17">להם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">ועתה</w>
@@ -5880,7 +5841,7 @@
                   <w n="12">לרב</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="11">
                <ab n="1">
@@ -6057,7 +6018,6 @@
                   <w n="15">חלב</w>
                   <w n="16">ודבש</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כי</w>
@@ -6118,7 +6078,6 @@
                   <w n="15">אחרית</w>
                   <w n="16">שנה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">והיה</w>
@@ -6268,7 +6227,6 @@
                   <w n="16">על</w>
                   <w n="17">הארץ</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כי</w>
@@ -6355,7 +6313,6 @@
                   <w n="18">דבר</w>
                   <w n="19">לכם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">ראה</w>
@@ -6408,7 +6365,6 @@
                   <w n="22">לא</w>
                   <w n="23">ידעתם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="29">
                   <w n="1">והיה</w>
@@ -6492,7 +6448,7 @@
                   <w n="12">היום</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="12">
                <ab n="1">
@@ -6865,7 +6821,6 @@
                   <w n="9">על</w>
                   <w n="10">אדמתך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">כי</w>
@@ -7038,7 +6993,6 @@
                   <w n="22">יהוה</w>
                   <w n="23">אלהיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="29">
                   <w n="1">כי</w>
@@ -7110,7 +7064,7 @@
                   <w n="22">לאלהיהם</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="13">
                <ab n="1">
@@ -7131,7 +7085,6 @@
                   <w n="15">תגרע</w>
                   <w n="16">ממנו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">כי</w>
@@ -7358,7 +7311,6 @@
                   <w n="10">הזה</w>
                   <w n="11">בקרבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">כי</w>
@@ -7500,9 +7452,8 @@
                   <w n="17">יהוה</w>
                   <w n="18">אלהיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="14">
                <ab n="1">
@@ -7541,7 +7492,6 @@
                   <w n="18">פני</w>
                   <w n="19">האדמה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">לא</w>
@@ -7636,7 +7586,6 @@
                   <w n="16">לא</w>
                   <w n="17">תגעו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">את</w>
@@ -7666,7 +7615,6 @@
                   <w n="10">הוא</w>
                   <w n="11">לכם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כל</w>
@@ -7781,7 +7729,6 @@
                   <w n="22">בחלב</w>
                   <w n="23">אמו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">עשר</w>
@@ -7904,7 +7851,6 @@
                   <w n="10">ונחלה</w>
                   <w n="11">עמך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="28">
                   <w n="1">מקצה</w>
@@ -7947,9 +7893,8 @@
                   <w n="23">אשר</w>
                   <w n="24">תעשה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="15">
                <ab n="1">
@@ -8059,7 +8004,6 @@
                   <w n="18">לא</w>
                   <w n="19">ימשלו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">כי</w>
@@ -8179,7 +8123,6 @@
                   <w n="18">ולאבינך</w>
                   <w n="19">בארצך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">כי</w>
@@ -8301,7 +8244,6 @@
                   <w n="19">אשר</w>
                   <w n="20">תעשה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כל</w>
@@ -8377,9 +8319,8 @@
                   <w n="8">תשפכנו</w>
                   <w n="9">כמים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="16">
                <ab n="1">
@@ -8534,7 +8475,6 @@
                   <w n="11">תעשה</w>
                   <w n="12">מלאכה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">שבעה</w>
@@ -8607,7 +8547,6 @@
                   <w n="9">החקים</w>
                   <w n="10">האלה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">חג</w>
@@ -8700,7 +8639,6 @@
                   <w n="8">נתן</w>
                   <w n="9">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">שפטים</w>
@@ -8757,7 +8695,6 @@
                   <w n="12">נתן</w>
                   <w n="13">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">לא</w>
@@ -8774,7 +8711,6 @@
                   <w n="12">תעשה</w>
                   <w n="13">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">ולא</w>
@@ -8786,9 +8722,8 @@
                   <w n="7">יהוה</w>
                   <w n="8">אלהיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="17">
                <ab n="1">
@@ -8811,7 +8746,6 @@
                   <w n="17">אלהיך</w>
                   <w n="18">הוא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">כי</w>
@@ -8933,7 +8867,6 @@
                   <w n="12">הרע</w>
                   <w n="13">מקרבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">כי</w>
@@ -9062,7 +8995,6 @@
                   <w n="6">יזידון</w>
                   <w n="7">עוד</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">כי</w>
@@ -9221,9 +9153,8 @@
                   <w n="18">בקרב</w>
                   <w n="19">ישראל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="18">
                <ab n="1">
@@ -9258,7 +9189,6 @@
                   <w n="11">דבר</w>
                   <w n="12">לו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">וזה</w>
@@ -9310,7 +9240,6 @@
                   <w n="14">כל</w>
                   <w n="15">הימים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">וכי</w>
@@ -9358,7 +9287,6 @@
                   <w n="6">על</w>
                   <w n="7">האבות</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">כי</w>
@@ -9429,7 +9357,6 @@
                   <w n="4">יהוה</w>
                   <w n="5">אלהיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">כי</w>
@@ -9599,9 +9526,8 @@
                   <w n="21">תגור</w>
                   <w n="22">ממנו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="19">
                <ab n="1">
@@ -9750,7 +9676,6 @@
                   <w n="8">תבדיל</w>
                   <w n="9">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">ואם</w>
@@ -9820,7 +9745,6 @@
                   <w n="14">עליך</w>
                   <w n="15">דמים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">וכי</w>
@@ -9869,7 +9793,6 @@
                   <w n="9">וטוב</w>
                   <w n="10">לך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לא</w>
@@ -9890,7 +9813,6 @@
                   <w n="16">לך</w>
                   <w n="17">לרשתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">לא</w>
@@ -10002,9 +9924,8 @@
                   <w n="12">רגל</w>
                   <w n="13">ברגל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="20">
                <ab n="1">
@@ -10179,7 +10100,6 @@
                   <w n="10">בראש</w>
                   <w n="11">העם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כי</w>
@@ -10325,7 +10245,6 @@
                   <w n="13">ליהוה</w>
                   <w n="14">אלהיכם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כי</w>
@@ -10384,9 +10303,8 @@
                   <w n="22">עד</w>
                   <w n="23">רדתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="21">
                <ab n="1">
@@ -10551,7 +10469,6 @@
                   <w n="9">בעיני</w>
                   <w n="10">יהוה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כי</w>
@@ -10637,7 +10554,6 @@
                   <w n="16">אשר</w>
                   <w n="17">עניתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">כי</w>
@@ -10706,7 +10622,6 @@
                   <w n="20">משפט</w>
                   <w n="21">הבכרה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">כי</w>
@@ -10774,7 +10689,6 @@
                   <w n="12">ישמעו</w>
                   <w n="13">ויראו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">וכי</w>
@@ -10816,9 +10730,8 @@
                   <w n="23">לך</w>
                   <w n="24">נחלה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="22">
                <ab n="1">
@@ -10880,7 +10793,6 @@
                   <w n="17">תוכל</w>
                   <w n="18">להתעלם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לא</w>
@@ -10898,7 +10810,6 @@
                   <w n="13">תקים</w>
                   <w n="14">עמו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">לא</w>
@@ -10920,7 +10831,6 @@
                   <w n="17">עשה</w>
                   <w n="18">אלה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">כי</w>
@@ -10966,7 +10876,6 @@
                   <w n="12">והארכת</w>
                   <w n="13">ימים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">כי</w>
@@ -10985,7 +10894,6 @@
                   <w n="14">הנפל</w>
                   <w n="15">ממנו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">לא</w>
@@ -11001,7 +10909,6 @@
                   <w n="11">ותבואת</w>
                   <w n="12">הכרם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">לא</w>
@@ -11010,7 +10917,6 @@
                   <w n="4">ובחמר</w>
                   <w n="5">יחדו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">לא</w>
@@ -11020,7 +10926,6 @@
                   <w n="5">ופשתים</w>
                   <w n="6">יחדו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">גדלים</w>
@@ -11034,7 +10939,6 @@
                   <w n="9">תכסה</w>
                   <w n="10">בה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">כי</w>
@@ -11157,7 +11061,6 @@
                   <w n="21">כל</w>
                   <w n="22">ימיו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">ואם</w>
@@ -11197,7 +11100,6 @@
                   <w n="22">הרע</w>
                   <w n="23">מקרבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כי</w>
@@ -11220,7 +11122,6 @@
                   <w n="18">הרע</w>
                   <w n="19">מישראל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">כי</w>
@@ -11271,7 +11172,6 @@
                   <w n="31">הרע</w>
                   <w n="32">מקרבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">ואם</w>
@@ -11331,7 +11231,6 @@
                   <w n="9">מושיע</w>
                   <w n="10">לה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="28">
                   <w n="1">כי</w>
@@ -11371,9 +11270,8 @@
                   <w n="19">כל</w>
                   <w n="20">ימיו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="23">
                <ab n="1">
@@ -11388,7 +11286,6 @@
                   <w n="9">כנף</w>
                   <w n="10">אביו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="2">
                   <w n="1">לא</w>
@@ -11400,7 +11297,6 @@
                   <w n="7">בקהל</w>
                   <w n="8">יהוה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="3">
                   <w n="1">לא</w>
@@ -11417,7 +11313,6 @@
                   <w n="12">בקהל</w>
                   <w n="13">יהוה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לא</w>
@@ -11493,7 +11388,6 @@
                   <w n="6">ימיך</w>
                   <w n="7">לעולם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">לא</w>
@@ -11502,7 +11396,6 @@
                   <w n="4">כי</w>
                   <w n="5">אחיך</w>
                   <w n="6">הוא</w>
-        
                   <w n="7">לא</w>
                   <w n="8">תתעב</w>
                   <w n="9">מצרי</w>
@@ -11524,7 +11417,6 @@
                   <w n="9">בקהל</w>
                   <w n="10">יהוה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כי</w>
@@ -11624,7 +11516,6 @@
                   <w n="19">ושב</w>
                   <w n="20">מאחריך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לא</w>
@@ -11653,7 +11544,6 @@
                   <w n="11">לא</w>
                   <w n="12">תוננו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">לא</w>
@@ -11724,7 +11614,6 @@
                   <w n="18">שמה</w>
                   <w n="19">לרשתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">כי</w>
@@ -11770,7 +11659,6 @@
                   <w n="11">דברת</w>
                   <w n="12">בפיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">כי</w>
@@ -11786,7 +11674,6 @@
                   <w n="11">לא</w>
                   <w n="12">תתן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">כי</w>
@@ -11803,9 +11690,8 @@
                   <w n="12">קמת</w>
                   <w n="13">רעך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="24">
                <ab n="1">
@@ -11898,7 +11784,6 @@
                   <w n="28">לך</w>
                   <w n="29">נחלה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">כי</w>
@@ -11925,7 +11810,6 @@
                   <w n="22">אשר</w>
                   <w n="23">לקח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="6">
                   <w n="1">לא</w>
@@ -11937,7 +11821,6 @@
                   <w n="7">הוא</w>
                   <w n="8">חבל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">כי</w>
@@ -11977,7 +11860,6 @@
                   <w n="15">תשמרו</w>
                   <w n="16">לעשות</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">זכור</w>
@@ -11991,7 +11873,6 @@
                   <w n="9">בצאתכם</w>
                   <w n="10">ממצרים</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="10">
                   <w n="1">כי</w>
@@ -12050,7 +11931,6 @@
                   <w n="15">יהוה</w>
                   <w n="16">אלהיך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לא</w>
@@ -12091,7 +11971,6 @@
                   <w n="22">בך</w>
                   <w n="23">חטא</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">לא</w>
@@ -12108,7 +11987,6 @@
                   <w n="12">בחטאו</w>
                   <w n="13">יומתו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">לא</w>
@@ -12141,7 +12019,6 @@
                   <w n="16">הדבר</w>
                   <w n="17">הזה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">כי</w>
@@ -12179,7 +12056,6 @@
                   <w n="9">ולאלמנה</w>
                   <w n="10">יהיה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">כי</w>
@@ -12210,9 +12086,8 @@
                   <w n="13">הדבר</w>
                   <w n="14">הזה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="25">
                <ab n="1">
@@ -12264,7 +12139,6 @@
                   <w n="13">אחיך</w>
                   <w n="14">לעיניך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="4">
                   <w n="1">לא</w>
@@ -12272,7 +12146,6 @@
                   <w n="3">שור</w>
                   <w n="4">בדישו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="5">
                   <w n="1">כי</w>
@@ -12388,7 +12261,6 @@
                   <w n="5">חלוץ</w>
                   <w n="6">הנעל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כי</w>
@@ -12419,7 +12291,6 @@
                   <w n="5">תחוס</w>
                   <w n="6">עינך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">לא</w>
@@ -12431,7 +12302,6 @@
                   <w n="7">גדולה</w>
                   <w n="8">וקטנה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">לא</w>
@@ -12479,7 +12349,6 @@
                   <w n="9">עשה</w>
                   <w n="10">עול</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">זכור</w>
@@ -12536,9 +12405,8 @@
                   <w n="23">לא</w>
                   <w n="24">תשכח</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="26">
                <ab n="1">
@@ -12745,7 +12613,6 @@
                   <w n="13">אשר</w>
                   <w n="14">בקרבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">כי</w>
@@ -12842,7 +12709,6 @@
                   <w n="21">חלב</w>
                   <w n="22">ודבש</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">היום</w>
@@ -12918,9 +12784,8 @@
                   <w n="16">כאשר</w>
                   <w n="17">דבר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="27">
                <ab n="1">
@@ -13069,7 +12934,6 @@
                   <w n="9">באר</w>
                   <w n="10">היטב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">וידבר</w>
@@ -13106,7 +12970,6 @@
                   <w n="12">מצוך</w>
                   <w n="13">היום</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">ויצו</w>
@@ -13164,7 +13027,6 @@
                   <w n="8">קול</w>
                   <w n="9">רם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">ארור</w>
@@ -13186,7 +13048,6 @@
                   <w n="17">ואמרו</w>
                   <w n="18">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">ארור</w>
@@ -13198,7 +13059,6 @@
                   <w n="7">העם</w>
                   <w n="8">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="17">
                   <w n="1">ארור</w>
@@ -13210,7 +13070,6 @@
                   <w n="7">העם</w>
                   <w n="8">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">ארור</w>
@@ -13222,7 +13081,6 @@
                   <w n="7">העם</w>
                   <w n="8">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="19">
                   <w n="1">ארור</w>
@@ -13236,7 +13094,6 @@
                   <w n="9">העם</w>
                   <w n="10">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">ארור</w>
@@ -13253,7 +13110,6 @@
                   <w n="12">העם</w>
                   <w n="13">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="21">
                   <w n="1">ארור</w>
@@ -13266,7 +13122,6 @@
                   <w n="8">העם</w>
                   <w n="9">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">ארור</w>
@@ -13283,7 +13138,6 @@
                   <w n="12">העם</w>
                   <w n="13">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="23">
                   <w n="1">ארור</w>
@@ -13295,7 +13149,6 @@
                   <w n="7">העם</w>
                   <w n="8">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="24">
                   <w n="1">ארור</w>
@@ -13307,7 +13160,6 @@
                   <w n="7">העם</w>
                   <w n="8">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="25">
                   <w n="1">ארור</w>
@@ -13322,7 +13174,6 @@
                   <w n="10">העם</w>
                   <w n="11">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="26">
                   <w n="1">ארור</w>
@@ -13340,9 +13191,8 @@
                   <w n="13">העם</w>
                   <w n="14">אמן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="28">
                <ab n="1">
@@ -13585,7 +13435,6 @@
                   <w n="15">אחרים</w>
                   <w n="16">לעבדם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">והיה</w>
@@ -14525,7 +14374,6 @@
                   <w n="18">ואין</w>
                   <w n="19">קנה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="69">
                   <w n="1">אלה</w>
@@ -14549,9 +14397,8 @@
                   <w n="19">אתם</w>
                   <w n="20">בחרב</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="29">
                <ab n="1">
@@ -14685,7 +14532,6 @@
                   <w n="12">אשר</w>
                   <w n="13">תעשון</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="9">
                   <w n="1">אתם</w>
@@ -15078,9 +14924,8 @@
                   <w n="13">התורה</w>
                   <w n="14">הזאת</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="30">
                <ab n="1">
@@ -15277,7 +15122,6 @@
                   <w n="20">ובכל</w>
                   <w n="21">נפשך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="11">
                   <w n="1">כי</w>
@@ -15341,7 +15185,6 @@
                   <w n="7">ובלבבך</w>
                   <w n="8">לעשתו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="15">
                   <w n="1">ראה</w>
@@ -15470,9 +15313,8 @@
                   <w n="24">לתת</w>
                   <w n="25">להם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="31">
                <ab n="1">
@@ -15581,7 +15423,6 @@
                   <w n="16">ולא</w>
                   <w n="17">יעזבך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">ויקרא</w>
@@ -15743,7 +15584,6 @@
                   <w n="23">שמה</w>
                   <w n="24">לרשתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="14">
                   <w n="1">ויאמר</w>
@@ -15782,7 +15622,6 @@
                   <w n="10">פתח</w>
                   <w n="11">האהל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="16">
                   <w n="1">ויאמר</w>
@@ -16120,9 +15959,8 @@
                   <w n="11">עד</w>
                   <w n="12">תמם</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="32">
                <ab n="1">
@@ -16716,7 +16554,6 @@
                   <w n="12">אדמתו</w>
                   <w n="13">עמו</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="44">
                   <w n="1">ויבא</w>
@@ -16797,7 +16634,6 @@
                   <w n="21">שמה</w>
                   <w n="22">לרשתה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="48">
                   <w n="1">וידבר</w>
@@ -16898,9 +16734,8 @@
                   <w n="14">לבני</w>
                   <w n="15">ישראל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="33">
                <ab n="1">
@@ -16984,7 +16819,6 @@
                   <w n="6">מתיו</w>
                   <w n="7">מספר</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="7">
                   <w n="1">וזאת</w>
@@ -17004,7 +16838,6 @@
                   <w n="15">מצריו</w>
                   <w n="16">תהיה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="8">
                   <w n="1">וללוי</w>
@@ -17072,7 +16905,6 @@
                   <w n="11">מן</w>
                   <w n="12">יקומון</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="12">
                   <w n="1">לבנימן</w>
@@ -17090,7 +16922,6 @@
                   <w n="13">כתיפיו</w>
                   <w n="14">שכן</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="13">
                   <w n="1">וליוסף</w>
@@ -17160,7 +16991,6 @@
                   <w n="18">אלפי</w>
                   <w n="19">מנשה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="18">
                   <w n="1">ולזבולן</w>
@@ -17188,7 +17018,6 @@
                   <w n="13">טמוני</w>
                   <w n="14">חול</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="20">
                   <w n="1">ולגד</w>
@@ -17223,7 +17052,6 @@
                   <w n="16">עם</w>
                   <w n="17">ישראל</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="22">
                   <w n="1">ולדן</w>
@@ -17249,7 +17077,6 @@
                   <w n="10">ודרום</w>
                   <w n="11">ירשה</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
                <ab n="24">
                   <w n="1">ולאשר</w>
@@ -17336,9 +17163,8 @@
                   <w n="18">במותימו</w>
                   <w n="19">תדרך</w>
                   <pc type="verseEnd">:</pc>
-        
                </ab>
-      
+
             </div>
             <div type="textpart" subtype="chapter" n="34">
                <ab n="1">
@@ -17553,10 +17379,10 @@
                   <w n="12">ישראל</w>
                   <pc type="verseEnd">:</pc>
                </ab>
-      
+
             </div>
-    
-    
+
+
          </div>
       </body>
    </text>
