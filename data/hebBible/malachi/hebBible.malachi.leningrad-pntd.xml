@@ -84,10 +84,13 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body n="urn:cts:ancJewLit:hebBible.malachi.leningrad-pntd" xml:lang="heb">
-         <div type="book">
+      <body>
+         <div xml:lang="heb"
+              type="edition"
+              subtype="book"
+              n="urn:cts:ancJewLit:hebBible.malachi.leningrad-pntd">
     
-            <div type="chapter" n="1">
+            <div type="textpart" subtype="chapter" n="1">
                <ab n="1">
                   <w n="1">מַשָּׂ֥א</w>
                   <w n="2">דְבַר־</w>
@@ -372,7 +375,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="2">
+            <div type="textpart" subtype="chapter" n="2">
                <ab n="1">
                   <w n="1">וְ/עַתָּ֗ה</w>
                   <w n="2">אֲלֵי/כֶ֛ם</w>
@@ -698,7 +701,7 @@
                </ab>
       
             </div>
-            <div type="chapter" n="3">
+            <div type="textpart" subtype="chapter" n="3">
                <ab n="1">
                   <w n="1">הִנְ/נִ֤י</w>
                   <w n="2">שֹׁלֵחַ֙</w>

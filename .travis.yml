@@ -3,7 +3,7 @@ python:
 - '3.5'
 install:
 - pip3 install HookTest
-script:  hooktest  --console table --scheme tei --workers 3 --verbose 5 --manifest --countword ./
+script:  hooktest  --console table --scheme epidoc --workers 3 --verbose 5 --manifest --countword ./
 before_deploy:
 - hooktest-build --travis --txt ./
 - results=$(cat manifest.txt)
