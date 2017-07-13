@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Text of Tractate Tevul Yom from the Vilna 1913 Edition of the Mishnah for CTS</title>
+            <title>Text of Tractate Tevul om from the Vilna 1913 Edition of the Mishnah for CTS</title>
             <editor>
                <persName>Hayim Lapin</persName>
             </editor>
@@ -50,8 +50,8 @@
          <sourceDesc>
             <biblStruct xml:id="Vilna">
                <monogr>
-                  <title>Text of Tractate Tevul Yom from the Vilna 1913 Edition of the Mishnah for CTS</title>
-                  <title>Text of Tractate Tevul Yom from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <title>Text of Tractate Tevul om from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <title>Text of Tractate Tevul om from the Vilna 1913 Edition of the Mishnah for CTS</title>
                   <imprint n="1">
                      <pubPlace>Vilna</pubPlace>
                      <publisher>Romm</publisher>
