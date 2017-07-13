@@ -75,7 +75,7 @@
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@subtype='chapter'][@n='$1']/tei:ab[@n='$2'])">
                <p>This pointer pattern extracts level 1 = chapter and level 2 = mishnah</p>
             </cRefPattern>
-            <cRefPattern n="word"
+            <cRefPattern n="chapter"
                          matchPattern="(\w+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
                <p>This pointer pattern extracts level 1 = chapter</p>

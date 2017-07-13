@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for CTS</title>
+            <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for
+               CTS</title>
             <editor>
                <persName>Hayim Lapin</persName>
             </editor>
@@ -34,7 +35,8 @@
             <idno type="local">P179204</idno>
             <availability status="restricted">
                <p>This work is copyright Hayim lapin and the Joseph and Rebecca Meyerhoff Center for
-                  Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
+                  Jewish Studies and licensed under a <ref
+                     target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
                      Attribution International 4.0 License</ref>.</p>
             </availability>
             <pubPlace>College Park, MD USA</pubPlace>
@@ -42,7 +44,9 @@
          </publicationStmt>
          <notesStmt>
             <note>
-               <p>Vilna Edition. Text generously provided by <ref target="http://www.sefaria.org">Sefaria</ref> under a <ref target="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+               <p>Vilna Edition. Text generously provided by <ref target="http://www.sefaria.org"
+                     >Sefaria</ref> under a <ref
+                     target="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
                      Attribution-ShareAlike 3.0 Unported License (CC BY-SA)</ref>.</p>
                <p>Edited and converted by TEI/XML by Hayim Lapin</p>
             </note>
@@ -50,34 +54,34 @@
          <sourceDesc>
             <biblStruct xml:id="Vilna">
                <monogr>
-                  <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for CTS</title>
-                  <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for CTS</title>
+                  <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for
+                     CTS</title>
+                  <title>Text of Tractate Arakhin from the Vilna 1913 Edition of the Mishnah for
+                     CTS</title>
                   <imprint n="1">
                      <pubPlace>Vilna</pubPlace>
                      <publisher>Romm</publisher>
                      <date>1913-1923</date>
                   </imprint>
                </monogr>
-               <note type="nli-ref">http://aleph.nli.org.il:80/F/?func=direct&amp;doc_number=000179204&amp;local_base=MBI01</note>
+               <note type="nli-ref"
+                  >http://aleph.nli.org.il:80/F/?func=direct&amp;doc_number=000179204&amp;local_base=MBI01</note>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="word"
-                         matchPattern="(\w+).(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@subtype='chapter'][@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+            <cRefPattern n="word" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@subtype='chapter'][@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
                <p>This pointer pattern extracts level 1 = chapter and level 2 = mishnah and level 3
                   = word</p>
             </cRefPattern>
-            <cRefPattern n="mishnah"
-                         matchPattern="(\w+).(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@subtype='chapter'][@n='$1']/tei:ab[@n='$2'])">
+            <cRefPattern n="mishnah" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@subtype='chapter'][@n='$1']/tei:ab[@n='$2'])">
                <p>This pointer pattern extracts level 1 = chapter and level 2 = mishnah</p>
             </cRefPattern>
-            <cRefPattern n="word"
-                         matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+            <cRefPattern n="chapter" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
                <p>This pointer pattern extracts level 1 = chapter</p>
             </cRefPattern>
          </refsDecl>
@@ -85,15 +89,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="edition"
-              subtype="tractate"
-              corresp="eRabbinica#"
-              xml:lang="heb"
-              n="urn:cts:ancJewLit:mishnah.arakhin.p179204">
-            <div type="textpart"
-                 subtype="tractate"
-                 corresp="eRabbinica#P179204.5.5"
-                 n="5">
+         <div type="edition" subtype="tractate" corresp="eRabbinica#" xml:lang="heb"
+            n="urn:cts:ancJewLit:mishnah.arakhin.p179204">
+            <div type="textpart" subtype="tractate" corresp="eRabbinica#P179204.5.5" n="5">
                <div n="1" type="textpart" subtype="chapter">
                   <ab n="1">
                      <w n="1">הכל</w>
