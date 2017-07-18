@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.yevamot.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">חמש עשרה נשים פוטרות צרותיהן וצרות צרותיהן מן החליצה
@@ -918,7 +918,7 @@
                      קבא רבא וקבא זוטא מיגנדר ואזיל לשאול ומשאול לתרמוד ומתרמוד למישן וממישן
                      להרפניא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">כיצד אשת אחיו שלא היה בעולמו שני אחים ומת אחד מהן
@@ -1584,7 +1584,7 @@
                      דאסרן שכיבתן אהדדי קפדי אהדדי אי הכי אביו נמי לא מיבעיא קאמר לא מיבעי' אביו
                      דבזיז בניה מיניה אבל בנו דלא בזיז אביו מיניה אימא לא קמ"ל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">ארבעה אחין שנים מהם נשואים שתי אחיות ומתו הנשואים
@@ -2136,7 +2136,7 @@
                      ואנהרינהו לעיינין ממתניתין אשת ישראל שנאנסה אף על פי שמותרת לבעלה פסולה לכהונה
                      אמר רבא הכי קאמר אם היו כהנות נשואות לישראל נפסלו מן התרומה דבי נשייהו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">החולץ ליבמתו ונמצאת מעוברת וילדה בזמן שהולד של
@@ -3202,7 +3202,7 @@
                   <ab n="b1">אשתו שמתה וכו' יבמתו שמתה וכו' אמר רב יוסף כאן שנה
                      רבי משנה שאינה צריכה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">רבן גמליאל אומר אין גט אחר גט ולא מאמר אחר מאמר ולא
@@ -3419,7 +3419,7 @@
                      ליגזור ביאה אחר מאמר משום ביאה אחר ביאה כיון דביאה דאורייתא הא מידע ידיעי ואבא
                      יוסי בן חנן סבר לה כרבנן דגזרי בביאה וגזר חליצה משום ביאה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">הבא על יבמתו בין בשוגג בין במזיד בין באונס בין
@@ -4359,7 +4359,7 @@
                      באשה אחת שחציה שפחה וחציה בת חורין וכפו את רבה ועשאה בת חורין אמר רב נחמן בר
                      יצחק מנהג הפקר נהגו בה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אלמנה לכהן גדול גרושה וחלוצה לכהן הדיוט הכניסה לו
@@ -4658,7 +4658,7 @@
                   <ab n="b5">כ"ג פעמים שפוסל ת"ר הריני כפרת בן בתי כוזא שמאכילני
                      בתרומה ואיני כפרת בן בתי כדא שפוסלני מן התרומה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">הערל וכל הטמאים לא יאכלו בתרומה נשיהן ועבדיהן יאכלו
@@ -5578,7 +5578,7 @@
                      בוקיא ולא הניחוני ללמוד אלא דבר אחד במשנתינו רבי אליעזר אומר אנדרוגינוס חייבין
                      עליו סקילה כזכר</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">יש מותרות לבעליהן ואסורות ליבמיהן מותרות ליבמיהן
@@ -5838,7 +5838,7 @@
                      שלא עשה מתים כחיים לענין תרומה אינו דין שלא נעשה ולד מן הראשון כולד מן השני
                      תלמוד לומר אין לה והא יש לה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">האשה שהלך בעלה למדינת הים ובאו ואמרו לה מת בעליך
@@ -6482,7 +6482,7 @@
                      עד רוב שנותיו כי אתו לקמיה דרבא אי כחוש אמר להו זילו אבריוהו ואי בריא אמר להו
                      זילו אכחשוהו דהני סימנין זמנין דנתרי מחמת כחישותא וזמנין דנתרי מחמת בריותא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">נושאין על האנוסה ועל המפותה האונס והמפתה על הנשואה
@@ -6781,7 +6781,7 @@
                      אב ומדחו ליה אמר רב פפא הכי קאמר אם היו שניהם משמר אחד ובית אב אחד נוטל חלק
                      אחד</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.12"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.12" n="12"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.12.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">מצות חליצה בשלשה דיינין ואפילו שלשתן הדיוטות חלצה
@@ -7219,7 +7219,7 @@
                      בתלמידים תניא א"ר יהודה פעם אחת היינו יושבים לפני רבי טרפון ובאתה יבמה לחלוץ
                      ואמר לנו ענו כולכם חלוץ הנעל חלוץ הנעל חלוץ הנעל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.13"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.13" n="13"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.13.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m30">בית שמאי אומרים אין ממאנין אלא ארוסות ובית הלל
@@ -7668,7 +7668,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="112b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.14"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.14" n="14"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.14.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">חרש שנשא פקחת ופקח שנשא חרשת אם רצה להוציא יוציא
@@ -7839,7 +7839,7 @@
                      אסורה לעולם והא הכא דלאו איסורא דידה איכא ולאו איסורא דידיה איכא וקתני מוציא את
                      אשתו בגט אמר רב שמעיה גזירה משום התרת יבמה לשוק</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.15"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.15" n="15"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.15.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">האשה שהלכה היא ובעלה למדינת הים שלום בינו לבינה
@@ -8180,7 +8180,7 @@
                      בבא ותיתיב רב אשי אומר דקולסא גברא לא בעיא טלפחי לקידרא תנא וכולן מזנות ותולות
                      בבעליהן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.16"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Yevamot.16" n="16"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Yevamot.16.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m24">האשה שהלך בעלה וצרתה למדינת הים ובאו ואמרו לה מת

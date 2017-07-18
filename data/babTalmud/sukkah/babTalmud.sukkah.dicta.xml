@@ -92,7 +92,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.sukkah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Sukkah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">סוכה שהיא גבוהה למעלה מעשרים אמה פסולה ורבי יהודה מכשיר ושאינה גבוהה עשרה טפחים ושאין לה <del rend="round_brackets">שלשה</del> דפנות ושחמתה מרובה מצלתה פסולה</ab>
@@ -523,7 +523,7 @@
                   <ab n="b3">איכא דאמרי בשלמא למ"ד מחצלות ממש של שעם ושל גמי חזו לנזיאתא של שק ושל ספירא חזו לפרסי ונפוותא אלא למ"ד מרזובלי בשלמא של שק ושל ספירא חזו לגולקי וצני אלא של שעם ושל גמי למאי חזו חזו לכינתא דפירי</ab>
                   <ab n="b4">תניא א"ר חנניה כשירדתי לגולה מצאתי זקן אחד ואמר לי מסככין בבודיא וכשבאתי אצל ר' יהושע אחי אבא הודה לדבריו אמר רב חסדא והוא דלית ליה גדנפא אמר עולא הני בודיתא דבני מחוזא אלמלא קיר שלהן מסככין בהו תניא נמי הכי מסככין בבודיא ואם יש להן קיר אין מסככין בהן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Sukkah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">הישן תחת המטה בסוכה לא יצא ידי חובתו אמר ר' יהודה נוהגין היינו שהיינו ישנים תחת המטה בפני הזקנים ולא אמרו לנו דבר אמר רבי שמעון מעשה בטבי עבדו של רבן גמליאל שהיה ישן תחת המטה ואמר להן רבן גמליאל לזקנים ראיתם טבי עבדי שהוא תלמיד חכם ויודע שעבדים פטורין מן הסוכה לפיכך ישן הוא תחת המטה ולפי דרכינו למדנו שהישן תחת המטה לא יצא ידי חובתו</ab>
@@ -749,7 +749,7 @@
                <div type="textpart" subtype="bavli">
                   <ab n="b1">אמר רב בשביל ארבעה דברים נכסי בעלי בתים יוצאין לטמיון על כובשי שכר שכיר ועל עושקי שכר שכיר ועל שפורקין עול מעל צואריהן ונותנין על חבריהן ועל גסות הרוח וגסות הרוח כנגד כולן אבל בענוים כתיב וענוים יירשו ארץ והתענגו על רוב שלום</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Sukkah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">לולב הגזול והיבש פסול של אשירה ושל עיר הנדחת פסול נקטם ראשו נפרצו עליו פסול נפרדו עליו כשר רבי יהודה אומר יאגדנו מלמעלה ציני הר הברזל כשירות לולב שיש בו שלשה טפחים כדי לנענע בו כשר</ab>
@@ -1090,7 +1090,7 @@
                   <ab n="b1">יכול לאכול כזית דגן מרחיקין מצואתו וממימי רגליו ארבע אמות אמר רב חסדא והוא שיכול לאוכלו בכדי אכילת פרס אמר רב חייא בריה דרב ייבא ובגדול אע"פ שאינו יכול לאכול בכדי אכילת פרס דכתיב ויוסיף דעת יוסיף מכאוב</ab>
                   <ab n="b2">יכול לאכול כזית צלי שוחטין עליו את הפסח שנאמר איש לפי אכלו רבי יהודה אומר עד שיכול לברר אכילה כיצד נותנין לו צרור וזורקו אגוז ונוטלו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Sukkah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">לולב וערבה ששה ושבעה ההלל והשמחה שמונה סוכה וניסוך המים שבעה החליל חמשה וששה לולב שבעה כיצד יו"ט הראשון של חג שחל להיות בשבת לולב שבעה ושאר כל הימים ששה ערבה שבעה כיצד יום השביעי של ערבה שחל להיות בשבת ערבה שבעה ושאר כל הימים ששה</ab>
@@ -1255,7 +1255,7 @@
                <div type="textpart" subtype="bavli">
                   <ab n="b1">נשפכה או נתגלתה כו' ואמאי ליעביר במסננת לימא מתני' דלא כר' נחמיה דתניא מסננת יש בו משום גילוי אמר רבי נחמיה אימתי בזמן שהתחתונה מגולה אבל בזמן שהתחתונה מכוסה אע"פ שהעליונה מגולה אין בה משום גילוי מפני שארס נחש דומה לספוג צף ועומד במקומו אפילו תימא רבי נחמיה אימר דאמר ר' נחמיה להדיוט אבל לגבוה מי אמר ולית ליה לרבי נחמיה הקריבהו נא לפחתך הירצך או הישא פניך אמר ה' צבאות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Sukkah.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Sukkah.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">החליל חמשה וששה זהו החליל של בית השואבה שאינו דוחה לא את השבת ולא את יום טוב</ab>

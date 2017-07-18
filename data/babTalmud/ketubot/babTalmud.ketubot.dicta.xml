@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.ketubot.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">בתולה נשאת ליום הרביעי ואלמנה ליום החמישי שפעמים
@@ -984,7 +984,7 @@
                      צריכא דנגחיה תורא דידיה לתורא דידן פלגא משלם ואידך פלגא אמר להו אייתי ראיה דלאו
                      ישראל אנא ואתן לכון</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">האשה שנתארמלה או שנתגרשה היא אומרת בתולה נשאתני
@@ -1866,7 +1866,7 @@
                      שמא יתערב זרעו בזרעינו בואו וקחו לכם דוגמא לדורות שלא יתערב זרעו בזרעינו וזו
                      היא קצצה שהתינוק נאמן להעיד עליה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">אלו נערות שיש להן קנס הבא על הממזרת ועל הנתינה ועל
@@ -2627,7 +2627,7 @@
                      נתן דתניא ר' נתן אומר מנין שלא יגדל אדם כלב רע בתוך ביתו ולא יעמיד סולם רעוע
                      בתוך ביתו שנאמר ולא תשים דמים בביתך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">נערה שנתפתתה בושתה ופגמה וקנסה של אביה והצער בתפוסה
@@ -3459,7 +3459,7 @@
                      לקמיה דרבי יוחנן אמר להו מה אעשה שכנגדי חלוק עלי אמר רבי אבהו לדידי מפרשא לי
                      מיניה דרבי יוחנן אמר למזונות ריבה לה מזונות אמר במזונות קצץ לה מזונות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אף על פי שאמרו בתולה גובה מאתים ואלמנה מנה אם רצה
@@ -4257,7 +4257,7 @@
                   <ab n="b7">ודלמא הא קא משמע לן דסתם מניקות חולות נינהו איתמר
                      אמר רבי יהושע בן לוי מוסיפין לה יין שהיין יפה לחלב</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">מציאת האשה ומעשה ידיה לבעלה וירושתה הוא אוכל פירות
@@ -4641,7 +4641,7 @@
                      מכר ממאי מדקתני אין מעשה קטנה כלום ודלמא היכא דאיכא שליש שאני א"כ ליתני אבל
                      בקטנה יעשה שליש מה שהושלש בידו מאי אין מעשה קטנה כלום שמע מינה אפילו בעלמא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">המדיר את אשתו מליהנות לו עד ל' יום יעמיד פרנס יתר
@@ -5211,7 +5211,7 @@
                      שאוכלין תרדין ושותין שכר של היזמי אמר רבי יוחנן מפני מה אין מצורעין בבבל מפני
                      שאוכלין תרדין ושותין שכר ורוחצין במי פרת</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m13">האשה שנפלו לה נכסים עד שלא תתארס מודים ב"ש ובית הלל
@@ -5516,7 +5516,7 @@
                      רגלים ועדיין כשכועס עליה אומר לה טלי כתובתיך וצאי עד שבא שמעון בן שטח ותיקן
                      שיהא כותב לה כל נכסי אחראין לכתובתה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">הכותב לאשתו דין ודברים אין לי בנכסיך הרי זה אוכל
@@ -6021,7 +6021,7 @@
                      גובה מאתים ואלמנה מנה תיובתא דרב יהודה רב יהודה מתניתין אטעיתיה הוא סבר כתובתה
                      קיימת אכולה מילתא קאי ולא היא אעיקר כתובה קאי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">מי שהיה נשוי שתי נשים ומת הראשונה קודמת לשניה ויורשי
@@ -6339,7 +6339,7 @@
                   <ab n="b4">וכן בעל חוב תנא וכן בעל חוב ושני לקוחות וכן אשה
                      בעלת חוב ושני לקוחות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">אלמנה ניזונת מנכסי יתומים מעשה ידיה שלהן ואין
@@ -6713,7 +6713,7 @@
                      ולא קמפליג באלמנה מכלל דאלמנה אפי' בסתמא נמי אית לה ולא היא כי קתני לה לאלמנה
                      אפלוגתא דאילונית קאי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.12"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.12" n="12"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.12.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">הנושא את האשה ופסקה עמו כדי שיזון את בתה חמש שנים
@@ -6995,7 +6995,7 @@
                      הני והני דידיה מה לי מהני מה לי מהני ולא היא זימנין דאזלה ומשבחה להו ודבעלה
                      מכספי ואמר לה שקיל דידך והב לי דידי ואתי לאפוקי לעז על בי דינא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.13"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Ketubot.13" n="13"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Ketubot.13.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m9">שני דייני גזירות היו בירושלים אדמון וחנן בן אבישלום

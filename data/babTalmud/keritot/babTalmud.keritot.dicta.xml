@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.keritot.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">שלשים ושש כריתות בתורה הבא על האם ועל אשת אב ועל
@@ -840,7 +840,7 @@
                      קמיפלגי רבי יוחנן בן נורי סבר חיישינן לפשיעה ורבי עקיבא סבר לא חיישינן
                      לפשיעה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">ארבעה מחוסרי כפרה וארבעה מביאין על הזדון כשוגג ואלו
@@ -1166,7 +1166,7 @@
                      דשכבת זרע כתיב נמצא מתכוין והמערה בשפחה כשאין מתכוין בכל עריות ישן כדרכה כישן
                      דעריות נמצא ניעור שלא כדרכה בשפחה כישן דכל עריות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אמרו לו אכלת חלב מביא חטאת עד אומר אכל ועד אומר לא
@@ -1711,7 +1711,7 @@
                      גופין מוחלקין אמרו לו הבא על הבהמה יוכיח שאין גופין מוחלקין וחייב על כל אחת
                      ואחת אמרו לו הבהמה כנדה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m9">ספק אכל חלב ספק לא אכל ואפילו אכל ספק יש בו כשיעור
@@ -1977,7 +1977,7 @@
                      תני חדא חייב ותני אידך פטור הדתניא חייב קסבר מלאכה שאינה צריכה לגופה חייב עליה
                      והא דתנא פטור קסבר מלאכה שאינה צריכה לגופה פטור עליה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">אכל דם שחיטה בבהמה בחיה ובעוף בין טמאין בין טהורין
@@ -2231,7 +2231,7 @@
                      מאי עביד ליה מוקים ליה בולדי קדשים דקסברי ולדי קדשים בהוייתן יהו קדושים
                      דתרוייהו בהדדי אתו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Keritot.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Keritot.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">המביא אשם תלוי ונודע לו שלא חטא אם עד שלא נשחט יצא

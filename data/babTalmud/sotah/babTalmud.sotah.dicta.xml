@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.sotah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">המקנא לאשתו רבי אליעזר אומר מקנא לה על פי שנים ומשקה
@@ -1207,7 +1207,7 @@
                      שביקש רחמים על פושעי ישראל שיחזרו בתשובה ואין פגיעה אלא תפלה שנאמר ואתה אל
                      תתפלל בעד העם הזה ואל תשא בעדם רנה ותפלה ואל תפגע בי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">היה מביא את מנחתה בתוך כפיפה מצרית ונותנה על ידיה
@@ -1510,7 +1510,7 @@
                      לרבות תרתי זאת למעוטי תרתי איש אחד ובועל אחד איש אחד ושני בועלין תורת לרבויי
                      תרתי שני אנשים ובועל אחד שני אנשים ושני בועלין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">היה נוטל את מנחתה מתוך כפיפה מצרית ונותנה לתוך כלי
@@ -1830,7 +1830,7 @@
                   <ab n="b12">האיש נמכר בגניבתו ואין האשה נמכרת בגניבתה מ"ט אמר
                      קרא ונמכר בגניבתו בגניבתו ולא בגניבתה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m13">ארוסה ושומרת יבם לא שותות ולא נוטלות כתובה שנאמר
@@ -2033,7 +2033,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="27b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כשם שהמים בודקין אותה כך המים בודקין אותו שנאמר
@@ -2228,7 +2228,7 @@
                      חוסי בך לעולם ירננו ויעלצו בך אוהבי שמך אמר להו תרוייכו רבנן צדיקי גמורי אתון
                      מר מאהבה ומר מיראה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">מי שקינא לאשתו ונסתרה אפילו שמע מעוף הפורח יוציא
@@ -2280,7 +2280,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="32a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">אלו נאמרין בכל לשון פרשת סוטה ווידוי מעשר קרית שמע
@@ -3015,7 +3015,7 @@
                      עיני כת מספרי לשון הרע דכתיב כי לא אל חפץ רשע אתה לא יגורך רע צדיק אתה ה' לא
                      יגור במגורך רע</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">משוח מלחמה בשעה שמדבר אל העם בלשון הקודש היה מדבר
@@ -3269,7 +3269,7 @@
                      דוד לרווחה דברי הכל רשות כי פליגי למעוטי עובדי כוכבים דלא ליתי עלייהו מר קרי לה
                      מצוה ומר קרי רשות נפקא מינה לעוסק במצוה שפטור מן המצוה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Sotah.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Sotah.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">עגלה ערופה בלשון הקודש שנאמר כי ימצא חלל באדמה

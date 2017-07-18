@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.eruvin.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">מבוי שהוא גבוה למעלה מעשרים אמה ימעט ר' יהודה אומר
@@ -1167,7 +1167,7 @@
                      וכל לאו שניתן לאזהרת מיתת בית דין אין לוקין עליו אמר רב אשי מי כתיב אל יוציא אל
                      יצא כתיב</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">עושין פסין לביראות ארבעה דיומדין נראין כשמונה דברי
@@ -1838,7 +1838,7 @@
                   <ab n="b7">וכן שמעתי ממנו שיוצאים בערקבלין בפסח מאי ערקבלין
                      אמר ריש לקיש אצוותא חרוזיאתא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">בכל מערבין ומשתתפין חוץ מן המים ומן המלח והכל ניקח
@@ -2805,7 +2805,7 @@
                      הכא נמי הא מקמי דשמעה הא לבתר דשמעה דרש מר זוטרא משמיה דרב הונא הלכה מתענין
                      ומשלימין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">מי שהוציאוהו נכרים או רוח רעה אין לו אלא ד' אמות
@@ -3548,7 +3548,7 @@
                   <ab n="b11">גמ </ab>
                   <ab n="b12"> תנא מפני טועי המדה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m13">כיצד מעברין את הערים בית נכנס בית יוצא פגום נכנס
@@ -4218,7 +4218,7 @@
                      בבי כנישתא דבי אגובר אמר להו גוו ביה טפי כי היכי דלישתרי לכו טפי אמר ליה רבא
                      פלגאה בעירובין לית דחש להא דרבי עקיבא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m17">הדר עם העכו"ם בחצר או עם מי שאינו מודה בעירוב הרי
@@ -5133,7 +5133,7 @@
                      הכא אי דלגבי דהאי בית לגבי דהאי בית אי לגבי דהאי בית שער לגבי דהאי נמי בית
                      שער</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">חלון שבין ב' חצירות ד' על ד' בתוך עשרה מערבין
@@ -5558,7 +5558,7 @@
                      נזיר אי לא נזיר הוא לא משעביד נפשיה הכא נמי כיון דלא ידע אי קני אי לא קני לא
                      גמר ומקנה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">כיצד משתתפין בתחומין מניח את החבית ואומר הרי זה לכל
@@ -6010,7 +6010,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="89a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כל גגות העיר רשות אחת ובלבד שלא יהא גג גבוה י' או
@@ -6395,7 +6395,7 @@
                      היינו דקתני ועוד אלא אי אמרת משום דקא סבר שתי מחיצות דאורייתא מאי ועוד שמע
                      מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Eruvin.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Eruvin.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m12">המוצא תפילין מכניסן זוג זוג ר"ג אומר שנים שנים בד"א

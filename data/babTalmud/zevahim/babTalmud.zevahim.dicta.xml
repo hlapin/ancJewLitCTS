@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.zevahim.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כל הזבחים שנזבחו שלא לשמן כשרים אלא שלא עלו לבעלים
@@ -1005,7 +1005,7 @@
                      זהו הילוך שאין צריך לילך והא חזר והכניסו הילוך שצריך להלך הוא א"ל אי תניא
                      תניא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">כל הזבחים שקבלו דמן זר אונן טבול יום ומחוסר כפורים
@@ -1989,7 +1989,7 @@
                      אורחיה קא מחשב אבל הכא דבהאי כי אורחיה ובהאי כי אורחיה אימא ליצטרף קא משמע
                      לן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">כל הפסולין ששחטו שחיטתן כשרה שהשחיטה כשרה בזרים
@@ -2286,7 +2286,7 @@
                         לא חזו ולא היא הנך חזו למילתייהו והני לא חזו כלל</del>
                   </ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">בית שמאי אומרים כל הניתנין על מזבח החיצון שנתן
@@ -2866,7 +2866,7 @@
                      בעבודת כוכבים מיבעיא רבי אליעזר לית ליה דרבי שמעון בן אלעזר דלמא בעבודת כוכבים
                      הוא דאמרת כעין בפנים אבל שבת מלאכת מחשבת אסרה תורה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">איזהו מקומן של זבחים קדשי קדשים שחיטתן בצפון פר
@@ -3503,7 +3503,7 @@
                      <add rend="square_brackets">אלא</add> כי התם מה התם דאורייתא אף כאן נמי דאוריית
                     '</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">קדשי קדשים ששחטן בראש המזבח רבי יוסי אומר כאילו
@@ -3983,7 +3983,7 @@
                      דם הראש יכול מיצה דם הראש ולא מיצה דם הגוף ת"ל הוא מאי תלמודא אמר רבינא מסתברא
                      דרוב דמים בגוף שכיחי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">חטאת העוף שעשאה למטה כמעשה חטאת לשם חטאת כשירה
@@ -4235,7 +4235,7 @@
                      אין אמר רבי ינאי גבול שמעתי ושכחתי ונסבין חברייא למימר ירידתה לנחל איתן היא
                      אוסרתה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">כל הזבחים שנתערבו בחטאות המתות או בשור הנסקל אפילו
@@ -4808,7 +4808,7 @@
                      שהשורפן מטמא בגדים ורבי יהודה לכפר לא משמע ליה מאי טעמא לאו משום דמיבעיא ליה
                      לגזירה שוה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">המזבח מקדש
@@ -5140,7 +5140,7 @@
                      קטלא הוא במזיד ולא אתרו ביה ולשון הרע אלשון הרע נמי לא קשיא הא בצינעא הא
                      בפרהסיא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">כל התדיר מחבירו קודם את חבירו התמידין קודמין
@@ -5400,7 +5400,7 @@
                      עושה להן מערכה בפני עצמן ושורפן א"ל שמואל לרב חנא בגדתאה אייתי לי בי עשרה ואימא
                      לך קמייהו נסכים שנטמאו עושה להן מערכה בפני עצמן ושורפן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">דם חטאת שנתז על הבגד הרי זה טעון כיבוס אע"פ שאין
@@ -5802,7 +5802,7 @@
                      טבח הוא תיפוק לי משום רבב ואי מוכר רבב הוא תיפוק לי משום דם לא צריכא דעביד הא
                      והא אחדא לא קפיד אתרתי קפיד או דלמא אתרתי נמי לא קפיד תיקו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.12"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.12" n="12"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.12.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">טבול יום ומחוסר כיפורים אינן חולקין בקדשים לאכול
@@ -6353,7 +6353,7 @@
                      מטמאין בגדים רבי שמעון אומר אותם מטמאין בגדים ניתך הבשר אין מטמאין בגדים מאי
                      בינייהו אמר רבא איכא בינייהו דשוייה חרוכא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.13"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.13" n="13"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.13.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">השוחט והמעלה בחוץ חייב על השחיטה וחייב על העלאה רבי
@@ -6782,7 +6782,7 @@
                      לרעייה ושחטו סתם כשר לעולה מי דמי התם אשם זכר ועולה זכר אבל חטאת נקבה היא א"ר
                      חייא מיוסתיניא בשעיר נשיא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.14"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Zevachim.14" n="14"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Zevachim.14.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">פרת חטאת ששרפה חוץ מגתה וכן שעיר המשתלח שהקריב

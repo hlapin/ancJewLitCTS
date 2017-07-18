@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.horayot.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Horayot.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">הורו בית דין לעבור על אחת מכל מצות האמורות בתורה
@@ -554,7 +554,7 @@
                      אמורים ולא בצבור אף שנתכפרו בעליה ושעברה שנתה ביחיד דברים אמורים ולא בצבור וכי
                      דנין אפשר משאי אפש' ר"ש בחד מקום גמיר</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Horayot.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">הורה כהן משיח לעצמו שוגג ועשה שוגג מביא פר שוגג ועשה
@@ -832,7 +832,7 @@
                      וקדשיו א"ל דאמר לך מני ר"א היא דאמר הואיל ונאמר בו כרת כבקבועה מייתי נשיא שעיר
                      עליה והא"ר יוחנן מודה ר' אליעזר שאין מביא אשם תלוי קשיא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Horayot.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Horayot.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">כהן משיח שחטא ואח"כ עבר ממשיחותו וכן נשיא שחטא ואחר

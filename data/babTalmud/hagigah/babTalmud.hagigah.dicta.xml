@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.hagigah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Chagigah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">הכל חייבין בראייה חוץ מחרש שוטה וקטן וטומטום
@@ -757,7 +757,7 @@
                   <ab n="b1">הן הן גופי תורה הני אין הנך לא אלא אימא הן והן גופי
                      תורה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Chagigah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אין דורשין בעריות בשלשה ולא במעשה בראשית בשנים ולא
@@ -1502,7 +1502,7 @@
                      בבא להם דרך עקלתון אי הכי סיפא נמי כיון דאמר להו לכו ואני אבוא אחריכם מיסמך
                      סמכא דעתייהו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Chagigah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Chagigah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">חומר בקדש מבתרומה שמטבילין כלים בתוך כלים לתרומה אבל

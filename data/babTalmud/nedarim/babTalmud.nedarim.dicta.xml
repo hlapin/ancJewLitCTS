@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.nedarim.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כל כינויי נדרים כנדרים וחרמים כחרמים ושבועות כשבועות
@@ -582,7 +582,7 @@
                   <ab n="b6">אמר רב יהודה באומר יאסר פי לדיבורי ידי למעשיהם רגלי
                      להילוכן דיקא נמי דקתני פי מדבר עמך ולא קתני שאני מדבר עמך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">ואלו מותרין חולין שאוכל לך כבשר חזיר כעבודת כוכבים
@@ -918,7 +918,7 @@
                      כתיב נבונים וכתיב יששכר חמור גרם וכתיב מבני יששכר יודעי בינה לעתים ההיא דמרציא
                      ארצויי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">ארבעה נדרים התירו חכמים נדרי זרוזין ונדרי הבאי ונדרי
@@ -1542,7 +1542,7 @@
                      כהן לעולם על דברתי מלכי צדק על דיבורו של מלכי צדק והיינו דכתיב והוא כהן לאל
                      עליון הוא כהן ואין זרעו כהן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">אין בין המודר הנאה מחבירו למודר הימנו מאכל אלא
@@ -2109,7 +2109,7 @@
                      שנים לא הוי הפקר ור' יהושע בן לוי אמר דבר תורה אפילו באחד הוי הפקר ומה טעם
                      אמרו בשלשה כדי שיהא אחד זוכה ושנים מעידין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">השותפין שנדרו הנאה זה מזה אסורין ליכנס לחצר ר"א בן
@@ -2231,7 +2231,7 @@
                      הקדישה תהא מקודשת אינה מתנה כל לאיתויי מאי לאו לאתויי הא מילתא דשדיא בכיפי לא
                      לאתויי לישנא בתראה דשמעתיה דרבא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">הנודר מן המבושל מותר בצלי ובשלוק אמר קונם תבשיל
@@ -2542,7 +2542,7 @@
                      שאני טועם אסור לבשל ומותר לכוס גריסין שאני טועם אסור לכוס ומותר לבשל גריס
                      גריסין שאני טועם אסור בין לבשל בין לכוס</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">הנודר מן הירק מותר בדלועין ורבי עקיבא אוסר אמרו לו
@@ -2836,7 +2836,7 @@
                      שאין זרעו כלה גידולי גידולין אסורין רבויא דרבו גידולין על עיקרו מותר קא משמע
                      לן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">קונם יין שאני טועם היום אינו אסור אלא עד שתחשך שבת
@@ -3026,7 +3026,7 @@
                      נכנס טיפת צונן שאני טועם לך מותר ליכנס לביתו ולשתות ממנו צונן שלא נתכוון זה אלא
                      לשום אכילה ושתיה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">רבי אליעזר אומר פותחין לאדם בכבוד אביו ואמו וחכמים
@@ -3194,7 +3194,7 @@
                      בוטא אבבא וקא דאין דינא אזלת ותברת יתהון על רישיה אמר לה מה הדין דעבדת אמרה ליה
                      כך ציוני בעלי אמר את עשית רצון בעליך המקום יוציא ממך שני בנים כבבא בן בוטא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m20">נערה המאורס' אביה ובעלה מפירין נדריה הפר האב ולא
@@ -3619,7 +3619,7 @@
                      נדר ר"מ אומר לא יפר וחכמים אומרים יפר ואמאי ליהוי כשותק על מנת למיקט
                      תיובתא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nedarim.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nedarim.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">ואלו נדרים שהוא מפר דברים שיש בהן ענוי נפש אם ארחץ

@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.shabbat.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">יציאות השבת שתים שהן ארבע בפנים ושתים שהן ארבע בחוץ
@@ -1200,7 +1200,7 @@
                      יוסף מאי היא אילימא סילתי השתא פתילה אמר עולא המדליק צריך שידליק ברוב היוצא
                      סילתי מבעיא אלא אמר רב יוסף שוכא דארזא רמי בר אבא אמר זאזא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">במה מדליקין ובמה אין מדליקין אין מדליקין לא בלכש ולא
@@ -2412,7 +2412,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="36b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כירה שהסיקוה בקש ובגבבא נותנים עליה תבשיל בגפת
@@ -3142,7 +3142,7 @@
                      בע"ש ולא יתן לתוכו מים מפני שהוא מכבה מע"ש ואין צריך לומר בשבת אלא אמר רב אשי
                      אפילו תימא רבנן שאני הכא מפני שמקרב את כיבויו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">במה טומנין ובמה אין טומנין אין טומנין לא בגפת ולא
@@ -3413,7 +3413,7 @@
                      את הברד בשבת בשביל שיזובו מימיו אבל נותן הוא לתוך הכוס או לתוך הקערה ואינו
                      חושש</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">במה בהמה יוצאה ובמה אינה יוצאה יוצא הגמל באפסר
@@ -3907,7 +3907,7 @@
                      גלותא והיינו נתן דצוציתא אמר רב יוסף הוה יתיבנא בפירקא והוה קא מנמנם וחזאי
                      בחילמא דקא פשט ידיה וקבליה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">במה אשה יוצאה ובמה אינה יוצאה לא תצא אשה לא בחוטי
@@ -4754,7 +4754,7 @@
                      שעשה משתה לבנו ועל כל כוס וכוס שהביא אמר חמרא וחיי לפום רבנן חיי וחמרא לפום
                      רבנן ולפום תלמידיהון</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">כלל גדול אמרו בשבת כל השוכח עיקר שבת ועשה מלאכות
@@ -5300,7 +5300,7 @@
                      אין פולין לא והתניא ר' יהודה אומר חוץ מקליפי פולין ועדשים לא קשיא הא בחדתי הא
                      בעתיקי עתיקי מ"ט לא אמר ר' אבהו מפני שנראין כזבובין בקערה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m16">המוציא יין כדי מזיגת הכוס חלב כדי גמיעה דבש כדי
@@ -5754,7 +5754,7 @@
                      מאיר ורבי מאיר לא מיבעיא קאמר לא מיבעיא מידי דחשיב לאינשי דלא לישתכח ליה אלא
                      אפילו מידי דלא חשיב לאינשי לא לישתכח ליה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">אמר רבי עקיבא מניין לעבודה זרה שמטמאה במשא כנדה
@@ -6335,7 +6335,7 @@
                      שושיבא אפומיה אמר ליה שקליה דלא לימרו מיכל קאכיל ליה וקעבר משום בל תשקצו את
                      נפשותיכם אלא דילמא מיית ואכיל ליה ורבי יהודה אי מיית קטן מיספד ספיד ליה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">המצניע לזרע ולדוגמא ולרפואה והוציאו בשבת חייב בכל
@@ -6744,7 +6744,7 @@
                      גללים וכלי אבנים וכלי אדמה שאין מקבלין טומאה לא מדברי תורה ולא מדברי סופרים
                      ולענין צמיד פתיל עד שיפחת רובו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">הזורק מרשות היחיד לרשות הרבים מרשות הרבים לרשות
@@ -7178,7 +7178,7 @@
                      דרך הוצאה בכך אלא כיון דקא מיכוין מחשבתו משויא ליה מקום הכא נמי כיון דקא מיכוין
                      מחשבתו משויא ליה מקום</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.12"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.12" n="12"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.12.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m15">הבונה כמה יבנה ויהא חייב הבונה כל שהוא והמסתת והמכה
@@ -7428,7 +7428,7 @@
                   <ab n="b8"> במאי קמיפלגי ר"ג סבר אין ידיעה לחצי שיעור ורבנן
                      סברי יש ידיעה לחצי שיעור</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.13"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.13" n="13"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.13.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m9">רבי אליעזר אומר האורג שלשה חוטין בתחילה ואחת על
@@ -7604,7 +7604,7 @@
                      לרפואה חייב וממאי דפטור ומותר דתנן כופין קערה על הנר בשביל שלא תאחוז בקורה ועל
                      צואה של קטן ועל עקרב שלא תישך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.14"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.14" n="14"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.14.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m24">שמנה שרצים האמורים בתורה הצדן והחובל בהן חייב ושאר
@@ -8017,7 +8017,7 @@
                      ע"ג דלא שכיח שרי ורב סבר אי שכיח אין ואי לא שכיח לא ובאתרא דרב שכיח משחא
                      דוורדא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.15"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.15" n="15"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.15.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">ואלו קשרים שחייבין עליהן קשר הגמלין וקשר הספנין
@@ -8314,7 +8314,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="115a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.16"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.16" n="16"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.16.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כל כתבי הקדש מצילין אותן מפני הדליקה בין שקורין
@@ -9011,7 +9011,7 @@
                      אהדרינהו שמואל לאפיה כיון דחזא דאייתי שטר וקא קרי אמר אדעתא דנפשיה הוא דאדליק
                      אהדרינהו איהו לאפיה גבי שרגא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.17"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.17" n="17"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.17.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">כל הכלים ניטלין בשבת ודלתותיהן עמהן אע"פ שנתפרקו
@@ -9357,7 +9357,7 @@
                   <ab n="b7">לישנא אחרינא כי פליגי בכיסוי תנור מר מדמי ליה
                      לכיסוי קרקע ומר מדמי ליה לכיסוי כלים</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.18"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.18" n="18"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.18.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">מפנין אפילו ארבע וחמש קופות של תבן ושל תבואה מפני
@@ -9687,7 +9687,7 @@
                      בשבת והמלח לא המלחת מכאן שמולחין הולד בשבת והחתל לא חתלת מכאן שמלפפין הולד
                      בשבת</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.19"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.19" n="19"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.19.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">רבי אליעזר אומר אם לא הביא כלי מע"ש מביאו בשבת
@@ -10328,7 +10328,7 @@
                      נתקיימו שנאמ' אם לא בריתי יומם ולילה חוקות שמים וארץ לא שמתי בא"י כורת
                      הברית</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.20"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.20" n="20"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.20.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">רבי אליעזר אומר תולין את המשמרת בי"ט ונותנין
@@ -10699,7 +10699,7 @@
                     ' לא רפוי נמי ההיא דרבי יהודה משום דרבי אליעזר הוא דתניא ר' יהודה אומר משום
                      רבי אליעזר אם היה רפוי מותר</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.21"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.21" n="21"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.21.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">נוטל אדם את בנו והאבן בידו וכלכלה והאבן בתוכה
@@ -10840,7 +10840,7 @@
                      להו אחורי המטה אמרו עליו על רבי זכריה בן אבקולס שהיה מחזיר פניו אחורי המטה
                      וזורקן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.22"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.22" n="22"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.22.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">חבית שנשברה מצילין הימנה מזון שלש סעודות ואומר
@@ -11244,7 +11244,7 @@
                      רב חנא בגדתאה אמר שמואל הלכה מחזירין את השבר אמר ליה כולהו בחדא מחיתא מחיתנהו
                      היכא דאיתמר איתמר היכא דלא איתמר לא איתמר</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.23"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.23" n="23"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.23.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">שואל אדם מחבירו כדי יין וכדי שמן ובלבד שלא יאמר לו
@@ -11733,7 +11733,7 @@
                      תצעקו מכאב לב ד"א בכל עת יהיו בגדיך לבנים אלו ציצית ושמן על ראשך אל יחסר אלו
                      תפילין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.24"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Shabbat.24" n="24"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Shabbat.24.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">מי שהחשיך בדרך נותן כיסו לנכרי ואם אין עמו נכרי

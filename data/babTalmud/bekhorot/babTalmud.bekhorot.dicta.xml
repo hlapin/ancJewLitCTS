@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.bekhorot.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">הלוקח עובר חמורו של עובד כוכבים והמוכר לו אע"פ שאינו
@@ -963,7 +963,7 @@
                      ועכשיו שאין מתכוונין לשם מצוה אמרו מצות חליצה קודמת למצות יבום מצות הגאולה
                      באדון הוא קודם לכל אדם שנאמר ואם לא יגאל ונמכר בערכך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">הלוקח עובר פרתו של עובד כוכבים והמוכר לו אע"פ שאינו
@@ -1427,7 +1427,7 @@
                      מבכור דבכור לרחמים איכא בכור לזכרים ליכא אלא היכא דיצתה נקבה דרך דופן וזכר דרך
                      רחם ליקדש דהא איכא בכור לזכרים ובכור לרחם אלא מחוורתא כדאביי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">הלוקח בהמה מן העובד כוכבים ואינו יודע אם ביכרה אם
@@ -1840,7 +1840,7 @@
                      מתמעך עם הגיזה וריש לקיש מאי טעמא לא אמר כרב נתן בר אושעיא אמר רבי אילעא קסבר
                      ריש לקיש לפי שאי אפשר לגיזה בלא נימין המדולדלות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">עד כמה ישראל חייבין ליטפל בבכור בדקה שלשים יום
@@ -2191,7 +2191,7 @@
                      ביחיד מומחה ורואה את קדשיו דאי בעי מיתשיל עלייהו ומעשרותיו דאי בעי שדי ביה מומא
                      בכוליה עדריה ונשאל על טהרותיו דהא חזא ליה בימי טומאתו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m15">כל פסולי המוקדשין <del rend="round_brackets">הנאתן
@@ -2674,7 +2674,7 @@
                      תערובת וכרשב"ג דתנן יין נסך שנפל לבור כולו אסור בהנאה רבן שמעון בן גמליאל אומר
                      ימכר כולו לעובדי כוכבים חוץ מדמי יי"נ שבו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">על אלו מומין שוחטין את הבכור נפגמה אזנו מן החסחוס
@@ -3202,7 +3202,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="43a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">מומין אלו בין קבועין בין עוברים פוסלין באדם ויתר
@@ -3533,7 +3533,7 @@
                   <ab n="b2">והמטמא למתים כו' מאי שנא הכא דסגי ליה בקבלה ומאי
                      שנא התם דמדרינן ליה התם יצרו תקפו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">יש בכור לנחלה ואינו בכור לכהן בכור לכהן ואינו בכור
@@ -3971,7 +3971,7 @@
                      באים בני משפחה וקוברים אותו בעל כרחו משום פגם משפחה ומאי ינכה להם מן הדמים דמי
                      קבר אשתו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">מעשר בהמה נוהג בארץ ובחוצה לארץ בפני הבית ושלא בפני

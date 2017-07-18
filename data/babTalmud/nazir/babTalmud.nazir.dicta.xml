@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.nazir.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כל כינויי נזירות כנזירות האומר אהא הרי זה נזיר או
@@ -444,7 +444,7 @@
                      טטרגון מטמא בנגעים מ"ט למטה הוא אומר קיר קירות למעלה הוא אומר קיר קירות הרי כאן
                      ארבע</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">הריני נזיר מן הגרוגרות ומן הדבילה בש"א נזיר ובה"א
@@ -784,7 +784,7 @@
                      דקא שפעה תלתא תלתא יומי בהדי הדדי ואב"א דחזיא תלתא יומי סמוך לשקיעת החמה דלא
                      הואי שהות דסליק ליה למניינא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">מי שאמר הריני נזיר מגלח יום שלשים ואחד ואם גילח
@@ -1005,7 +1005,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="20b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">מי שאמר הריני נזיר ושמע חבירו ואמר ואני ואני כולם
@@ -1461,7 +1461,7 @@
                      דילמא לא שנא ואם תימצי לומר הכא אידי ואידי נזירות טהרה בעי רב אשי אביו נזיר טמא
                      והוא נזיר טהור אביו נזיר טהור והוא נזיר טמא מאי תיקו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">בית שמאי אומרים הקדש טעות הקדש וב"ה אומרים אין הקדש
@@ -1609,7 +1609,7 @@
                      משכחת לה בשלמא שית משכחת לה כדתנן אבל תלת היכי משכחת לה אמר רב ששת כגון דאמר
                      הריני נזיר ונזירות הכל עלי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">שלשה מינין אסורין בנזיר הטומאה והתגלחת והיוצא מן
@@ -2222,7 +2222,7 @@
                      שנזרק עליה אחד מן הדמים ובאו והודיעוה על בתה שהיתה מסוכנת והלכה ומצאה שמתה
                      ואמרו חכמים תביא שאר קרבנותיה ותטהר ש"מ</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m12">כהן גדול ונזיר אין מיטמאין לקרוביהן אבל מיטמאין למת
@@ -2615,7 +2615,7 @@
                      קל וחומר מהלכה ת"ש עצם כשעורה הלכה ורביעית דם קל וחומר ואין דנין קל וחומר
                      מהלכה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m11">שני נזירים שאמר להן אחד ראיתי אחד מכם שנטמא ואיני
@@ -2788,7 +2788,7 @@
                      אמר רבא ת"ש ומגלח ארבע תגלחיות אי סלקא דעתך משום עבורי שיער טומאה אפילו בשלש
                      נמי סגיא ליה שמע מינה משום מצוה שמע מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Nazir.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Nazir.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">הכותים אין להם נזירות נשים ועבדים יש להן נזירות

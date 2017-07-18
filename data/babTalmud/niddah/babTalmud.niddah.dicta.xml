@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.niddah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">שמאי אומר כל הנשים דיין שעתן הלל אומר מפקידה לפקידה
@@ -782,7 +782,7 @@
                      כל לבעלה לא בעיא בדיקה דא"ר זירא א"ר אבא בר ירמיה אמר שמואל אשה שאין לה וסת
                      אסורה לשמש עד שתבדוק ואוקימנא לה בעסוקה בטהרות מאן דמתני הא לא מתני הא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">כל היד המרבה לבדוק בנשים משובחת ובאנשים תקצץ</ab>
@@ -1389,7 +1389,7 @@
                      אותו ממנה שני לוגין עושין אותו ממאתים כוס טבריא פשוט אפי' מחזיק שני לוגין
                      עושין אותו ממנה ואיידי דקליש ידיע ביה טפי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">המפלת חתיכה אם יש עמה דם טמאה ואם לאו טהורה ר'
@@ -2219,7 +2219,7 @@
                      ממקום שנברא וזו ממקום שנבראת מפני מה אשה קולה ערב ואין איש קולו ערב זה ממקום
                      שנברא וזו ממקום שנבראת שנאמר כי קולך ערב ומראך נאוה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">בנות כותים נדות מעריסתן והכותים מטמאים משכב תחתון
@@ -2764,7 +2764,7 @@
                      וחמשה בירחא וריש ירחא דאמרינן דמי יתירי הוא דאתוספו בה וכן כי אתא רבין וכל
                      נחותי ימא אמרוה כרב הונא בריה דרב יהושע</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">יוצא דופן אין יושבין עליו ימי טומאה וימי טהרה ואין
@@ -3373,7 +3373,7 @@
                      אשכחיה לר' אלעזר אמר ליה אמרת הלכה כרבי יוסי בן כיפר אמר ליה מסתברא אמרי
                      מדכוליה פירקין תני יום אחד והכא לא קתני שמע מינה מסתברא כותיה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">בא סימן התחתון עד שלא בא העליון או חולצת או מתיבמת
@@ -3871,7 +3871,7 @@
                      מתוך שמונה עשר עשרה ימים טמאין ועשרה ימים טהורים ימי שמושה כימי זיבתה וכן למאה
                      וכן לאלף</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">דם הנדה ובשר המת מטמאין לחין ומטמאין יבשין אבל הזוב
@@ -4100,7 +4100,7 @@
                   <ab n="b23">זה הכלל כו' זה הכלל לאתויי מאי לאתויי תחומין ויין
                      נסך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m24">הרואה כתם על בשרה כנגד בית התורפה טמאה ושלא כנגד
@@ -4267,7 +4267,7 @@
                      ברבי צדוק בעד אבל בכתם לא ת"ש דאמר רב יהודה אמר שמואל הלכה כרבי אליעזר ברבי
                      צדוק הלכה מכלל דפליגי שמע מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">האשה שהיא עושה צרכיה וראתה דם רבי מאיר אומר אם
@@ -4671,7 +4671,7 @@
                   <ab n="b4"> תנא דור קטוע תני רבי חייא כשם שהשאור יפה לעיסה כך
                      דמים יפין לאשה תנא משום ר"מ כל אשה שדמיה מרובין בניה מרובין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Tahorot.Niddah.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Tahorot.Niddah.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">תינוקת שלא הגיע זמנה לראות וניסת ב"ש אומרים נותנין

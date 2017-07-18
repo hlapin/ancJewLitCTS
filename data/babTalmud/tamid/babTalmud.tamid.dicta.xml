@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.tamid.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">בשלשה מקומות הכהנים שומרים בבית המקדש בית אבטינס
@@ -285,7 +285,7 @@
                      והתניא מנין שאין דבר קודם לתמיד של שחר ת"ל וערך עליה העולה ואמר רבה העולה עולה
                      ראשונה א"ר יהודה להחם חמין לרביכה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">ראוהו אחיו שירד והם רצים ובאים מהרו וקדשו ידיהם
@@ -354,7 +354,7 @@
                      חד אמר כדי שתהא הרוח מנשבת בה וחד אמר כדי שיהו מציתין את האליתא משם מיתיבי ריוח
                      היה בהן בין הגזירין שהיו מציתין את האליתא משם אמר לך מקומות מקומות עבדי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אמר להן הממונה בואו והפיסו מי השוחט ומי הזורק מי
@@ -400,7 +400,7 @@
                      לפני המנורה ובה ג' מעלות שעליה כהן עומד ומטיב את הנרות ומניח את הכוז על מעלה
                      שניה ויצא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">לא היו כופתין את הטלה אלא מעקידין אותו מי שזכו
@@ -526,7 +526,7 @@
                      בן עזריה תלמידי חכמים מרבים שלום בעולם שנאמר וכל בניך לימודי ה' ורב שלום
                      בניך</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">אמר להם הממונה ברכו ברכה אחת והם ברכו קראו עשרת
@@ -556,7 +556,7 @@
                      שהוא שומע את קולה יודע שאחיו הלוים נכנסים לדבר בשיר והוא רץ ובא וראש המעמד היה
                      מעמיד את הטמאים בשער המזרח</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">החלו עולים במעלות האולם מי שזכו בדישון מזבח הפנימי
@@ -572,7 +572,7 @@
                      הקטר ואם היה כ"ג הממונה אומר לו אישי כהן גדול הקטר פרשו העם והקטיר והשתחוה
                      ויצא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Tamid.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Tamid.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">בזמן שכ"ג נכנס להשתחות שלשה אוחזין בו אחד בימינו

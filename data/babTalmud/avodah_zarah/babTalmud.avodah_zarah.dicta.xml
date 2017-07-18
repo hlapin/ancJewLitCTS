@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.avodah_zarah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">לפני אידיהן של עובדי כוכבים שלשה ימים אסור לשאת ולתת
@@ -1739,7 +1739,7 @@
                      הא סתמא אסור אימא סיפא אם באו לחשבון אסור הא סתמא מותר אלא מהא ליכא למשמע
                      מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">אין מעמידין בהמה בפונדקאות של עובדי כוכבים מפני
@@ -3117,7 +3117,7 @@
                      החשוד למכור תרומה לשם חולין לפניו הוא דאסור אבל הבא מן האוצר ומן ההפתק ומן
                      הסלולה מותר אירתותי מירתת סבר שמעי ביה רבנן ומפסדו לי' מינאי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">כל הצלמים אסורין מפני שהן נעבדין פעם אחת בשנה דברי
@@ -3782,7 +3782,7 @@
                      בטלה ומ"ס אין עבודת כוכבים בטלה אלא דרך גדילתה דהיינו אורחיה הא לאו גדילתה היא
                      ואין צריכה לבטל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m20">רבי ישמעאל אומר שלש אבנים זו בצד זו בצד מרקוליס
@@ -4564,7 +4564,7 @@
                      עובד כוכבים דהוה קאי ביני דני אמר רבא אם נתפס עליו כגנב חמרא שרי ואי לא
                      אסור</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Avodah_Zarah.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">השוכר את הפועל לעשות עמו ביין נסך שכרו אסור שכרו

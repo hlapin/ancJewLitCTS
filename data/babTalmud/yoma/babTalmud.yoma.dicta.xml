@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.yoma.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">שבעת ימים קודם יום הכפורים מפרישין כהן גדול מביתו
@@ -1203,7 +1203,7 @@
                      בזמן שהן חונטין ואמר רב יוסף ואיתימא מר זוטרא וסימניך שלחן בצפון ומנורה בדרום
                      האי מרבה דידיה והאי מרבה דידיה לא קשיא הא לן והא להו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">בראשונה כל מי שרוצה לתרום את המזבח תורם ובזמן שהן
@@ -1608,7 +1608,7 @@
                      להם הממונה צאו וראו אם הגיע זמן השחיטה ואילו זמן סידור גזירי עצים לא קתני הך
                      דלית לה תקנתא קתני הך דאית לה תקנתא לא קתני</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">אמר להם הממונה צאו וראו אם הגיע זמן השחיטה אם הגיע
@@ -2261,7 +2261,7 @@
                      והתקדשתם והייתם קדושים אדם מקדש עצמו מעט מקדשין אותו הרבה מלמטה מקדשין אותו
                      מלמעלה בעולם הזה מקדשין אותו לעולם הבא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">טרף בקלפי והעלה שני גורלות אחד כתוב עליו לשם ואחד
@@ -2728,7 +2728,7 @@
                      כיון דנתקה נתקה אלא הא דאמר רב נחמן אמר רבה בר אבוה המוריד גחלת מעל גבי המזבח
                      וכבה חייב כמאן לא כאביי ולא כרבא התם לא אינתיק למצותה הכא אינתיק למצותה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">הוציאו לו את הכף ואת המחתה חפן מלא חפניו ונתן לתוך
@@ -3560,7 +3560,7 @@
                      שירצה יקריב דברי חכמים רבי יוסי אומר מצוה בראשון ואם היה שני מובחר ממנו
                      יביאנו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">שני שעירי יום הכפורים מצותן שיהיו שניהן שוין במראה
@@ -3935,7 +3935,7 @@
                   <ab n="b6"> אמר אביי ש"מ בית חדודו במדבר קיימא והא קמ"ל דקסבר
                      רבי יהודה כיון שהגיע שעיר למדבר נעשית מצותו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">בא לו כהן גדול לקרות אם רצה לקרות בבגדי בוץ קורא
@@ -4319,7 +4319,7 @@
                      <add rend="square_brackets">בני</add> ישראל אתו זה משוח מלחמה וכל העדה זו
                      סנהדרין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Yoma.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Yoma.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">יום הכפורים אסור באכילה ובשתיה וברחיצה ובסיכה

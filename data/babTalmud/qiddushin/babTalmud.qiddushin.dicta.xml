@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.qiddushin.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Kiddushin.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">האשה נקנית בשלש דרכים וקונה את עצמה בשתי דרכים נקנית
@@ -2669,7 +2669,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="41a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Kiddushin.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">האיש מקדש בו ובשלוחו האשה מתקדשת בה ובשלוחה האיש
@@ -3830,7 +3830,7 @@
                      הבאה ומילוי כאן בשכר הזאה וקידוש דיקא נמי דקתני הכא במי חטאת ובאפר פרה וקתני
                      התם להזות ולקדש שמע מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Kiddushin.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">האומר לחבירו צא וקדש לי אשה פלונית והלך וקדשה לעצמו
@@ -4622,7 +4622,7 @@
                      למשפחותם לבית אבותם אתא לו אפקיה הכא נמי אף ע"ג דכתיב האשה וילדיה תהיה לאדוניה
                      אתא לו אפקיה ורבנן כל ולד במעי שפחה כנענית כולד במעי בהמה דמי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nashim.Kiddushin.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nashim.Kiddushin.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">עשרה יוחסים עלו מבבל כהני לויי ישראלי חללי גירי

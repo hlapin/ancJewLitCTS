@@ -90,7 +90,7 @@
          <div type="edition" subtype="tractate" xml:lang="heb"
             n="urn:cts:ancJewLit:babTalmud.arakhin.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">הכל מעריכין ונערכין נודרין ונידרין כהנים לוים וישראלים נשים ועבדים
@@ -506,7 +506,7 @@
                   <ab n="b7">תניא כוותיה דרב נחמן בר יצחק האשה שמתה נהנין בשערה בהמה שנהרגה אסורה
                      בהנאה ומה הפרש בין זה לזה זו מיתתה אוסרתה וזו גמר דינה אוסרתה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">אין נערכין פחות מסלע ולא יתר על חמשים סלע כיצד נתן סלע והעשיר אינו נותן
@@ -915,7 +915,7 @@
                      נקראין ותנא דידן כיון דהני קטין קלייהו והני עב קלייהו הני מקטטי והני לא מקטטי
                      קרי להו צערי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m11">יש בערכין להקל ולהחמיר ובשדה אחוזה להקל ולהחמיר ובשור המועד שהמית העבד
@@ -1245,7 +1245,7 @@
                      נתיישבה דעתו ביקש הקדוש ברוך הוא להחזיר את העולם לתוהו ובהו מפני דורו של צדקיהו
                      כיון שנסתכל בצדקיהו נתיישבה דעתו אלא לענין תוקפא וניחותא קאמרינן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">השג יד בנודר והשנים בנידר והערכין בנערך והערך בזמן הערך השג יד בנודר
@@ -1382,7 +1382,7 @@
                   <ab n="b1">ומאי שנא נקבה דכי מיזקנא קיימא אתילתא ומאי שנא זכר דלא קאי אתילתא אמר
                      חזקיה אמרי אינשי סבא בביתא פאחא בביתא סבתא בביתא סימא בביתא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">האומר משקלי עלי נותן משקלו אם כסף כסף ואם זהב זהב מעשה באמה של ירמטיא
@@ -1588,7 +1588,7 @@
                      מודעא פשיטא לא צריכא דעשאוה ואירצי מהו דתימא בטולי בטליה קמ"ל דא"כ ליתני עד
                      שיתן מאי עד שיאמר עד דמבטל ליה למודעיה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">שום היתומים שלשים יום ושום ההקדש ששים יום ומכריזין בבקר ובערב</ab>
@@ -1786,7 +1786,7 @@
                   <ab n="b7"> ת"ר ונתן את הערכך ביום ההוא שלא ישהה מרגלית לקלים קודש לה' סתם
                      ההקדישות לבדק הבית</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">אין מקדישין לפני היובל פחות משתי שנים ולא גואלין אחר היובל פחות משנה
@@ -1994,7 +1994,7 @@
                      בין לפני היובל ואיידי דתנא רישא אין מקדישין ולא גואלין תנא נמי סיפא מקדישין
                      וגואלין</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">המקדיש את שדהו בשעה שאין היובל אומר לו פתח אתה ראשון שהבעלים נותנין
@@ -2198,7 +2198,7 @@
                      בעדרו שמצוה להקדישו שנאמר הזכר תקדיש ורבי ישמעאל אי לא מקדיש ליה לא קדוש קדושתו
                      מרחם הוה וכיון דכי לא מקדיש ליה קדוש לא צריך לאקדושיה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Arakhin.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Arakhin.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m23">המוכר את שדהו בשעת היובל אינו מותר לגאול פחות משתי שנים שנאמר במספר

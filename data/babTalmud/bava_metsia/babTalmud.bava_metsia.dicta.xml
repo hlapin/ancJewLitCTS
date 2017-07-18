@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.bava_metsia.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">שנים אוחזין בטלית זה אומר אני מצאתיה וזה אומר אני
@@ -1395,7 +1395,7 @@
                      דהא הימניה מלוה לשליש יוצא לאחר חיתום שטרות נמי דאי לאו דפריע לא הוה מרע ליה
                      לשטריה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">אלו מציאות שלו ואלו חייב להכריז אלו מציאות שלו מצא
@@ -2507,7 +2507,7 @@
                      מנדיכם אלו עמי הארץ שמא תאמר פסק סברם ובטל סיכוים ת"ל ונראה בשמחתכם שמא תאמר
                      ישראל יבושו תלמוד לומר והם יבושו עובדי כוכבים יבושו וישראל ישמחו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">המפקיד אצל חבירו בהמה או כלים ונגנבו או שאבדו שילם
@@ -3295,7 +3295,7 @@
                      הוא דלא מינטר אלא אגב חמרא אבל זוזא מינטר או דלמא שאני נטירותא דארנקי מנטירותא
                      דדינר תיקו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m15">הזהב קונה את הכסף הכסף אינו קונה את הזהב הנחשת קונה
@@ -4508,7 +4508,7 @@
                      לקמיה דרב פפא בר שמואל זבניה יומא חד א"ל אשקיין מיא אזל חווריה לרישיה ולדיקניה
                      א"ל חזי דאנא קשיש מאבוך קרי אנפשיה צדיק מצרה נחלץ ויבא אחר תחתיו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">איזהו נשך ואיזהו תרבית איזהו נשך המלוה סלע בה'
@@ -5551,7 +5551,7 @@
                      לעצמו מאי היא איכא דאמרי תולה נכסיו בנכרי איכא דאמרי הכותב נכסיו לבניו בחייו
                      איכא דאמרי דביש ליה בהא מתא ולא אזיל למתא אחריתא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m11">השוכר את האומנין והטעו זה את זה אין להם זה על זה
@@ -6064,7 +6064,7 @@
                      יומא וכפינן ולית לן מידי אמר ליה זיל הב אגרייהו א"ל דינא הכי אמר ליה אין וארחות
                      צדיקים תשמור</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m16">השוכר את הפועלים ואמר להם להשכים ולהעריב מקום שנהגו
@@ -7078,7 +7078,7 @@
                      נחמן בר יצחק מתני' נמי דיקא דקתני כל שאפשר לו לקיימו בסופו והתנה עליו מתחילתו
                      תנאו קיים הא אי אפשר לו לקיימו תנאו בטל שמע מינה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m12">השואל את הפרה ושאל בעליה עמה או שכר בעליה עמה שאל
@@ -7724,7 +7724,7 @@
                   <ab n="b10">ואכתי מאי למימרא לא צריכא דקאי אגודא דנהרא מהו
                      דתימא מאי כזה דקאי אגודא דנהרא קמ"ל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m11">המקבל שדה מחבירו מקום שנהגו לקצור יקצור לעקור יעקור
@@ -8700,7 +8700,7 @@
                      דסרבלא וספרא דאגדתא מיתמי בדברים העשויין להשאיל ולהשכיר אמר לך רבא האי נמי כיון
                      דמי פגמא קפדי אינשי ולא מושלי</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Bava_Metzia.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Bava_Metzia.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">הבית והעלייה של שנים שנפלו שניהם חולקין

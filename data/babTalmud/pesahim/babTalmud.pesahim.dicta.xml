@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.pesahim.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">אור לארבעה עשר בודקין את החמץ לאור הנר כל מקום שאין
@@ -1249,7 +1249,7 @@
                      תיפוך הכא במאי עסקינן בכלי שתוכו טהור וגבו טמא מהו דתימא ניגזור דילמא נגע גבו
                      בתרומה קמ"ל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m3">כל שעה שמותר לאכול מאכיל לבהמה לחיה ולעופות ומוכר
@@ -2536,7 +2536,7 @@
                      בפסח ואם לתת נתבקעו אסורים לא נתבקעו מותרין ורב אשי אמר אטו כולהו חדא מחיתא
                      מחיתינהו היכא דאיתמר איתמר והיכא דלא איתמר לא איתמר</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">ואלו עוברין בפסח כותח הבבלי ושכר המדי וחומץ האדומי
@@ -3099,7 +3099,7 @@
                      אבינא רמי כתיב זה שמי לעלם וזה זכרי לדור דור אמר הקב"ה לא כשאני נכתב אני נקרא
                      נכתב אני ביו"ד ה"א ונקרא אני באל"ף דל"ת</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m9">מקום שנהגו לעשות מלאכה בערבי פסחים עד חצות עושין
@@ -4157,7 +4157,7 @@
                      ראשונה וכו' תנא כל אחד ואחד נותן פסחו בעורו ומפשיל לאחוריו אמר רב עיליש
                      טייעות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">אלו דברים בפסח דוחין את השבת שחיטתו וזריקת דמו
@@ -4719,7 +4719,7 @@
                      חייא בר גמדא נזרקה מפי חבורה כגון שהיו בעלים טמאי מת ונדחו לפסח שני אלא מחוורתא
                      כדשני מעיקרא יוסף בן חונאי היא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">כיצד צולין את הפסח מביאין שפוד של רמון ותוחבו לתוך
@@ -5698,7 +5698,7 @@
                      באחד אמר רבה והוא דעייל בעידנא דרגילי למיעל והוא דרגש בהו דיילא אמר רבינא
                      ונותנין שכר דמים וצריך האחרון להוסיף דמים ולית הלכתא כוותיה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m6">האשה בזמן שהיא בבית בעלה שחט עליה בעלה ושחט עליה
@@ -6176,7 +6176,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="92b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Pesachim.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Pesachim.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">מי שהיה טמא או בדרך רחוקה ולא עשה את הראשון יעשה את

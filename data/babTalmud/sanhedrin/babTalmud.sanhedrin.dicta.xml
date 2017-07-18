@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.sanhedrin.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">דיני ממונות בשלשה גזילות וחבלות בשלשה נזק וחצי נזק
@@ -1217,7 +1217,7 @@
                      ושרי עשרות שרי אלפים שש מאות שרי מאות ששת אלפים שרי חמשים שנים עשר אלף שרי
                      עשרות ששת ריבוא נמצאו דייני ישראל שבעת ריבוא ושמונת אלפים ושש מאות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">כהן גדול דן ודנין אותו מעיד ומעידין אותו חולץ
@@ -1743,7 +1743,7 @@
                      מתספורת של בן אלעשה תניא רבי אומר לא על חנם פיזר בן אלעשה את מעותיו אלא כדי
                      להראות בו תספורת של כהן גדול</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">דיני ממונות בשלשה זה בורר לו אחד וזה בורר לו אחד
@@ -2541,7 +2541,7 @@
                   <ab n="b9">רב אשי אמר דיני קנסות הוה ובבבל לא דיינו דיני קנסות
                      והא דשלחו ליה הכי כדי לחלוק כבוד למר עוקבא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">אחד דיני ממונות ואחד דיני נפשות בדרישה ובחקירה
@@ -3201,7 +3201,7 @@
                      של ישראל למדריגה התחתונה והנערה יפה עד מאד א"ר חנינא בר פפא עדיין לא הגיעה לחצי
                      יופי של שרה דכתיב עד מאד ולא מאד בכלל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m13">היו בודקין אותן בשבע חקירות באיזו שבוע באיזו שנה
@@ -3406,7 +3406,7 @@
                      יהללך זר ולא פיך שאני מילתא דבי דינא דאגדול רמיא כדתנן גמרו את הדבר היו מכניסין
                      אותן גדול שבדיינין אומר איש פלוני אתה זכאי איש פלוני אתה חייב</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">נגמר הדין מוציאין אותו לסוקלו בית הסקילה היה חוץ
@@ -4025,7 +4025,7 @@
                   <ab n="b11">ויואב יחיה את שאר העיר אמר רב יהודה אפילו מוניני
                      וצחנתא טעים פריס להו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m12">ארבע מיתות נמסרו לבית דין סקילה שריפה הרג וחנק רבי
@@ -5553,7 +5553,7 @@
                      ואסברה ניהליה היכי עביד הכי והאנן תנן העושה מעשה חייב להתלמד שאני דאמר מר לא
                      תלמד לעשות לעשות אי אתה למד אבל אתה למד להבין ולהורות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">בן סורר ומורה מאימתי נעשה בן סורר ומורה משיביא שתי
@@ -6121,7 +6121,7 @@
                      דא"ר יצחק מיום שחרב בית המקדש ניטלה טעם ביאה וניתנה לעוברי עבירה שנאמר מים
                      גנובים ימתקו ולחם סתרים ינעם</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">ואלו הן הנשרפין הבא על אשה ובתה ובת כהן שזנתה יש
@@ -6782,7 +6782,7 @@
                   <ab n="b9">הא אנן תנן רבי עקיבא אומר בחנק תרי תנאי ואליבא דרבי
                      עקיבא מתניתין ר' שמעון ואליבא דר' עקיבא ברייתא רבנן ואליבא דרבי עקיבא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">אלו הן הנחנקין המכה אביו ואמו וגונב נפש מישראל וזקן
@@ -7294,7 +7294,7 @@
                      שבתורה זוממיהן ובועליהן כיוצא בהן בת כהן היא בשריפה ואין בועלה בשריפה זוממין
                      איני יודע אם לו הוקשו אם לה הוקשו כשהוא אומר לעשות לאחיו לאחיו ולא לאחותו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Nezikin.Sanhedrin.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Nezikin.Sanhedrin.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m10">כל ישראל יש להם חלק לעולם הבא שנאמר ועמך כולם צדיקים

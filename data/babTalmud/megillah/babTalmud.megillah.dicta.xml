@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.megillah.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Megillah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">מגילה נקראת בי"א בי"ב בי"ג בי"ד בט"ו לא פחות ולא
@@ -1519,7 +1519,7 @@
                      שנאמר ויעקב נסע סכותה ויבן לו בית ולמקנהו עשה סכות ובבית אל עשה ששה חדשים
                      והקריב זבחים</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Megillah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m4">הקורא את המגילה למפרע לא יצא קראה על פה קראה תרגום
@@ -1840,7 +1840,7 @@
                      עזריה נאמר כאן בלילה הזה ונאמר להלן ועברתי בארץ מצרים בלילה הזה מה להלן עד חצות
                      אף כאן עד חצות</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Megillah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m5">הקורא את המגילה עומד ויושב קראה אחד קראוה שנים יצאו
@@ -2238,7 +2238,7 @@
                      אמר רב אשי האי מאן דסנאי שומעניה שרי ליה לבזוייה בגימ"ל ושי"ן האי מאן דשפיר
                      שומעניה שרי לשבוחיה ומאן דשבחיה ינוחו לו ברכות על ראשו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Megillah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Megillah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m9">בני העיר שמכרו רחובה של עיר לוקחין בדמיו בית הכנסת

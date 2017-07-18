@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.besa.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Beitzah.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">ביצה שנולדה ביום טוב בית שמאי אומרים תאכל ובית הלל
@@ -899,7 +899,7 @@
                      דמנטרא מחמת גנבי ומחמת כלבי הא דמנטרא מחמת כלבי ולא מנטרא מחמת גנבי מהו דתימא
                      רוב לסטים ישראל נינהו ולא מזלזלי בהו קמ"ל</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Beitzah.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m20">יום טוב שחל להיות ערב שבת לא יבשל בתחלה מיום טוב
@@ -1503,7 +1503,7 @@
                      העגלה מפני שהיא כובשת מפני שכובשת אין אבל חריץ לא עבדא תרי תנאי ואליבא דרבי
                      יהודה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Beitzah.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m19">אין צדין דגים מן הביברים ביו"ט ואין נותנין לפניהם
@@ -1952,7 +1952,7 @@
                      חמשים אגוזים עשרה אפרסקין וחמשה רמונים ואתרוג אחד ובלבד שלא יזכיר לו סכום מדה ר
                     ' שמעון בן אלעזר אומר ובלבד שלא יזכיר לו סכום מקח</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Beitzah.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">המביא כדי יין ממקום למקום לא יביאם בסל ובקופה אבל
@@ -2315,7 +2315,7 @@
                      נגמרה מלאכתו ולאפוקי מהא דתנן המחליף פירות עם חבירו זה לאכול וזה לאכול זה לקצות
                      וזה לקצות זה לאכול וזה לקצות חייב רבי יהודה אומר לאכול חייב לקצות פטור</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Moed.Beitzah.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Moed.Beitzah.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">משילין פירות דרך ארובה ביו"ט אבל לא בשבת ומכסים

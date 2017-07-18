@@ -94,7 +94,7 @@
               xml:lang="heb"
               n="urn:cts:ancJewLit:babTalmud.hulin.dicta">
             <div type="textpart" subtype="folio" n="2a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.1"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.1" n="1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.1.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">הכל שוחטין ושחיטתן כשרה חוץ מחרש שוטה וקטן שמא
@@ -1620,7 +1620,7 @@
                      קדש לחול ובין אור לחשך ובין ישראל לעמים ובין יום השביעי לששת ימי המעשה מ"ט סדר
                      הבדלות הוא מונה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.2"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.2" n="2"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.2.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m18">השוחט אחד בעוף ושנים בבהמה שחיטתו כשרה ורובו של אחד
@@ -2590,7 +2590,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="42a">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.3"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.3" n="3"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.3.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">אלו טרפות בבהמה נקובת הוושט ופסוקת הגרגרת ניקב קרום
@@ -4284,7 +4284,7 @@
                      שנאמר גאוה אפיקי מגנים תחתיו חדודי חרש אפיקי מגנים אלו קשקשים שבו תחתיו חדודי
                      חרש אלו סנפירין שפורח בהן</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.4"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.4" n="4"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.4.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m7">בהמה המקשה לילד והוציא העובר את ידו והחזירו מותר
@@ -4960,7 +4960,7 @@
                      עליו רחמים וכן מי שאירע בו דבר צריך להודיע לרבים ורבים מבקשים עליו רחמים אמר
                      רבינא כמאן תלינן כובסא בדיקלא כמאן כי האי תנא</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.5"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.5" n="5"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.5.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m2">אותו ואת בנו נוהג בין בארץ בין בח"ל בפני הבית ושלא
@@ -5342,7 +5342,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="83b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.6"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.6" n="6"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.6.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">כסוי הדם נוהג בארץ ובחוצה לארץ בפני הבית ושלא בפני
@@ -5766,7 +5766,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="89b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.7"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.7" n="7"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.7.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">גיד הנשה נוהג בארץ ובחוצה לארץ בפני הבית ושלא בפני
@@ -6670,7 +6670,7 @@
                      גרונו בכזית אישתיק ולא א"ל ולא מידי א"ל מופת הדור לא זימנין סגיאין אמרת קמיה
                      דרבי יוחנן ואמר לך הרי נהנה גרונו בכזית</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.8"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.8" n="8"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.8.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m8">כל הבשר אסור לבשל בחלב חוץ מבשר דגים וחגבים ואסור
@@ -7527,7 +7527,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="117b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.9"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.9" n="9"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.9.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">העור והרוטב והקיפה והאלל והעצמות והגידין והקרנים
@@ -8349,7 +8349,7 @@
                      ר' נחוניא מטמא רבי אליעזר ור' יהושע מטהרין השתא דאתית להכי בין תנא קמא לרבי
                      שמעון נמי כזית בשר ועצם כשעורה איכא בינייהו</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.10"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.10" n="10"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.10.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m11">הזרוע והלחיים והקבה נוהגין בארץ ובחוצה לארץ בפני
@@ -8722,7 +8722,7 @@
                      פסולה העיד רבי חנינא בן אנטיגנוס על מוגרמת שהיא כשרה איבעית אימא הא והא רבנן
                      ומאי עמה עמה דבהמה</ab>
                </div>
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.11"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.11" n="11"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.11.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m14">ראשית הגז נוהג בארץ ובחו"ל בפני הבית ושלא בפני
@@ -8982,7 +8982,7 @@
                </div>
             </div>
             <div type="textpart" subtype="folio" n="138b">
-               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.12"/>
+               <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Chullin.12" n="12"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Chullin.12.1"/>
                <div type="textpart" subtype="mishnah">
                   <ab n="m1">שילוח הקן נוהג בארץ ובחו"ל בפני הבית ושלא בפני
