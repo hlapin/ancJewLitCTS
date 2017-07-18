@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Consonantal Text of Unicode/XML Westminster Leningrad Codex for CTS: Haggai</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Unicode/XML Westminster Leningrad Codex 4.20 <date>30 Jan 2016</date> adapted for a
+               canonical text serive </edition>
+            <respStmt>
+               <resp>Transcribed by WLC2XML of 28 July 2016 at 16 Dec 2016 @ 09:49.12. Build number:
+                  25.2.</resp>
+               <name>Stephen K. Salisbury</name>
+               <name>Christopher V. Kimball</name>
+            </respStmt>
+            <respStmt>
+               <resp>CTS edition <date/>
+               </resp>
+               <name>Hayim Lapin</name>
+               <name>Yael Netzer</name>
+               <name>Daniel Stoekl ben Ezra</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Dicta</authority>
+            <authority>eRabbinica</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This work is licensed under a
+                  Creative Commons Attribution 4.0 International License.</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>This TEI-XML compliant text of Haggai was produced for a trial Canonical
+               Text Service for classical Jewish texts. The notes that follow are those that accompany the
+               source document.</note>
+            <note>From the electronic version of the Leningrad Codex maintained by the J. Alan Groves Center
+               for Advanced Biblical Research.</note>
+            <note>This text began as an electronic transcription by Richard Whitaker (Princeton Seminary, New
+               Jersey) and H. van Parunak (then at the University of Michigan, Ann Arbor) of the 1983 printed
+               edition of Biblia Hebraica Stuttgartensia (BHS). It was continued with the cooperation of
+               Robert Kraft (University of Pennsylvania) and Emmanuel Tov (Hebrew University, Jerusalem), and
+               completed by Alan Groves (Westminster Theological Seminary). The transcription was called the
+               Michigan-Claremont-Westminster electronic Hebrew Bible and was archived at the Oxford Text
+               Archive (OTA) in 1987. It has been variously known as the "CCAT" or "eBHS" text. Since that
+               time, the text has been modified in many hundreds of places to conform to the photo-facsimile
+               of the Leningrad Codex, Firkovich B19A, residing at the Russian National Library, St.
+               Petersberg; hence the change of name.</note>
+            <note>The J. Alan Groves Center for Advanced Biblical Research has continued to scrutinize and
+               correct this electronic text as a part of its continuing work of building morphology and syntax
+               databases of the Hebrew Bible, since correct linguistic analysis requires an accurate
+               text.</note>
+            <note>Vocalized ketib variants are no longer included as they are not part of the original
+               manuscript.</note>
+            <note>The only changes to the J. Alan Groves Center for Advanced Biblical Research text by the
+               transcriber are: The book names in English and Hebrew of the Jewish Publication Society Tanach
+               and book abbreviations from the New Revised Standard Version have been added. Six transcription
+               notes (5,7,10) have been moved to the noted character (Lev 11:42.4, Judg 18:30.11, Isa 9.6.1,
+               Ps 80:14.3, Job 38:13.5, Job 38:15.2) </note>
+         </notesStmt>
+         <sourceDesc>
+            <ab/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="word"
+                         matchPattern="(\w+).(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+               <p>This pointer pattern extracts level1 = chapter and level2 = verse and level3 = word</p>
+            </cRefPattern>
+            <cRefPattern n="verse"
+                         matchPattern="(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
+               <p>This pointer pattern extracts level1 = chapter and level2 = verse</p>
+            </cRefPattern>
+            <cRefPattern n="chapter"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts level1 = chapter</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="heb"
+              type="edition"
+              subtype="book"
+              n="urn:cts:ancJewLit:hebBible.haggai.leningrad-cons">
+    
+            <div type="textpart" subtype="chapter" n="1">
+               <ab n="1">
+                  <w n="1">בשנת</w>
+                  <w n="2">שתים</w>
+                  <w n="3">לדריוש</w>
+                  <w n="4">המלך</w>
+                  <w n="5">בחדש</w>
+                  <w n="6">הששי</w>
+                  <w n="7">ביום</w>
+                  <w n="8">אחד</w>
+                  <w n="9">לחדש</w>
+                  <w n="10">היה</w>
+                  <w n="11">דבר</w>
+                  <w n="12">יהוה</w>
+                  <w n="13">ביד</w>
+                  <w n="14">חגי</w>
+                  <w n="15">הנביא</w>
+                  <w n="16">אל</w>
+                  <w n="17">זרבבל</w>
+                  <w n="18">בן</w>
+                  <w n="19">שאלתיאל</w>
+                  <w n="20">פחת</w>
+                  <w n="21">יהודה</w>
+                  <w n="22">ואל</w>
+                  <w n="23">יהושע</w>
+                  <w n="24">בן</w>
+                  <w n="25">יהוצדק</w>
+                  <w n="26">הכהן</w>
+                  <w n="27">הגדול</w>
+                  <w n="28">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="2">
+                  <w n="1">כה</w>
+                  <w n="2">אמר</w>
+                  <w n="3">יהוה</w>
+                  <w n="4">צבאות</w>
+                  <w n="5">לאמר</w>
+                  <w n="6">העם</w>
+                  <w n="7">הזה</w>
+                  <w n="8">אמרו</w>
+                  <w n="9">לא</w>
+                  <w n="10">עת</w>
+                  <w n="11">בא</w>
+                  <w n="12">עת</w>
+                  <w n="13">בית</w>
+                  <w n="14">יהוה</w>
+                  <w n="15">להבנות</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="3">
+                  <w n="1">ויהי</w>
+                  <w n="2">דבר</w>
+                  <w n="3">יהוה</w>
+                  <w n="4">ביד</w>
+                  <w n="5">חגי</w>
+                  <w n="6">הנביא</w>
+                  <w n="7">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="4">
+                  <w n="1">העת</w>
+                  <w n="2">לכם</w>
+                  <w n="3">אתם</w>
+                  <w n="4">לשבת</w>
+                  <w n="5">בבתיכם</w>
+                  <w n="6">ספונים</w>
+                  <w n="7">והבית</w>
+                  <w n="8">הזה</w>
+                  <w n="9">חרב</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="5">
+                  <w n="1">ועתה</w>
+                  <w n="2">כה</w>
+                  <w n="3">אמר</w>
+                  <w n="4">יהוה</w>
+                  <w n="5">צבאות</w>
+                  <w n="6">שימו</w>
+                  <w n="7">לבבכם</w>
+                  <w n="8">על</w>
+                  <w n="9">דרכיכם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="6">
+                  <w n="1">זרעתם</w>
+                  <w n="2">הרבה</w>
+                  <w n="3">והבא</w>
+                  <w n="4">מעט</w>
+                  <w n="5">אכול</w>
+                  <w n="6">ואין</w>
+                  <w n="7">לשבעה</w>
+                  <w n="8">שתו</w>
+                  <w n="9">ואין</w>
+                  <w n="10">לשכרה</w>
+                  <w n="11">לבוש</w>
+                  <w n="12">ואין</w>
+                  <w n="13">לחם</w>
+                  <w n="14">לו</w>
+                  <w n="15">והמשתכר</w>
+                  <w n="16">משתכר</w>
+                  <w n="17">אל</w>
+                  <w n="18">צרור</w>
+                  <w n="19">נקוב</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="7">
+                  <w n="1">כה</w>
+                  <w n="2">אמר</w>
+                  <w n="3">יהוה</w>
+                  <w n="4">צבאות</w>
+                  <w n="5">שימו</w>
+                  <w n="6">לבבכם</w>
+                  <w n="7">על</w>
+                  <w n="8">דרכיכם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="8">
+                  <w n="1">עלו</w>
+                  <w n="2">ההר</w>
+                  <w n="3">והבאתם</w>
+                  <w n="4">עץ</w>
+                  <w n="5">ובנו</w>
+                  <w n="6">הבית</w>
+                  <w n="7">וארצה</w>
+                  <w n="8">בו</w>
+                  <w n="9">ואכבד</w>
+                  <w n="10">ואכבדה</w>
+                  <w n="11">אמר</w>
+                  <w n="12">יהוה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="9">
+                  <w n="1">פנה</w>
+                  <w n="2">אל</w>
+                  <w n="3">הרבה</w>
+                  <w n="4">והנה</w>
+                  <w n="5">למעט</w>
+                  <w n="6">והבאתם</w>
+                  <w n="7">הבית</w>
+                  <w n="8">ונפחתי</w>
+                  <w n="9">בו</w>
+                  <w n="10">יען</w>
+                  <w n="11">מה</w>
+                  <w n="12">נאם</w>
+                  <w n="13">יהוה</w>
+                  <w n="14">צבאות</w>
+                  <w n="15">יען</w>
+                  <w n="16">ביתי</w>
+                  <w n="17">אשר</w>
+                  <w n="18">הוא</w>
+                  <w n="19">חרב</w>
+                  <w n="20">ואתם</w>
+                  <w n="21">רצים</w>
+                  <w n="22">איש</w>
+                  <w n="23">לביתו</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="10">
+                  <w n="1">על</w>
+                  <w n="2">כן</w>
+                  <w n="3">עליכם</w>
+                  <w n="4">כלאו</w>
+                  <w n="5">שמים</w>
+                  <w n="6">מטל</w>
+                  <w n="7">והארץ</w>
+                  <w n="8">כלאה</w>
+                  <w n="9">יבולה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="11">
+                  <w n="1">ואקרא</w>
+                  <w n="2">חרב</w>
+                  <w n="3">על</w>
+                  <w n="4">הארץ</w>
+                  <w n="5">ועל</w>
+                  <w n="6">ההרים</w>
+                  <w n="7">ועל</w>
+                  <w n="8">הדגן</w>
+                  <w n="9">ועל</w>
+                  <w n="10">התירוש</w>
+                  <w n="11">ועל</w>
+                  <w n="12">היצהר</w>
+                  <w n="13">ועל</w>
+                  <w n="14">אשר</w>
+                  <w n="15">תוציא</w>
+                  <w n="16">האדמה</w>
+                  <w n="17">ועל</w>
+                  <w n="18">האדם</w>
+                  <w n="19">ועל</w>
+                  <w n="20">הבהמה</w>
+                  <w n="21">ועל</w>
+                  <w n="22">כל</w>
+                  <w n="23">יגיע</w>
+                  <w n="24">כפים</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="12">
+                  <w n="1">וישמע</w>
+                  <w n="2">זרבבל</w>
+                  <w n="3">בן</w>
+                  <w n="4">שלתיאל</w>
+                  <w n="5">ויהושע</w>
+                  <w n="6">בן</w>
+                  <w n="7">יהוצדק</w>
+                  <w n="8">הכהן</w>
+                  <w n="9">הגדול</w>
+                  <w n="10">וכל</w>
+                  <w n="11">שארית</w>
+                  <w n="12">העם</w>
+                  <w n="13">בקול</w>
+                  <w n="14">יהוה</w>
+                  <w n="15">אלהיהם</w>
+                  <w n="16">ועל</w>
+                  <w n="17">דברי</w>
+                  <w n="18">חגי</w>
+                  <w n="19">הנביא</w>
+                  <w n="20">כאשר</w>
+                  <w n="21">שלחו</w>
+                  <w n="22">יהוה</w>
+                  <w n="23">אלהיהם</w>
+                  <w n="24">וייראו</w>
+                  <w n="25">העם</w>
+                  <w n="26">מפני</w>
+                  <w n="27">יהוה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="13">
+                  <w n="1">ויאמר</w>
+                  <w n="2">חגי</w>
+                  <w n="3">מלאך</w>
+                  <w n="4">יהוה</w>
+                  <w n="5">במלאכות</w>
+                  <w n="6">יהוה</w>
+                  <w n="7">לעם</w>
+                  <w n="8">לאמר</w>
+                  <w n="9">אני</w>
+                  <w n="10">אתכם</w>
+                  <w n="11">נאם</w>
+                  <w n="12">יהוה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="14">
+                  <w n="1">ויער</w>
+                  <w n="2">יהוה</w>
+                  <w n="3">את</w>
+                  <w n="4">רוח</w>
+                  <w n="5">זרבבל</w>
+                  <w n="6">בן</w>
+                  <w n="7">שלתיאל</w>
+                  <w n="8">פחת</w>
+                  <w n="9">יהודה</w>
+                  <w n="10">ואת</w>
+                  <w n="11">רוח</w>
+                  <w n="12">יהושע</w>
+                  <w n="13">בן</w>
+                  <w n="14">יהוצדק</w>
+                  <w n="15">הכהן</w>
+                  <w n="16">הגדול</w>
+                  <w n="17">ואת</w>
+                  <w n="18">רוח</w>
+                  <w n="19">כל</w>
+                  <w n="20">שארית</w>
+                  <w n="21">העם</w>
+                  <w n="22">ויבאו</w>
+                  <w n="23">ויעשו</w>
+                  <w n="24">מלאכה</w>
+                  <w n="25">בבית</w>
+                  <w n="26">יהוה</w>
+                  <w n="27">צבאות</w>
+                  <w n="28">אלהיהם</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="15">
+                  <w n="1">ביום</w>
+                  <w n="2">עשרים</w>
+                  <w n="3">וארבעה</w>
+                  <w n="4">לחדש</w>
+                  <w n="5">בששי</w>
+                  <w n="6">בשנת</w>
+                  <w n="7">שתים</w>
+                  <w n="8">לדריוש</w>
+                  <w n="9">המלך</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+      
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+               <ab n="1">
+                  <w n="1">בשביעי</w>
+                  <w n="2">בעשרים</w>
+                  <w n="3">ואחד</w>
+                  <w n="4">לחדש</w>
+                  <w n="5">היה</w>
+                  <w n="6">דבר</w>
+                  <w n="7">יהוה</w>
+                  <w n="8">ביד</w>
+                  <w n="9">חגי</w>
+                  <w n="10">הנביא</w>
+                  <w n="11">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="2">
+                  <w n="1">אמר</w>
+                  <w n="2">נא</w>
+                  <w n="3">אל</w>
+                  <w n="4">זרבבל</w>
+                  <w n="5">בן</w>
+                  <w n="6">שלתיאל</w>
+                  <w n="7">פחת</w>
+                  <w n="8">יהודה</w>
+                  <w n="9">ואל</w>
+                  <w n="10">יהושע</w>
+                  <w n="11">בן</w>
+                  <w n="12">יהוצדק</w>
+                  <w n="13">הכהן</w>
+                  <w n="14">הגדול</w>
+                  <w n="15">ואל</w>
+                  <w n="16">שארית</w>
+                  <w n="17">העם</w>
+                  <w n="18">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="3">
+                  <w n="1">מי</w>
+                  <w n="2">בכם</w>
+                  <w n="3">הנשאר</w>
+                  <w n="4">אשר</w>
+                  <w n="5">ראה</w>
+                  <w n="6">את</w>
+                  <w n="7">הבית</w>
+                  <w n="8">הזה</w>
+                  <w n="9">בכבודו</w>
+                  <w n="10">הראשון</w>
+                  <w n="11">ומה</w>
+                  <w n="12">אתם</w>
+                  <w n="13">ראים</w>
+                  <w n="14">אתו</w>
+                  <w n="15">עתה</w>
+                  <w n="16">הלוא</w>
+                  <w n="17">כמהו</w>
+                  <w n="18">כאין</w>
+                  <w n="19">בעיניכם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="4">
+                  <w n="1">ועתה</w>
+                  <w n="2">חזק</w>
+                  <w n="3">זרבבל</w>
+                  <w n="4">נאם</w>
+                  <w n="5">יהוה</w>
+                  <w n="6">וחזק</w>
+                  <w n="7">יהושע</w>
+                  <w n="8">בן</w>
+                  <w n="9">יהוצדק</w>
+                  <w n="10">הכהן</w>
+                  <w n="11">הגדול</w>
+                  <w n="12">וחזק</w>
+                  <w n="13">כל</w>
+                  <w n="14">עם</w>
+                  <w n="15">הארץ</w>
+                  <w n="16">נאם</w>
+                  <w n="17">יהוה</w>
+                  <w n="18">ועשו</w>
+                  <w n="19">כי</w>
+                  <w n="20">אני</w>
+                  <w n="21">אתכם</w>
+                  <w n="22">נאם</w>
+                  <w n="23">יהוה</w>
+                  <w n="24">צבאות</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="5">
+                  <w n="1">את</w>
+                  <w n="2">הדבר</w>
+                  <w n="3">אשר</w>
+                  <w n="4">כרתי</w>
+                  <w n="5">אתכם</w>
+                  <w n="6">בצאתכם</w>
+                  <w n="7">ממצרים</w>
+                  <w n="8">ורוחי</w>
+                  <w n="9">עמדת</w>
+                  <w n="10">בתוככם</w>
+                  <w n="11">אל</w>
+                  <w n="12">תיראו</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="6">
+                  <w n="1">כי</w>
+                  <w n="2">כה</w>
+                  <w n="3">אמר</w>
+                  <w n="4">יהוה</w>
+                  <w n="5">צבאות</w>
+                  <w n="6">עוד</w>
+                  <w n="7">אחת</w>
+                  <w n="8">מעט</w>
+                  <w n="9">היא</w>
+                  <w n="10">ואני</w>
+                  <w n="11">מרעיש</w>
+                  <w n="12">את</w>
+                  <w n="13">השמים</w>
+                  <w n="14">ואת</w>
+                  <w n="15">הארץ</w>
+                  <w n="16">ואת</w>
+                  <w n="17">הים</w>
+                  <w n="18">ואת</w>
+                  <w n="19">החרבה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="7">
+                  <w n="1">והרעשתי</w>
+                  <w n="2">את</w>
+                  <w n="3">כל</w>
+                  <w n="4">הגוים</w>
+                  <w n="5">ובאו</w>
+                  <w n="6">חמדת</w>
+                  <w n="7">כל</w>
+                  <w n="8">הגוים</w>
+                  <w n="9">ומלאתי</w>
+                  <w n="10">את</w>
+                  <w n="11">הבית</w>
+                  <w n="12">הזה</w>
+                  <w n="13">כבוד</w>
+                  <w n="14">אמר</w>
+                  <w n="15">יהוה</w>
+                  <w n="16">צבאות</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="8">
+                  <w n="1">לי</w>
+                  <w n="2">הכסף</w>
+                  <w n="3">ולי</w>
+                  <w n="4">הזהב</w>
+                  <w n="5">נאם</w>
+                  <w n="6">יהוה</w>
+                  <w n="7">צבאות</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="9">
+                  <w n="1">גדול</w>
+                  <w n="2">יהיה</w>
+                  <w n="3">כבוד</w>
+                  <w n="4">הבית</w>
+                  <w n="5">הזה</w>
+                  <w n="6">האחרון</w>
+                  <w n="7">מן</w>
+                  <w n="8">הראשון</w>
+                  <w n="9">אמר</w>
+                  <w n="10">יהוה</w>
+                  <w n="11">צבאות</w>
+                  <w n="12">ובמקום</w>
+                  <w n="13">הזה</w>
+                  <w n="14">אתן</w>
+                  <w n="15">שלום</w>
+                  <w n="16">נאם</w>
+                  <w n="17">יהוה</w>
+                  <w n="18">צבאות</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="10">
+                  <w n="1">בעשרים</w>
+                  <w n="2">וארבעה</w>
+                  <w n="3">לתשיעי</w>
+                  <w n="4">בשנת</w>
+                  <w n="5">שתים</w>
+                  <w n="6">לדריוש</w>
+                  <w n="7">היה</w>
+                  <w n="8">דבר</w>
+                  <w n="9">יהוה</w>
+                  <w n="10">אל</w>
+                  <w n="11">חגי</w>
+                  <w n="12">הנביא</w>
+                  <w n="13">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="11">
+                  <w n="1">כה</w>
+                  <w n="2">אמר</w>
+                  <w n="3">יהוה</w>
+                  <w n="4">צבאות</w>
+                  <w n="5">שאל</w>
+                  <w n="6">נא</w>
+                  <w n="7">את</w>
+                  <w n="8">הכהנים</w>
+                  <w n="9">תורה</w>
+                  <w n="10">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="12">
+                  <w n="1">הן</w>
+                  <w n="2">ישא</w>
+                  <w n="3">איש</w>
+                  <w n="4">בשר</w>
+                  <w n="5">קדש</w>
+                  <w n="6">בכנף</w>
+                  <w n="7">בגדו</w>
+                  <w n="8">ונגע</w>
+                  <w n="9">בכנפו</w>
+                  <w n="10">אל</w>
+                  <w n="11">הלחם</w>
+                  <w n="12">ואל</w>
+                  <w n="13">הנזיד</w>
+                  <w n="14">ואל</w>
+                  <w n="15">היין</w>
+                  <w n="16">ואל</w>
+                  <w n="17">שמן</w>
+                  <w n="18">ואל</w>
+                  <w n="19">כל</w>
+                  <w n="20">מאכל</w>
+                  <w n="21">היקדש</w>
+                  <w n="22">ויענו</w>
+                  <w n="23">הכהנים</w>
+                  <w n="24">ויאמרו</w>
+                  <w n="25">לא</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="13">
+                  <w n="1">ויאמר</w>
+                  <w n="2">חגי</w>
+                  <w n="3">אם</w>
+                  <w n="4">יגע</w>
+                  <w n="5">טמא</w>
+                  <w n="6">נפש</w>
+                  <w n="7">בכל</w>
+                  <w n="8">אלה</w>
+                  <w n="9">היטמא</w>
+                  <w n="10">ויענו</w>
+                  <w n="11">הכהנים</w>
+                  <w n="12">ויאמרו</w>
+                  <w n="13">יטמא</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="14">
+                  <w n="1">ויען</w>
+                  <w n="2">חגי</w>
+                  <w n="3">ויאמר</w>
+                  <w n="4">כן</w>
+                  <w n="5">העם</w>
+                  <w n="6">הזה</w>
+                  <w n="7">וכן</w>
+                  <w n="8">הגוי</w>
+                  <w n="9">הזה</w>
+                  <w n="10">לפני</w>
+                  <w n="11">נאם</w>
+                  <w n="12">יהוה</w>
+                  <w n="13">וכן</w>
+                  <w n="14">כל</w>
+                  <w n="15">מעשה</w>
+                  <w n="16">ידיהם</w>
+                  <w n="17">ואשר</w>
+                  <w n="18">יקריבו</w>
+                  <w n="19">שם</w>
+                  <w n="20">טמא</w>
+                  <w n="21">הוא</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="15">
+                  <w n="1">ועתה</w>
+                  <w n="2">שימו</w>
+                  <w n="3">נא</w>
+                  <w n="4">לבבכם</w>
+                  <w n="5">מן</w>
+                  <w n="6">היום</w>
+                  <w n="7">הזה</w>
+                  <w n="8">ומעלה</w>
+                  <w n="9">מטרם</w>
+                  <w n="10">שום</w>
+                  <w n="11">אבן</w>
+                  <w n="12">אל</w>
+                  <w n="13">אבן</w>
+                  <w n="14">בהיכל</w>
+                  <w n="15">יהוה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="16">
+                  <w n="1">מהיותם</w>
+                  <w n="2">בא</w>
+                  <w n="3">אל</w>
+                  <w n="4">ערמת</w>
+                  <w n="5">עשרים</w>
+                  <w n="6">והיתה</w>
+                  <w n="7">עשרה</w>
+                  <w n="8">בא</w>
+                  <w n="9">אל</w>
+                  <w n="10">היקב</w>
+                  <w n="11">לחשף</w>
+                  <w n="12">חמשים</w>
+                  <w n="13">פורה</w>
+                  <w n="14">והיתה</w>
+                  <w n="15">עשרים</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="17">
+                  <w n="1">הכיתי</w>
+                  <w n="2">אתכם</w>
+                  <w n="3">בשדפון</w>
+                  <w n="4">ובירקון</w>
+                  <w n="5">ובברד</w>
+                  <w n="6">את</w>
+                  <w n="7">כל</w>
+                  <w n="8">מעשה</w>
+                  <w n="9">ידיכם</w>
+                  <w n="10">ואין</w>
+                  <w n="11">אתכם</w>
+                  <w n="12">אלי</w>
+                  <w n="13">נאם</w>
+                  <w n="14">יהוה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="18">
+                  <w n="1">שימו</w>
+                  <w n="2">נא</w>
+                  <w n="3">לבבכם</w>
+                  <w n="4">מן</w>
+                  <w n="5">היום</w>
+                  <w n="6">הזה</w>
+                  <w n="7">ומעלה</w>
+                  <w n="8">מיום</w>
+                  <w n="9">עשרים</w>
+                  <w n="10">וארבעה</w>
+                  <w n="11">לתשיעי</w>
+                  <w n="12">למן</w>
+                  <w n="13">היום</w>
+                  <w n="14">אשר</w>
+                  <w n="15">יסד</w>
+                  <w n="16">היכל</w>
+                  <w n="17">יהוה</w>
+                  <w n="18">שימו</w>
+                  <w n="19">לבבכם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="19">
+                  <w n="1">העוד</w>
+                  <w n="2">הזרע</w>
+                  <w n="3">במגורה</w>
+                  <w n="4">ועד</w>
+                  <w n="5">הגפן</w>
+                  <w n="6">והתאנה</w>
+                  <w n="7">והרמון</w>
+                  <w n="8">ועץ</w>
+                  <w n="9">הזית</w>
+                  <w n="10">לא</w>
+                  <w n="11">נשא</w>
+                  <w n="12">מן</w>
+                  <w n="13">היום</w>
+                  <w n="14">הזה</w>
+                  <w n="15">אברך</w>
+                  <pc type="verseEnd">:</pc>
+        
+               </ab>
+               <ab n="20">
+                  <w n="1">ויהי</w>
+                  <w n="2">דבר</w>
+                  <w n="3">יהוה</w>
+                  <w n="4">שנית</w>
+                  <w n="5">אל</w>
+                  <w n="6">חגי</w>
+                  <w n="7">בעשרים</w>
+                  <w n="8">וארבעה</w>
+                  <w n="9">לחדש</w>
+                  <w n="10">לאמר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="21">
+                  <w n="1">אמר</w>
+                  <w n="2">אל</w>
+                  <w n="3">זרבבל</w>
+                  <w n="4">פחת</w>
+                  <w n="5">יהודה</w>
+                  <w n="6">לאמר</w>
+                  <w n="7">אני</w>
+                  <w n="8">מרעיש</w>
+                  <w n="9">את</w>
+                  <w n="10">השמים</w>
+                  <w n="11">ואת</w>
+                  <w n="12">הארץ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="22">
+                  <w n="1">והפכתי</w>
+                  <w n="2">כסא</w>
+                  <w n="3">ממלכות</w>
+                  <w n="4">והשמדתי</w>
+                  <w n="5">חזק</w>
+                  <w n="6">ממלכות</w>
+                  <w n="7">הגוים</w>
+                  <w n="8">והפכתי</w>
+                  <w n="9">מרכבה</w>
+                  <w n="10">ורכביה</w>
+                  <w n="11">וירדו</w>
+                  <w n="12">סוסים</w>
+                  <w n="13">ורכביהם</w>
+                  <w n="14">איש</w>
+                  <w n="15">בחרב</w>
+                  <w n="16">אחיו</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="23">
+                  <w n="1">ביום</w>
+                  <w n="2">ההוא</w>
+                  <w n="3">נאם</w>
+                  <w n="4">יהוה</w>
+                  <w n="5">צבאות</w>
+                  <w n="6">אקחך</w>
+                  <w n="7">זרבבל</w>
+                  <w n="8">בן</w>
+                  <w n="9">שאלתיאל</w>
+                  <w n="10">עבדי</w>
+                  <w n="11">נאם</w>
+                  <w n="12">יהוה</w>
+                  <w n="13">ושמתיך</w>
+                  <w n="14">כחותם</w>
+                  <w n="15">כי</w>
+                  <w n="16">בך</w>
+                  <w n="17">בחרתי</w>
+                  <w n="18">נאם</w>
+                  <w n="19">יהוה</w>
+                  <w n="20">צבאות</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+      
+            </div>
+    
+    
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pointed Text of Unicode/XML Westminster Leningrad Codex for CTS: Obadiah</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Unicode/XML Westminster Leningrad Codex 4.20 <date>30 Jan 2016</date> adapted for a
+               canonical text serive </edition>
+            <respStmt>
+               <resp>Transcribed by WLC2XML of 28 July 2016 at 16 Dec 2016 @ 09:49.12. Build number:
+                  25.2.</resp>
+               <name>Stephen K. Salisbury</name>
+               <name>Christopher V. Kimball</name>
+            </respStmt>
+            <respStmt>
+               <resp>CTS edition <date/>
+               </resp>
+               <name>Hayim Lapin</name>
+               <name>Yael Netzer</name>
+               <name>Daniel Stoekl ben Ezra</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Dicta</authority>
+            <authority>eRabbinica</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This work is licensed under a
+                  Creative Commons Attribution 4.0 International License.</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>This TEI-XML compliant text of Obadiah was produced for a trial Canonical
+               Text Service for classical Jewish texts. The notes that follow are those that accompany the
+               source document.</note>
+            <note>From the electronic version of the Leningrad Codex maintained by the J. Alan Groves Center
+               for Advanced Biblical Research.</note>
+            <note>This text began as an electronic transcription by Richard Whitaker (Princeton Seminary, New
+               Jersey) and H. van Parunak (then at the University of Michigan, Ann Arbor) of the 1983 printed
+               edition of Biblia Hebraica Stuttgartensia (BHS). It was continued with the cooperation of
+               Robert Kraft (University of Pennsylvania) and Emmanuel Tov (Hebrew University, Jerusalem), and
+               completed by Alan Groves (Westminster Theological Seminary). The transcription was called the
+               Michigan-Claremont-Westminster electronic Hebrew Bible and was archived at the Oxford Text
+               Archive (OTA) in 1987. It has been variously known as the "CCAT" or "eBHS" text. Since that
+               time, the text has been modified in many hundreds of places to conform to the photo-facsimile
+               of the Leningrad Codex, Firkovich B19A, residing at the Russian National Library, St.
+               Petersberg; hence the change of name.</note>
+            <note>The J. Alan Groves Center for Advanced Biblical Research has continued to scrutinize and
+               correct this electronic text as a part of its continuing work of building morphology and syntax
+               databases of the Hebrew Bible, since correct linguistic analysis requires an accurate
+               text.</note>
+            <note>Vocalized ketib variants are no longer included as they are not part of the original
+               manuscript.</note>
+            <note>The only changes to the J. Alan Groves Center for Advanced Biblical Research text by the
+               transcriber are: The book names in English and Hebrew of the Jewish Publication Society Tanach
+               and book abbreviations from the New Revised Standard Version have been added. Six transcription
+               notes (5,7,10) have been moved to the noted character (Lev 11:42.4, Judg 18:30.11, Isa 9.6.1,
+               Ps 80:14.3, Job 38:13.5, Job 38:15.2) </note>
+         </notesStmt>
+         <sourceDesc>
+            <ab/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="word"
+                         matchPattern="(\w+).(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2']/tei:w[@n='$3'])">
+               <p>This pointer pattern extracts level1 = chapter and level2 = verse and level3 = word</p>
+            </cRefPattern>
+            <cRefPattern n="verse"
+                         matchPattern="(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:ab[@n='$2'])">
+               <p>This pointer pattern extracts level1 = chapter and level2 = verse</p>
+            </cRefPattern>
+            <cRefPattern n="chapter"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts level1 = chapter</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="heb"
+              type="edition"
+              subtype="book"
+              n="urn:cts:ancJewLit:hebBible.obadiah.leningrad-pntd">
+    
+            <div type="textpart" subtype="chapter" n="1">
+               <ab n="1">
+                  <w n="1">חֲז֖וֹן</w>
+                  <w n="2">עֹֽבַדְיָ֑ה</w>
+                  <w n="3">כֹּֽה־</w>
+                  <w n="4">אָמַר֩</w>
+                  <w n="5">אֲדֹנָ֨/י</w>
+                  <w n="6">יְהוִ֜ה</w>
+                  <w n="7">לֶ/אֱד֗וֹם</w>
+                  <w n="8">שְׁמוּעָ֨ה</w>
+                  <w n="9">שָׁמַ֜עְנוּ</w>
+                  <w n="10">מֵ/אֵ֤ת</w>
+                  <w n="11">יְהוָה֙</w>
+                  <w n="12">וְ/צִיר֙</w>
+                  <w n="13">בַּ/גּוֹיִ֣ם</w>
+                  <w n="14">שֻׁלָּ֔ח</w>
+                  <w n="15">ק֛וּמוּ</w>
+                  <w n="16">וְ/נָק֥וּמָה</w>
+                  <w n="17">עָלֶי/הָ</w>
+                  <w n="18">לַ/מִּלְחָמָֽה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="2">
+                  <w n="1">הִנֵּ֥ה</w>
+                  <w n="2">קָטֹ֛ן</w>
+                  <w n="3">נְתַתִּ֖י/ךָ</w>
+                  <w n="4">בַּ/גּוֹיִ֑ם</w>
+                  <w n="5">בָּז֥וּי</w>
+                  <w n="6">אַתָּ֖ה</w>
+                  <w n="7">מְאֹֽד</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="3">
+                  <w n="1">זְד֤וֹן</w>
+                  <w n="2">לִבְּ/ךָ֙</w>
+                  <w n="3">הִשִּׁיאֶ֔/ךָ</w>
+                  <w n="4">שֹׁכְנִ֥י</w>
+                  <w n="5">בְ/חַגְוֵי־</w>
+                  <w n="6">סֶּ֖לַע</w>
+                  <w n="7">מְר֣וֹם</w>
+                  <w n="8">שִׁבְתּ֑/וֹ</w>
+                  <w n="9">אֹמֵ֣ר</w>
+                  <w n="10">בְּ/לִבּ֔/וֹ</w>
+                  <w n="11">מִ֥י</w>
+                  <w n="12">יוֹרִדֵ֖/נִי</w>
+                  <w n="13">אָֽרֶץ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="4">
+                  <w n="1">אִם־</w>
+                  <w n="2">תַּגְבִּ֣יהַּ</w>
+                  <w n="3">כַּ/נֶּ֔שֶׁר</w>
+                  <w n="4">וְ/אִם־</w>
+                  <w n="5">בֵּ֥ין</w>
+                  <w n="6">כּֽוֹכָבִ֖ים</w>
+                  <w n="7">שִׂ֣ים</w>
+                  <w n="8">קִנֶּ֑/ךָ</w>
+                  <w n="9">מִ/שָּׁ֥ם</w>
+                  <w n="10">אוֹרִֽידְ/ךָ֖</w>
+                  <w n="11">נְאֻם־</w>
+                  <w n="12">יְהוָֽה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="5">
+                  <w n="1">אִם־</w>
+                  <w n="2">גַּנָּבִ֤ים</w>
+                  <w n="3">בָּאֽוּ־</w>
+                  <w n="4">לְ/ךָ֙</w>
+                  <w n="5">אִם־</w>
+                  <w n="6">שׁ֣וֹדְדֵי</w>
+                  <w n="7">לַ֔יְלָה</w>
+                  <w n="8">אֵ֣יךְ</w>
+                  <w n="9">נִדְמֵ֔יתָה</w>
+                  <w n="10">הֲ/ל֥וֹא</w>
+                  <w n="11">יִגְנְב֖וּ</w>
+                  <w n="12">דַּיָּ֑/ם</w>
+                  <w n="13">אִם־</w>
+                  <w n="14">בֹּֽצְרִים֙</w>
+                  <w n="15">בָּ֣אוּ</w>
+                  <w n="16">לָ֔/ךְ</w>
+                  <w n="17">הֲ/ל֖וֹא</w>
+                  <w n="18">יַשְׁאִ֥ירוּ</w>
+                  <w n="19">עֹלֵלֽוֹת</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="6">
+                  <w n="1">אֵ֚יךְ</w>
+                  <w n="2">נֶחְפְּשׂ֣וּ</w>
+                  <w n="3">עֵשָׂ֔ו</w>
+                  <w n="4">נִבְע֖וּ</w>
+                  <w n="5">מַצְפֻּנָֽי/ו</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="7">
+                  <w n="1">עַֽד־</w>
+                  <w n="2">הַ/גְּב֣וּל</w>
+                  <w n="3">שִׁלְּח֗וּ/ךָ</w>
+                  <w n="4">כֹּ֚ל</w>
+                  <w n="5">אַנְשֵׁ֣י</w>
+                  <w n="6">בְרִיתֶ֔/ךָ</w>
+                  <w n="7">הִשִּׁיא֛וּ/ךָ</w>
+                  <w n="8">יָכְל֥וּ</w>
+                  <w n="9">לְ/ךָ֖</w>
+                  <w n="10">אַנְשֵׁ֣י</w>
+                  <w n="11">שְׁלֹמֶ֑/ךָ</w>
+                  <w n="12">לַחְמְ/ךָ֗</w>
+                  <w n="13">יָשִׂ֤ימוּ</w>
+                  <w n="14">מָזוֹר֙</w>
+                  <w n="15">תַּחְתֶּ֔י/ךָ</w>
+                  <w n="16">אֵ֥ין</w>
+                  <w n="17">תְּבוּנָ֖ה</w>
+                  <w n="18">בּֽ/וֹ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="8">
+                  <w n="1">הֲ/ל֛וֹא</w>
+                  <w n="2">בַּ/יּ֥וֹם</w>
+                  <w n="3">הַ/ה֖וּא</w>
+                  <w n="4">נְאֻם־</w>
+                  <w n="5">יְהוָ֑ה</w>
+                  <w n="6">וְ/הַאֲבַדְתִּ֤י</w>
+                  <w n="7">חֲכָמִים֙</w>
+                  <w n="8">מֵֽ/אֱד֔וֹם</w>
+                  <w n="9">וּ/תְבוּנָ֖ה</w>
+                  <w n="10">מֵ/הַ֥ר</w>
+                  <w n="11">עֵשָֽׂו</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="9">
+                  <w n="1">וְ/חַתּ֥וּ</w>
+                  <w n="2">גִבּוֹרֶ֖י/ךָ</w>
+                  <w n="3">תֵּימָ֑ן</w>
+                  <w n="4">לְמַ֧עַן</w>
+                  <w n="5">יִכָּֽרֶת־</w>
+                  <w n="6">אִ֛ישׁ</w>
+                  <w n="7">מֵ/הַ֥ר</w>
+                  <w n="8">עֵשָׂ֖ו</w>
+                  <w n="9">מִ/קָּֽטֶל</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="10">
+                  <w n="1">מֵ/חֲמַ֛ס</w>
+                  <w n="2">אָחִ֥י/ךָ</w>
+                  <w n="3">יַעֲקֹ֖ב</w>
+                  <w n="4">תְּכַסְּ/ךָ֣</w>
+                  <w n="5">בוּשָׁ֑ה</w>
+                  <w n="6">וְ/נִכְרַ֖תָּ</w>
+                  <w n="7">לְ/עוֹלָֽם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="11">
+                  <w n="1">בְּ/יוֹם֙</w>
+                  <w n="2">עֲמָֽדְ/ךָ֣</w>
+                  <w n="3">מִ/נֶּ֔גֶד</w>
+                  <w n="4">בְּ/י֛וֹם</w>
+                  <w n="5">שְׁב֥וֹת</w>
+                  <w n="6">זָרִ֖ים</w>
+                  <w n="7">חֵיל֑/וֹ</w>
+                  <w n="8">וְ/נָכְרִ֞ים</w>
+                  <w n="9">בָּ֣אוּ</w>
+                  <w n="10">שער/ו</w>
+                  <w n="11">שְׁעָרָ֗י/ו</w>
+                  <w n="12">וְ/עַל־</w>
+                  <w n="13">יְרוּשָׁלִַ֙ם֙</w>
+                  <w n="14">יַדּ֣וּ</w>
+                  <w n="15">גוֹרָ֔ל</w>
+                  <w n="16">גַּם־</w>
+                  <w n="17">אַתָּ֖ה</w>
+                  <w n="18">כְּ/אַחַ֥ד</w>
+                  <w n="19">מֵ/הֶֽם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="12">
+                  <w n="1">וְ/אַל־</w>
+                  <w n="2">תֵּ֤רֶא</w>
+                  <w n="3">בְ/יוֹם־</w>
+                  <w n="4">אָחִ֙י/ךָ֙</w>
+                  <w n="5">בְּ/י֣וֹם</w>
+                  <w n="6">נָכְר֔/וֹ</w>
+                  <w n="7">וְ/אַל־</w>
+                  <w n="8">תִּשְׂמַ֥ח</w>
+                  <w n="9">לִ/בְנֵֽי־</w>
+                  <w n="10">יְהוּדָ֖ה</w>
+                  <w n="11">בְּ/י֣וֹם</w>
+                  <w n="12">אָבְדָ֑/ם</w>
+                  <w n="13">וְ/אַל־</w>
+                  <w n="14">תַּגְדֵּ֥ל</w>
+                  <w n="15">פִּ֖י/ךָ</w>
+                  <w n="16">בְּ/י֥וֹם</w>
+                  <w n="17">צָרָֽה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="13">
+                  <w n="1">אַל־</w>
+                  <w n="2">תָּב֤וֹא</w>
+                  <w n="3">בְ/שַֽׁעַר־</w>
+                  <w n="4">עַמִּ/י֙</w>
+                  <w n="5">בְּ/י֣וֹם</w>
+                  <w n="6">אֵידָ֔/ם</w>
+                  <w n="7">אַל־</w>
+                  <w n="8">תֵּ֧רֶא</w>
+                  <w n="9">גַם־</w>
+                  <w n="10">אַתָּ֛ה</w>
+                  <w n="11">בְּ/רָעָת֖/וֹ</w>
+                  <w n="12">בְּ/י֣וֹם</w>
+                  <w n="13">אֵיד֑/וֹ</w>
+                  <w n="14">וְ/אַל־</w>
+                  <w n="15">תִּשְׁלַ֥חְנָה</w>
+                  <w n="16">בְ/חֵיל֖/וֹ</w>
+                  <w n="17">בְּ/י֥וֹם</w>
+                  <w n="18">אֵידֽ/וֹ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="14">
+                  <w n="1">וְ/אַֽל־</w>
+                  <w n="2">תַּעֲמֹד֙</w>
+                  <w n="3">עַל־</w>
+                  <w n="4">הַ/פֶּ֔רֶק</w>
+                  <w n="5">לְ/הַכְרִ֖ית</w>
+                  <w n="6">אֶת־</w>
+                  <w n="7">פְּלִיטָ֑י/ו</w>
+                  <w n="8">וְ/אַל־</w>
+                  <w n="9">תַּסְגֵּ֥ר</w>
+                  <w n="10">שְׂרִידָ֖י/ו</w>
+                  <w n="11">בְּ/י֥וֹם</w>
+                  <w n="12">צָרָֽה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="15">
+                  <w n="1">כִּֽי־</w>
+                  <w n="2">קָר֥וֹב</w>
+                  <w n="3">יוֹם־</w>
+                  <w n="4">יְהוָ֖ה</w>
+                  <w n="5">עַל־</w>
+                  <w n="6">כָּל־</w>
+                  <w n="7">הַ/גּוֹיִ֑ם</w>
+                  <w n="8">כַּ/אֲשֶׁ֤ר</w>
+                  <w n="9">עָשִׂ֙יתָ֙</w>
+                  <w n="10">יֵעָ֣שֶׂה</w>
+                  <w n="11">לָּ֔/ךְ</w>
+                  <w n="12">גְּמֻלְ/ךָ֖</w>
+                  <w n="13">יָשׁ֥וּב</w>
+                  <w n="14">בְּ/רֹאשֶֽׁ/ךָ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="16">
+                  <w n="1">כִּ֗י</w>
+                  <w n="2">כַּֽ/אֲשֶׁ֤ר</w>
+                  <w n="3">שְׁתִיתֶם֙</w>
+                  <w n="4">עַל־</w>
+                  <w n="5">הַ֣ר</w>
+                  <w n="6">קָדְשִׁ֔/י</w>
+                  <w n="7">יִשְׁתּ֥וּ</w>
+                  <w n="8">כָֽל־</w>
+                  <w n="9">הַ/גּוֹיִ֖ם</w>
+                  <w n="10">תָּמִ֑יד</w>
+                  <w n="11">וְ/שָׁת֣וּ</w>
+                  <w n="12">וְ/לָע֔וּ</w>
+                  <w n="13">וְ/הָי֖וּ</w>
+                  <w n="14">כְּ/ל֥וֹא</w>
+                  <w n="15">הָיֽוּ</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="17">
+                  <w n="1">וּ/בְ/הַ֥ר</w>
+                  <w n="2">צִיּ֛וֹן</w>
+                  <w n="3">תִּהְיֶ֥ה</w>
+                  <w n="4">פְלֵיטָ֖ה</w>
+                  <w n="5">וְ/הָ֣יָה</w>
+                  <w n="6">קֹ֑דֶשׁ</w>
+                  <w n="7">וְ/יָֽרְשׁוּ֙</w>
+                  <w n="8">בֵּ֣ית</w>
+                  <w n="9">יַֽעֲקֹ֔ב</w>
+                  <w n="10">אֵ֖ת</w>
+                  <w n="11">מוֹרָֽשֵׁי/הֶם</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="18">
+                  <w n="1">וְ/הָיָה֩</w>
+                  <w n="2">בֵית־</w>
+                  <w n="3">יַעֲקֹ֨ב</w>
+                  <w n="4">אֵ֜שׁ</w>
+                  <w n="5">וּ/בֵ֧ית</w>
+                  <w n="6">יוֹסֵ֣ף</w>
+                  <w n="7">לֶהָבָ֗ה</w>
+                  <w n="8">וּ/בֵ֤ית</w>
+                  <w n="9">עֵשָׂו֙</w>
+                  <w n="10">לְ/קַ֔שׁ</w>
+                  <w n="11">וְ/דָלְק֥וּ</w>
+                  <w n="12">בָ/הֶ֖ם</w>
+                  <w n="13">וַ/אֲכָל֑וּ/ם</w>
+                  <w n="14">וְ/לֹֽא־</w>
+                  <w n="15">יִֽהְיֶ֤ה</w>
+                  <w n="16">שָׂרִיד֙</w>
+                  <w n="17">לְ/בֵ֣ית</w>
+                  <w n="18">עֵשָׂ֔ו</w>
+                  <w n="19">כִּ֥י</w>
+                  <w n="20">יְהוָ֖ה</w>
+                  <w n="21">דִּבֵּֽר</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="19">
+                  <w n="1">וְ/יָרְשׁ֨וּ</w>
+                  <w n="2">הַ/נֶּ֜גֶב</w>
+                  <w n="3">אֶת־</w>
+                  <w n="4">הַ֣ר</w>
+                  <w n="5">עֵשָׂ֗ו</w>
+                  <w n="6">וְ/הַ/שְּׁפֵלָה֙</w>
+                  <w n="7">אֶת־</w>
+                  <w n="8">פְּלִשְׁתִּ֔ים</w>
+                  <w n="9">וְ/יָרְשׁוּ֙</w>
+                  <w n="10">אֶת־</w>
+                  <w n="11">שְׂדֵ֣ה</w>
+                  <w n="12">אֶפְרַ֔יִם</w>
+                  <w n="13">וְ/אֵ֖ת</w>
+                  <w n="14">שְׂדֵ֣ה</w>
+                  <w n="15">שֹׁמְר֑וֹן</w>
+                  <w n="16">וּ/בִנְיָמִ֖ן</w>
+                  <w n="17">אֶת־</w>
+                  <w n="18">הַ/גִּלְעָֽד</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="20">
+                  <w n="1">וְ/גָלֻ֣ת</w>
+                  <w n="2">הַֽ/חֵל־</w>
+                  <w n="3">הַ֠/זֶּה</w>
+                  <w n="4">לִ/בְנֵ֨י</w>
+                  <w n="5">יִשְׂרָאֵ֤ל</w>
+                  <w n="6">אֲשֶֽׁר־</w>
+                  <w n="7">כְּנַעֲנִים֙</w>
+                  <w n="8">עַד־</w>
+                  <w n="9">צָ֣רְפַ֔ת</w>
+                  <w n="10">וְ/גָלֻ֥ת</w>
+                  <w n="11">יְרוּשָׁלִַ֖ם</w>
+                  <w n="12">אֲשֶׁ֣ר</w>
+                  <w n="13">בִּ/סְפָרַ֑ד</w>
+                  <w n="14">יִֽרְשׁ֕וּ</w>
+                  <w n="15">אֵ֖ת</w>
+                  <w n="16">עָרֵ֥י</w>
+                  <w n="17">הַ/נֶּֽגֶב</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+               <ab n="21">
+                  <w n="1">וְ/עָל֤וּ</w>
+                  <w n="2">מֽוֹשִׁעִים֙</w>
+                  <w n="3">בְּ/הַ֣ר</w>
+                  <w n="4">צִיּ֔וֹן</w>
+                  <w n="5">לִ/שְׁפֹּ֖ט</w>
+                  <w n="6">אֶת־</w>
+                  <w n="7">הַ֣ר</w>
+                  <w n="8">עֵשָׂ֑ו</w>
+                  <w n="9">וְ/הָיְתָ֥ה</w>
+                  <w n="10">לַֽ/יהוָ֖ה</w>
+                  <w n="11">הַ/מְּלוּכָֽה</w>
+                  <pc type="verseEnd">:</pc>
+               </ab>
+      
+            </div>
+    
+    
+         </div>
+      </body>
+   </text>
+</TEI>
