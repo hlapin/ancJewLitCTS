@@ -92,7 +92,7 @@
          <div type="edition"
               subtype="tractate"
               xml:lang="heb"
-              n="urn:cts:ancJewLit:babTalmud.behorot.dicta">
+              n="urn:cts:ancJewLit:babTalmud.bekhorot.dicta">
             <div type="textpart" subtype="folio" n="2a">
                <milestone unit="chapter" corresp="dicta:Bavli.Kodashim.Bekhorot.1"/>
                <milestone unit="mishna" corresp="dicta:Bavli.Kodashim.Bekhorot.1.1"/>
