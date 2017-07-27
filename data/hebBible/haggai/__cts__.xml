@@ -5,17 +5,17 @@
          urn="urn:cts:ancJewLit:hebBible.haggai"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Haggai</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">חגי</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.haggai"
                urn="urn:cts:ancJewLit:hebBible.haggai.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">Haggai, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">חגי ,בלי ניקוד</ti:label>
       <ti:description xml:lang="eng">Consonantal text of the biblical book of Haggai from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.haggai"
                urn="urn:cts:ancJewLit:hebBible.haggai.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">Haggai, pointed</ti:label>
       <ti:label xml:lang="heb">חגי ,מנוקד</ti:label>
       <ti:description xml:lang="eng">Pointed text of the biblical book of Haggai from the Leningrad Codex of the Hebrew
                   Bible</ti:description>

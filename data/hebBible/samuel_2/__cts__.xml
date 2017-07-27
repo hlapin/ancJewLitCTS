@@ -5,19 +5,19 @@
          urn="urn:cts:ancJewLit:hebBible.samuel_2"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Samuel_2</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">שמואל ב</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.samuel_2"
                urn="urn:cts:ancJewLit:hebBible.samuel_2.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">2 Samuel, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">שמואל ב ,בלי ניקוד</ti:label>
-      <ti:description xml:lang="eng">Consonantal text of the biblical book of Samuel_2 from the Leningrad Codex of the Hebrew
+      <ti:description xml:lang="eng">Consonantal text of the biblical book of 2 Samuel from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.samuel_2"
                urn="urn:cts:ancJewLit:hebBible.samuel_2.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">2 Samuel, pointed</ti:label>
       <ti:label xml:lang="heb">שמואל ב ,מנוקד</ti:label>
-      <ti:description xml:lang="eng">Pointed text of the biblical book of Samuel_2 from the Leningrad Codex of the Hebrew
+      <ti:description xml:lang="eng">Pointed text of the biblical book of 2 Samuel from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
 </ti:work>

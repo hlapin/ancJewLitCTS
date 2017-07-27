@@ -5,17 +5,17 @@
          urn="urn:cts:ancJewLit:hebBible.numbers"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Numbers</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">במדבר</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.numbers"
                urn="urn:cts:ancJewLit:hebBible.numbers.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">Numbers, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">במדבר ,בלי ניקוד</ti:label>
       <ti:description xml:lang="eng">Consonantal text of the biblical book of Numbers from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.numbers"
                urn="urn:cts:ancJewLit:hebBible.numbers.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">Numbers, pointed</ti:label>
       <ti:label xml:lang="heb">במדבר ,מנוקד</ti:label>
       <ti:description xml:lang="eng">Pointed text of the biblical book of Numbers from the Leningrad Codex of the Hebrew
                   Bible</ti:description>

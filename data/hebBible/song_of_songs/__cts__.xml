@@ -5,19 +5,19 @@
          urn="urn:cts:ancJewLit:hebBible.song_of_songs"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Song_of_Songs</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">שיר השירים</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.song_of_songs"
                urn="urn:cts:ancJewLit:hebBible.song_of_songs.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">Song of Songs, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">שיר השירים ,בלי ניקוד</ti:label>
-      <ti:description xml:lang="eng">Consonantal text of the biblical book of Song_of_Songs from the Leningrad Codex of the Hebrew
+      <ti:description xml:lang="eng">Consonantal text of the biblical book of Song of Songs from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.song_of_songs"
                urn="urn:cts:ancJewLit:hebBible.song_of_songs.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">Song of Songs, pointed</ti:label>
       <ti:label xml:lang="heb">שיר השירים ,מנוקד</ti:label>
-      <ti:description xml:lang="eng">Pointed text of the biblical book of Song_of_Songs from the Leningrad Codex of the Hebrew
+      <ti:description xml:lang="eng">Pointed text of the biblical book of Song of Songs from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
 </ti:work>

@@ -5,17 +5,17 @@
          urn="urn:cts:ancJewLit:hebBible.psalms"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Psalms</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">תהלים</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.psalms"
                urn="urn:cts:ancJewLit:hebBible.psalms.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">Psalms, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">תהלים ,בלי ניקוד</ti:label>
       <ti:description xml:lang="eng">Consonantal text of the biblical book of Psalms from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.psalms"
                urn="urn:cts:ancJewLit:hebBible.psalms.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">Psalms, pointed</ti:label>
       <ti:label xml:lang="heb">תהלים ,מנוקד</ti:label>
       <ti:description xml:lang="eng">Pointed text of the biblical book of Psalms from the Leningrad Codex of the Hebrew
                   Bible</ti:description>

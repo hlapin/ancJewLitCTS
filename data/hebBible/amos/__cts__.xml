@@ -5,7 +5,7 @@
          urn="urn:cts:ancJewLit:hebBible.amos"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Amos</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">עמוס</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.amos"
                urn="urn:cts:ancJewLit:hebBible.amos.leningrad-cons">
       <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>

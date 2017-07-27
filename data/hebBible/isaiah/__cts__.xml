@@ -5,17 +5,17 @@
          urn="urn:cts:ancJewLit:hebBible.isaiah"
          xml:lang="heb"><!--Need to think about metadata here-->
    <ti:title xml:lang="eng">Isaiah</ti:title>
-   <ti:title xml:lang="heb"/>
+   <ti:title xml:lang="heb">ישעיה</ti:title>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.isaiah"
                urn="urn:cts:ancJewLit:hebBible.isaiah.leningrad-cons">
-      <ti:label xml:lang="eng">Amos, Consonantal Text</ti:label>
+      <ti:label xml:lang="eng">Isaiah, Consonantal Text</ti:label>
       <ti:label xml:lang="heb">ישעיה ,בלי ניקוד</ti:label>
       <ti:description xml:lang="eng">Consonantal text of the biblical book of Isaiah from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:ancJewLit:hebBible.isaiah"
                urn="urn:cts:ancJewLit:hebBible.isaiah.leningrad-pntd">
-      <ti:label xml:lang="eng">Amos, pointed</ti:label>
+      <ti:label xml:lang="eng">Isaiah, pointed</ti:label>
       <ti:label xml:lang="heb">ישעיה ,מנוקד</ti:label>
       <ti:description xml:lang="eng">Pointed text of the biblical book of Isaiah from the Leningrad Codex of the Hebrew
                   Bible</ti:description>
